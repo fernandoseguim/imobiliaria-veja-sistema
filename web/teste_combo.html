@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+
+<form name="doublecombo2"  method="post" action="listar_compradores01.asp">
+<center>
+  <table width="360" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="160"><div align="right"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong>Quero 
+            interessados em im&oacute;veis em:</strong></font></div></td>
+      <td width="160"><div align="center"> </div></td>
+    </tr>
+    <tr> 
+      <td width="160"><div align="right"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong>No 
+          bairro de:</strong></font></div></td>
+      <td width="160"><div align="center"> </div></td>
+    </tr>
+    <tr> 
+      <td width="160"><div align="right"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong>Que 
+          queir&atilde;o im&oacute;veis do tipo de:</strong></font></div></td>
+      <td width="160"><div align="center"> 
+            <select name="txt_tipo" size="1"  class="inputBox" id="txt_tipo" style="HEIGHT: 18px; WIDTH: 149px ; font-size : 10px; color:00000;">
+              <option value="tqualquer">Tipo</option>
+            <option value="tqualquer">Qualquer um</option>
+            <option value="Apartamento">Apartamento </option>
+            <option value="Casa">Casa</option>
+            <option value="Comercial">Comercial</option>
+            <option value="Flat">Flat</option>
+            <option value="Rural">Rural</option>
+            <option value="Terreno">Terreno</option>
+          </select>
+        </div></td>
+    </tr>
+    <tr> 
+      <td width="160"><div align="right"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong>Aceitando 
+          a seguinte negocia&ccedil;&atilde;o:</strong></font></div></td>
+      <td width="160"><div align="center"> 
+            <select name="example22" size="1" class="inputBox" id="example2" style="HEIGHT: 18px; WIDTH: 149px ; font-size : 10px; color:00000;"  onChange="redirect3(this.options.selectedIndex)">
+              <option value="nqualquer">Negociação </option>
+            <option value="nqualquer" >Qualquer um </option>
+            <option  value="Aluguel">Aluguel </option>
+            <option value="Compra">Compra</option>
+          </select>
+        </div></td>
+    </tr>
+    <tr> 
+      <td width="160"><div align="right"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong>Com 
+          os seguintes valores:</strong></font></div></td>
+      <td width="160"><div align="center"> 
+            <select name="stage222" size="1" class="inputBox" id="stage22"  style="HEIGHT: 18px; WIDTH: 149px ; font-size : 10px; color:00000;">
+              <option value="vqualquer">Valor</option>
+            <option value="vqualquer">Qualquer um</option>
+            <option value="0000000000 0000020000">menos de 20.000,00</option>
+            <option value="0000020000 0000050000">20.000,00 até 50.000,00</option>
+            <option value="0000050000 0000100000">50.000,00 até 100.000,00</option>
+            <option value="0000100000 0000200000">100.000,00 até 200.000,00</option>
+            <option value="0000200000 1000000000">acima de 200.000,00</option>
+          </select>
+        </div></td>
+    </tr>
+    <tr> 
+      <td width="160"><div align="right"></div></td>
+      <td width="160"><div align="center"> 
+          <input name="image2" type="image"  src="bt_procurar001.jpg" width="149" height="18" border="0">
+        </div></td>
+    </tr>
+  </table>
+  </td>
+  </tr> 
+  <tr>
+                  
+    <td width="164" height="46">&nbsp;</td>
+                </tr>
+              </table>
+</center>
+</form>
+
+ <script>
+<!--
+
+/*
+Double Combo Script Credit
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free JavaScripts here!
+*/
+
+var groups22=document.doublecombo2.example22.options.length
+/* Aqui é criada uma variável "groups" que receberá os valores 
+do combo example. */
+
+
+
+var group22=new Array(groups22)
+/* aqui a variável group recebe os valores do "array(groups)" que contem os valores
+do combo example.*/
+
+for (i2=0; i2<groups22; i2++)
+/* aqui temos um contador de zero até o número de elementos do array "groups" */
+
+group22[i2]=new Array()
+/* aqui é criado o array "group" que receberá valores conforme o número de elementos
+do array "groups". */
+
+group22[0][0]=new Option("Qualquer Valor","vqualquer")
+
+
+/* aqui temos um array bidimensional "group" que receberá valores de opções. */
+
+
+group22[1][0]=new Option("Qualquer Valor","vqualquer")
+
+
+
+
+/* aqui temos um array bidimensional "group" que receberá valores de opções. */
+
+group22[2][0]=new Option("Valor","vqualquer")
+group22[2][1]=new Option("Qualquer Valor","vqualquer")
+group22[2][2]=new Option("Menos de 200,00","0000000000 0000000200")
+group22[2][3]=new Option("200,00 até 500,00","0000000200 0000000500")
+group22[2][4]=new Option("500,00 até 1000,00","0000000500 0000001000")
+group22[2][5]=new Option("1000,00 até 2000,00","0000001000 0000002000")
+group22[2][6]=new Option("Mais de 2000,00","0000002000 1000000000")
+
+
+
+
+
+
+
+group22[3][0]=new Option("Valor","vqualquer")
+group22[3][1]=new Option("Qualquer Valor","vqualquer")
+group22[3][2]=new Option("Menos de 20.000,00","0000000000 0000020000")
+group22[3][3]=new Option("20.000,00 até 50.000,00","0000020000 0000050000")
+group22[3][4]=new Option("50.000,00 até 100.000,00","0000050000 0000100000")
+group22[3][5]=new Option("100.000,00 até 200.000,00","0000100000 0000200000")
+group22[3][6]=new Option("Mais de 200.000,00","0000200000 1000000000")
+
+
+
+
+
+
+
+
+
+/* aqui temos um array bidimensional "group" que receberá valores de opções. */
+
+
+var temp22=document.doublecombo2.stage222
+/* aqui a variável "temp" recebe os valores do segundo combo o "stage2" */
+
+function redirect3(x2){
+/* aqui é criada a função "redirect" que comanda o carregamento do combo "stage2" */
+
+for (m2=temp22.options.length-1;m2>0;m2--)
+temp22.options[m2]=null
+/* aqui temos um contador "m" que dá um valor nulo para o combo "stage2" para que 
+posteriormente esse combo possa receber os valores determinados. */
+
+for (i2=0;i2<group22[x2].length;i2++){
+temp22.options[i2]=new Option(group22[x2][i2].text,group22[x2][i2].value)
+/* aqui o combo "stage2" recebe os valores do array "group" dependendo do que é escolhido no
+primeiro combo "example".*/
+
+}
+temp22.options[0].selected=true
+}
+/* aqui o array "temp.options[0]" será o valor inicial selecionado ele corresponde ao array
+"stage2".*/
+
+function go(){
+location22=temp22.options[temp22.selectedIndex].value
+}
+
+/* aqui  a variável "location" recebe os valores de "stage2" que corresponde ao endereço de
+link para o carregamento de página. */
+
+
+//-->
+</script>
+
+
+
+
+
+</body>
+</html>

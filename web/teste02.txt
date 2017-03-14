@@ -1,0 +1,5077 @@
+ 
+       
+       
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:og="http://opengraphprotocol.org/schema/" 
+    xmlns:fb="http://developers.facebook.com/schema/">
+    
+<head profile="http://gmpg.org/xfn/11">
+        
+
+	
+<title>Último Segundo: principais notícias do Brasil e do Mundo - iG</title><meta name="description" content='Veja aqui notícias sobre Educação, Política, Cultura, Ciência e saiba tudo o que acontece de mais importante no Brasil e no Mundo.' /><meta name="Keywords" content='' /><meta http-equiv="content-type" content="text/html;charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><!-- /IE7 mode --><meta http-equiv="content-language" content="pt-br" /><meta name="google-site-verification" content="veSJywtQNLJIVeQ6j0WQojlh2xJZpsiiosc1FDp8HJU" /><link rel="canonical" href='/' /> <meta name="verify-v1" content="zukdCOV4F5bjHDX/MG88HK8kwXMHfwabQpkAMXgjF6A=" /><meta name="robots" content="index, follow" /><meta http-equiv="expires" content="Mon, 06 Jan 1990 00:00:01 GMT" /><link rel="alternate" type="application/rss+xml" href='/p1237569153183.xml'><!--//-->
+
+    
+    
+    
+    <link type="text/css" rel="stylesheet" href="http://i0.ig.com/css/usg/canal_fat_05.css" />
+    
+    
+    <link type="text/css" rel="stylesheet" href="http://i0.ig.com/css/structure_fat.css?v=1.7" />
+    
+    
+    <link type="text/css" rel="stylesheet" href="http://i0.ig.com/css/jquery.css" />
+
+        
+        
+    <script type="text/javascript" src='http://js.ig.com/jquery-1.4.2.min.js'></script>
+    <script type="text/javascript" src='http://js.ig.com/jquery-ui-1.8.custom.min.js'></script>
+            
+    
+
+
+
+<script type="text/javascript">
+	//<![CDATA[
+	(function(){try{var c=document.location.hostname,a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="//js.ig.com/metricas/metricas."+c+".js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}catch(d){}})();
+	//]]>
+</script>
+
+
+
+    
+    <script type="text/javascript">
+        function tiraAcento(text) {
+            var acentos =[
+                    /[\300-\306]/g, /[\340-\346]/g, // A, a
+                    /[\310-\313]/g, /[\350-\353]/g, // E, e
+                    /[\314-\317]/g, /[\354-\357]/g, // I, i
+                    /[\322-\330]/g, /[\362-\370]/g, // O, o
+                    /[\331-\334]/g, /[\371-\374]/g, // U, u
+                    /[\321]/g, /[\361]/g, // N, n
+                    /[\307]/g, /[\347]/g, // C, c
+                    ];
+            
+            var chars = ['A','a','E','e','I','i','O','o','U','u','N','n','C','c'];
+            
+            for (var i = 0; i < acentos.length; i++) {
+                text = text.replace(acentos[i],chars[i]);
+            }
+            
+            return text;
+        } 
+    </script>
+    
+    
+        
+
+</head>
+<body id="<!--//-->">
+    <!-- INICIO GERAL -->
+    <div id="geral">
+        <!-- INICIO PRINCIPAL -->
+        <div id="principal">
+            <!-- INICIO TOPO -->
+            
+            <div id="topo">
+                <div id="pub-superbanner"></div>
+                <a href="http://www.centraldoanunciante.com.br/" class="publicidade" title="Publicidade">Publicidade</a>
+            </div>
+            
+            <!-- FIM TOPO -->
+            <!-- INICIO BARRA DO IG -->
+            
+                
+                        
+                        
+                        <div id="barra-ig">
+	<h1><a href="http://www.ig.com.br" title="iG">iG</a></h1>
+		
+	<ul class="canais">
+			<li><a href="http://ultimosegundo.ig.com.br/" target='_self' title="Último Segundo" class="" >Último Segundo</a></li>
+			<li><a href="http://economia.ig.com.br/" target='_self' title="Economia">Economia</a></li>
+			<li><a href="http://esporte.ig.com.br/" target='_self' title="Esporte">Esporte</a></li>
+			<li><a href="http://tvig.ig.com.br/home/index.htm" target='_self' title="TV iG">TV iG</a></li>
+			<li><a href="http://gente.ig.com.br/" target='_self' title="Gente">Gente</a></li>
+			<li><a href="http://delas.ig.com.br/" target='_self' title="Delas" class="nopdr nobd" >Delas</a></li> 
+	</ul>	
+		
+	<ul class="servicos">
+			<li><a href="http://servicos.ig.com.br/?utm_source=ig&#38;utm_medium=menu&#38;utm_content=assine%20topo&#38;utm_campaign=home%20ig" target='_self' title="ASSINE"><strong>ASSINE</strong></a></li>
+			<li><a href="http://servicos.ig.com.br/?utm_source=ig&#38;utm_medium=menu&#38;utm_content=0800%20topo&#38;utm_campaign=home%20ig" target='_self' title="Vendas 0800 644 1331">Vendas 0800 644 1331</a></li>
+			<li><a href="http://www.ig.com.br/discador/" target='_self' title="Acesso Internet">Acesso Internet</a></li>
+			<li><a href="http://www.ig.com.br/suporte/?utm_source=ig&#38;utm_medium=menu&#38;utm_content=suporte%20topo&#38;utm_campaign=home%20ig" target='_self' title="Suporte">Suporte</a></li>
+			<li><a href="http://antivirus.ig.com.br/app/?utm_source=ig&#38;utm_medium=menu&#38;utm_content=antivirus%20topo&#38;utm_campaign=home%20ig" target='_self' title="Antivírus">Antivírus</a></li>
+			<li><a href="https://central.ig.com.br/igcc/customer/center/Index" target='_self' title="SAC" class="nopdr nobd" >SAC</a></li> 
+	</ul>
+</div>         
+                
+            
+                    
+            <!-- FIM BARRA DO IG -->
+            <!-- INICIO CABEÇALHO -->
+                
+            
+            
+            <script type="text/javascript">
+                /*variavel que controla o aparecimento ou não do oferecimento*/
+                var controlaOferecimento = 0;               
+            </script>
+            <div id="cabecalho">
+                <h1><a href='/' title='Último Segundo'></a></h1>
+                <h2>              
+                
+                    <script type="text/javascript">
+                        /*variavel que controla o aparecimento ou não do oferecimento*/
+                        controlaOferecimento = 1;               
+                    </script>
+                
+                </h2>
+            
+            
+            
+                <!-- INICIO OFERECIMENTO -->
+                <cite id="selo_oferecimento"><!-- // --></cite>
+                <div id="pub-microbar"><!-- // --></div>                    
+                <!-- FIM OFERECIMENTO -->
+                            
+                <!-- INICIO FORMULARIO BUSCAR -->
+                                        
+                    
+                   
+                           
+                
+                                   <form lang="atmors" action="http://busca.igbusca.com.br/app/search" method="get" name="search" id="buscaGoogle"  enctype="application/x-www-
+
+form-urlencoded" accept-charset="UTF-8">
+                                        <fieldset id="searchContainer">
+					    <input type="text" alt="Buscar" title="Buscar" value="" name="q" id="buscar" autocomplete="off">
+                                            <input type="hidden" name="o" id="ib_o" value='ULTIMOSEGUNDO' />                                    
+                                            <input type="hidden" name="c" id="ib_c" value="all" />
+                                            <input type="hidden" name="t" id="ib_t" value="all" />
+                                            <input type="hidden" name="d" id="ib_d" value="all" />                                            
+                                            <input type="hidden" checked="checked" name="s" id="searchScope" value="">
+                                            <input type="hidden" name="p" id="ib_p" value="1" />
+                                            <input type="submit" class="botao-buscar" alt="Buscar" title="Buscar" value="Buscar">
+                                            <div class="clear"></div>
+                                            <cite>enhanced by <strong>Google</strong></cite>
+                                        </fieldset>
+                                        <div id="searchOn" style="display: none;">
+                                            <a rel="" class="onus">Buscar "<strong></strong>" no Último Segundo</a>
+                                            <a rel="ig_content" class="onig">Buscar "<strong></strong>" no iG</a>
+                                            <a rel="google_content" class="ongoogle nobd-b">Buscar "<strong></strong>" na web</a>
+                                        </div>
+                                        <div id="searchOnBottom">&nbsp;</div>
+                                    </form>  
+                     <!-- FIM FORMULARIO BUSCAR -->          
+                   
+            
+            
+            </div>
+          
+            <!-- FIM CABEÇALHO -->
+
+            
+            
+<div id="menu">
+	<ul class="nivel-1">
+		<li><a href='/' title='Último Segundo' class="bdl habilitar">Home</a></li>
+			<li><a href='/politica/p1237583227176.html' title='Política' >Política</a></li>
+			<li><a href='/brasil/p1237569155677.html' title='Brasil' >Brasil</a></li>
+			<li><a href='/mundo/p1237569155670.html' title='Mundo' >Mundo</a></li>
+			<li><a href='/educacao/p1237569155731.html' title='Educação' >Educação</a></li>
+			<li><a href='/cultura/p1237569155697.html' title='Cultura' >Cultura</a></li>
+			<li><a href='/colunistas/p1237569155735.html' title='Colunistas' >Colunistas</a></li>
+			<li><a href='/ciencia/p1237569155723.html' title='Ciência' >Ciência</a></li>
+			<li><a href='http://www.ig.com.br/zoom/' target='_blank' title='Fotos' class="segundo_nivel">Fotos</a></li>
+			<li><a href='http://colunistas.ig.com.br/poderonline/' target='_self' title='Poder Online' class="segundo_nivel">Poder Online</a></li>
+			<li><a href='http://economia.ig.com.br' target='_self' title='Economia' class="segundo_nivel">Economia</a></li>
+			<li><a href='http://esporte.ig.com.br' target='_self' title='Esporte' class="segundo_nivel">Esporte</a></li>
+	</ul></div>
+	<script type="text/javascript">
+		if($('#menu ul.nivel-2')[0]){$('body').css('background','url("http://i0.ig.com/css/usg/images/bg_canal_menu.jpg") repeat-x scroll center top #FFFFFF');}
+	</script>
+
+            <div id="barra-navegacao">
+<ul class="navegacao" id="conteudo_breadcrumb">
+	
+	
+	<li><a href="http://www.ig.com.br/" title="Home iG">Home iG</a></li>
+	
+	
+		<li> &#8250; <a href='/' title='Último Segundo' class="nopdr"><strong>Último Segundo</strong></a></li>
+	
+</ul><ul class="temas-momento">
+                    <li><strong>Temas do momento:</strong></li>
+			<li><a href="http://ultimosegundo.ig.com.br/noticias/amy%20winehouse/p1237569153288.html" target='_self' title="Amy Winehouse">Amy Winehouse</a> &bull; </li>
+			<li><a href="http://ultimosegundo.ig.com.br/mundo/saiba+como+extremista+executou+plano+de+ataque+na+noruega/n1597101951867.html" target='_self' title="Massacre na Noruega">Massacre na Noruega</a> &bull; </li>
+			<li class='nopdr'><a href="http://ultimosegundo.ig.com.br/educacao/enem/p1597080479045.html" target='_self' title="Sisu">Sisu</a></li>
+					    <li><strong><a href='/noticias/p1237569153288.html' title="Todas as notícias" class="tdsNoticias">Todas as notícias</a></strong></li>
+                </ul>
+                 
+                
+</div>
+            <!-- FIM BARRA DE NAVEGAÇÃO -->
+            
+            
+            <div id="pubIntervencao"><!-- //--></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                
+<!-- INICIO CONTEÚDO -->
+		
+		
+		
+	
+			
+	
+		
+		
+		
+	
+	
+	
+
+
+
+
+
+
+<div id="conteudo"> 
+	<div class='componente1 zeroTopo '> 
+		
+			
+		
+
+
+
+
+
+
+
+
+	
+		
+		
+	
+
+	<div class="CT13012 "  >
+		
+			
+			
+
+			<div class="">
+				
+				
+
+
+	<h1>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183942592 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h1>
+	
+	<h2>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183942592 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</h2>
+
+
+			  	
+			</div>
+			
+		
+	</div>
+	
+		
+	
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+	
+	
+<div class="CF13112 ""  >
+	
+	
+	<div class="left">
+		<ul>
+						<li class=" chamada" >
+								
+								
+
+
+	<a href="#" target="_self">
+		<img src="" width="371" height="233" alt="" />
+	</a>
+	
+	<h2>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183970224 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h2>
+	
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183970224 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+
+							  	
+							 </li>
+						<li class=" chamada nobdb nopdb">
+							
+							
+
+	<h2>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183967862 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h2>
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183967862 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+						  	</li></ul></div>
+	<div class="right">
+		<ul>
+			
+			
+			
+				<li class=" chamada ">
+					
+					
+
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183938071 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183938071 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+				  	
+				</li>
+				
+			
+			
+			
+				<li class=" chamada ">
+					
+					
+
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238185362054 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238185362054 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+				  	
+				</li>
+				
+			
+			
+			
+				<li class=" chamada ">
+					
+					
+
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183945941 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183945941 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+				  	
+				</li>
+				
+			
+			
+			
+				<li class=" chamada nobdb nopdb">
+					
+					
+
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183949220 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183949220 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+				  	
+				</li>
+				
+			
+				
+		</ul>
+	</div>
+
+
+</div>
+
+	  
+		
+	</div>
+
+	<div class='componente1'> 
+		
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+	
+
+<div class="CF13212 nomgr"  >
+
+		
+			
+			
+			
+
+<!-- CHAMA A RETRANCA E OS LINKS DA PARTE SUPERIOR -->
+		
+		<!-- ABRE OS <li> -->
+		
+			<div class="head">
+				<h3>
+				<h3>MULTIMÍDIA</h3></h3>
+				<ul><li class=" nobdl">
+							
+					
+		<!-- CHAMA OS LINKS -->
+		
+			
+			
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183934894 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+
+		  	 
+		
+				
+		<!-- FECHA OS <li> -->		
+		
+			</li>
+		
+
+
+
+<!-- CHAMA OS OUTROS COMPONENTES DO BLOCO -->			
+	
+
+
+
+
+
+
+			
+			
+			
+
+<!-- CHAMA A RETRANCA E OS LINKS DA PARTE SUPERIOR -->
+		
+		<!-- ABRE OS <li> -->
+		
+				<li class=" ">
+							
+					
+		<!-- CHAMA OS LINKS -->
+		
+			
+			
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183935394 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+
+		  	 
+		
+				
+		<!-- FECHA OS <li> -->		
+		
+			</li>
+		
+
+
+
+<!-- CHAMA OS OUTROS COMPONENTES DO BLOCO -->			
+	
+
+
+
+
+
+
+			
+			
+			
+
+<!-- CHAMA A RETRANCA E OS LINKS DA PARTE SUPERIOR -->
+		
+		<!-- ABRE OS <li> -->
+		
+				<li class=" ">
+							
+					
+		<!-- CHAMA OS LINKS -->
+		
+			
+			
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183935521 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+
+		  	 
+		
+				
+		<!-- FECHA OS <li> -->		
+		
+			</li>
+		
+
+
+
+<!-- CHAMA OS OUTROS COMPONENTES DO BLOCO -->			
+	
+
+
+
+
+
+
+			
+			
+			
+
+<!-- CHAMA A RETRANCA E OS LINKS DA PARTE SUPERIOR -->
+		
+		<!-- ABRE OS <li> -->
+		
+				<li class=" nobdr">
+							
+					
+		<!-- CHAMA OS LINKS -->
+		
+			
+			
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183935591 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+
+		  	 
+		
+				
+		<!-- FECHA OS <li> -->		
+		
+			</li></ul></div>
+		
+
+
+
+<!-- CHAMA OS OUTROS COMPONENTES DO BLOCO -->			
+	
+
+
+
+
+
+
+			
+			
+			
+
+<!-- CHAMA A RETRANCA E OS LINKS DA PARTE SUPERIOR -->
+		
+		<!-- ABRE OS <li> -->
+							
+					
+		<!-- CHAMA OS LINKS -->
+		
+				
+		<!-- FECHA OS <li> -->		
+		
+
+
+	<ul class="foto"> <li>
+
+
+<!-- CHAMA OS OUTROS COMPONENTES DO BLOCO -->			
+			
+	<div class="">
+		
+		
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<cite>
+		<b>
+			<!-- InSite: missing arguments: assetid: 1238183936119 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+		</b>
+	</cite>
+	
+	<h5>
+		<a href="#" target="_self">
+		<strong>
+			<!-- InSite: missing arguments: assetid: 1238183936119 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->	
+		</strong>
+		</a>
+		<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183936119 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</h5>
+	
+
+
+		
+	</div>
+	</li>
+	
+
+
+
+
+
+
+			
+			
+			
+
+<!-- CHAMA A RETRANCA E OS LINKS DA PARTE SUPERIOR -->
+		
+		<!-- ABRE OS <li> -->
+							
+					
+		<!-- CHAMA OS LINKS -->
+		
+				
+		<!-- FECHA OS <li> -->		
+		
+
+	
+	<li>
+
+
+<!-- CHAMA OS OUTROS COMPONENTES DO BLOCO -->			
+			
+	<div class="">
+		
+		
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<cite>
+		<b>
+			<!-- InSite: missing arguments: assetid: 1238183937385 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+		</b>
+	</cite>
+	
+	<h5>
+		<a href="#" target="_self">
+		<strong>
+			<!-- InSite: missing arguments: assetid: 1238183937385 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->	
+		</strong>
+		</a>
+		<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183937385 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</h5>
+	
+
+
+		
+	</div>
+	</li>
+	
+
+
+
+
+
+
+			
+			
+			
+
+<!-- CHAMA A RETRANCA E OS LINKS DA PARTE SUPERIOR -->
+		
+		<!-- ABRE OS <li> -->
+							
+					
+		<!-- CHAMA OS LINKS -->
+		
+				
+		<!-- FECHA OS <li> -->		
+		
+
+	
+	<li>
+
+
+<!-- CHAMA OS OUTROS COMPONENTES DO BLOCO -->			
+			
+	<div class="">
+		
+		
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<cite>
+		<b>
+			<!-- InSite: missing arguments: assetid: 1238183938656 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+		</b>
+	</cite>
+	
+	<h5>
+		<a href="#" target="_self">
+		<strong>
+			<!-- InSite: missing arguments: assetid: 1238183938656 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->	
+		</strong>
+		</a>
+		<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183938656 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</h5>
+	
+
+
+		
+	</div>
+	</li>
+	
+
+
+
+
+
+
+			
+			
+			
+
+<!-- CHAMA A RETRANCA E OS LINKS DA PARTE SUPERIOR -->
+		
+		<!-- ABRE OS <li> -->
+							
+					
+		<!-- CHAMA OS LINKS -->
+		
+				
+		<!-- FECHA OS <li> -->		
+		
+
+
+	<li class="nomg">
+
+
+<!-- CHAMA OS OUTROS COMPONENTES DO BLOCO -->			
+			
+	<div class="">
+		
+		
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<cite>
+		<b>
+			<!-- InSite: missing arguments: assetid: 1238183944141 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+		</b>
+	</cite>
+	
+	<h5>
+		<a href="#" target="_self">
+		<strong>
+			<!-- InSite: missing arguments: assetid: 1238183944141 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->	
+		</strong>
+		</a>
+		<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183944141 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</h5>
+	
+
+
+		
+	</div>
+	</li>
+	
+
+
+	</ul>
+
+
+
+
+
+</div>
+
+		
+	</div>	
+
+	<div class='componente1'> 
+ 		
+			
+		
+<div class="CF13312 " ><h3>COLUNISTAS</h3>
+	<ul><li class="  ">
+
+	<a href="#" target="_self"><img src="" width="56" height="75" alt="" /></a>
+
+	<cite><!-- InSite: missing arguments: assetid: 1238183936806 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null --></cite>
+	<h2><a href="#"  target="_self"><!-- InSite: missing arguments: assetid: 1238183936806 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null --></a>
+	</h2>
+	
+			
+			
+			</li><li class="  ">
+
+	<a href="#" target="_self"><img src="" width="56" height="75" alt="" /></a>
+
+	<cite><!-- InSite: missing arguments: assetid: 1238183939236 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null --></cite>
+	<h2><a href="#"  target="_self"><!-- InSite: missing arguments: assetid: 1238183939236 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null --></a>
+	</h2>
+	
+			
+			
+			</li><li class="  nopd">
+
+	<a href="#" target="_self"><img src="" width="56" height="75" alt="" /></a>
+
+	<cite><!-- InSite: missing arguments: assetid: 1238183940424 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null --></cite>
+	<h2><a href="#"  target="_self"><!-- InSite: missing arguments: assetid: 1238183940424 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null --></a>
+	</h2>
+	
+			
+			
+			</li>
+	</ul>
+</div>
+		
+	</div>
+	
+	<!-- Publicidade Horizontal Position 1, 2 e 3 -->
+	
+
+
+<style>
+
+	#pub-Position{background:#F8F8F8;clear:both;float:left;width:652px}
+	#pub-Position ul{float:left;padding:10px;width:632px}
+	#pub-Position ul li {float:left;padding-right:38px;margin-right:38px;border-right:1px solid #dfdfdf}
+	#pub-Position ul li.posRight{float:right;padding-right:0!important;margin-right:0!important}
+	
+	
+	#pub-Position1{float:left;width:158px;height:58px}
+	#pub-Position2{float:left;width:158px;height:58px}
+	#pub-Position3{float:left;width:158px;height:58px}
+	
+	
+	#pubPosition1{display:none;position:absolute;width:158px;height:58px;left:10px}
+	#pubPosition2{display:none;position:absolute;width:158px;height:58px;left:245px}
+	#pubPosition3{display:none;position:absolute;width:158px;height:58px;left:484px}
+	
+	#publicidadeNome{background:#F8F8F8;clear:both;float:left;width:296px;padding:10px}
+</style>
+
+	
+		<div class="componente1 pd20">
+	
+	
+		<div id="pub-Position">
+		
+			<ul>
+				<li><div id="pub-Position1"></div></li>
+				<li><div id="pub-Position2"></div></li>
+				<li class="posRight nobdr"><div id="pub-Position3"></div></li>
+			</ul>
+		
+		</div>
+	</div>	
+	
+	
+		
+		<div class='componente1'>
+		
+			
+				
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+	
+
+<div class="boxBar "  >
+
+<h3>POLÍTICA</h3>
+	
+		
+		
+	
+	<span class="PubOferecimento">
+		<script  type="text/javascript">
+			var texto = 'POLÍTICA';
+			
+			 //converte para minusculos
+			texto = texto.toLowerCase();
+			
+			//tira espaços em branco
+			texto  = texto.replace(/\s/, '');
+			
+			//tira o acento
+			texto  = tiraAcento(texto);
+
+			document.write('<scr' + 'ipt language="JavaScript1.1" src="http://adserver.ig.com.br/RealMedia/ads/adstream_jx.ads/www.ultimosegundo.com.br/oferecimento/homepage/'+texto+'@x30!x30\"></scr'+'ipt>');
+		
+		</script>
+		
+
+	</span>
+	
+	<ul>
+			
+			
+			
+			<li class=" nobdl ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183939847 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183940553 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183940623 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  nobdr">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183940685 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+	</ul>
+</div>
+
+			
+			
+			
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="CF13412 " >
+	<ul><li class=" left nomgb">
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183940755 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183940755 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+			
+			
+			</li>
+ 			<li class="right nomgb">	
+		
+				
+					
+					<h4 class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183965863 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</h4>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183941373 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183934765 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+				</li>
+ 
+	</ul>
+</div> 
+			
+
+			
+				
+				
+			
+	
+		
+		
+	
+
+<div class="boxNews "  >
+
+		
+			
+			
+
+				<div class=" ">
+					
+						
+					
+
+				<div class="boxRight nomgr">
+	
+<!------------ INICIO DO COMPONENTE ------------>
+					<ul><!-- Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Getattributevalues in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: 0 errdetail1: Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Setasset in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: -500 errdetail1: Get() no object named pageAsset errdetail: 0 com.openmarket.basic.interfaces.AssetException: Invalid ID found in list:  errdetail: 0 java.lang.ClassCastException -->
+							
+						
+						
+							
+								<li>
+									<strong>12:42</strong>
+									<a href="http://ultimosegundo.ig.com.br/cultura/musica/mtv+homenageara+amy+winehouse+e+britney+spears+nos+premios+vma/n1597182032257.html">MTV homenageará Amy Winehouse e Britney Spears nos prêmios VMA</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>12:31</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/sobem+para+23+mortos+em+ataque+a+sede+da+onu+na+nigeria/n1597182357609.html">Sobem para 23 mortos em ataque à sede da ONU na Nigéria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:21</strong>
+									<a href="http://ultimosegundo.ig.com.br/revoltamundoarabe/secretariogeral+da+liga+arabe+visita+siria/n1597182184187.html">Secretário-geral da Liga Árabe visita Síria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:20</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/veja+imagens+da+passagem+do+irene+por+nova+york/n1597182261502.html">Veja imagens da passagem do Irene por Nova York</a>
+								</li>
+								<li class="allNews"><a href="http://ultimosegundo.ig.com.br/noticias/p1237569153288.html">Todas as notícias</a></li>
+							</ul>	
+	
+<!------------ FIM DO COMPONENTE ------------>	
+
+			</div>
+			 
+			 </div>
+		
+</div>
+
+
+			
+			
+		</div>
+			
+	
+		
+		<div class='componente1'>
+		
+			
+				
+				
+			
+	
+		
+		
+		
+	
+
+<div class="boxBar "  >
+
+<h3>BRASIL</h3>
+	
+		
+		
+	
+	<span class="PubOferecimento">
+		<script  type="text/javascript">
+			var texto = 'BRASIL';
+			
+			 //converte para minusculos
+			texto = texto.toLowerCase();
+			
+			//tira espaços em branco
+			texto  = texto.replace(/\s/, '');
+			
+			//tira o acento
+			texto  = tiraAcento(texto);
+
+			document.write('<scr' + 'ipt language="JavaScript1.1" src="http://adserver.ig.com.br/RealMedia/ads/adstream_jx.ads/www.ultimosegundo.com.br/oferecimento/homepage/'+texto+'@x30!x30\"></scr'+'ipt>');
+		
+		</script>
+		
+
+	</span>
+	
+	<ul>
+			
+			
+			
+			<li class=" nobdl ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183931734 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183943313 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183943379 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  nobdr">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183943449 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+	</ul>
+</div>
+
+			
+			
+			
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="CF13412 " >
+	<ul><li class=" left nomgb">
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183943519 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183943519 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+			
+			
+			</li>
+ 			<li class="right nomgb">	
+		
+				
+					
+					<h4 class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183957957 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</h4>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183932872 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183955361 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+				</li>
+ 
+	</ul>
+</div> 
+			
+
+			
+				
+				
+			
+	
+		
+		
+	
+
+<div class="boxNews "  >
+
+		
+			
+			
+
+				<div class=" ">
+					
+						
+					
+
+				<div class="boxRight nomgr">
+	
+<!------------ INICIO DO COMPONENTE ------------>
+					<ul><!-- Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Getattributevalues in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: 0 errdetail1: Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Setasset in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: -500 errdetail1: Get() no object named pageAsset errdetail: 0 com.openmarket.basic.interfaces.AssetException: Invalid ID found in list:  errdetail: 0 java.lang.ClassCastException -->
+							
+						
+						
+							
+								<li>
+									<strong>12:42</strong>
+									<a href="http://ultimosegundo.ig.com.br/cultura/musica/mtv+homenageara+amy+winehouse+e+britney+spears+nos+premios+vma/n1597182032257.html">MTV homenageará Amy Winehouse e Britney Spears nos prêmios VMA</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>12:31</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/sobem+para+23+mortos+em+ataque+a+sede+da+onu+na+nigeria/n1597182357609.html">Sobem para 23 mortos em ataque à sede da ONU na Nigéria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:21</strong>
+									<a href="http://ultimosegundo.ig.com.br/revoltamundoarabe/secretariogeral+da+liga+arabe+visita+siria/n1597182184187.html">Secretário-geral da Liga Árabe visita Síria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:20</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/veja+imagens+da+passagem+do+irene+por+nova+york/n1597182261502.html">Veja imagens da passagem do Irene por Nova York</a>
+								</li>
+								<li class="allNews"><a href="http://ultimosegundo.ig.com.br/noticias/p1237569153288.html">Todas as notícias</a></li>
+							</ul>	
+	
+<!------------ FIM DO COMPONENTE ------------>	
+
+			</div>
+			 
+			 </div>
+		
+</div>
+
+
+			
+			
+		</div>
+			
+	
+		
+		<div class='componente1'>
+		
+			
+				
+				
+			
+	
+		
+		
+		
+	
+
+<div class="boxBar "  >
+
+<h3>ECONOMIA</h3>
+	
+		
+		
+	
+	<span class="PubOferecimento">
+		<script  type="text/javascript">
+			var texto = 'ECONOMIA';
+			
+			 //converte para minusculos
+			texto = texto.toLowerCase();
+			
+			//tira espaços em branco
+			texto  = texto.replace(/\s/, '');
+			
+			//tira o acento
+			texto  = tiraAcento(texto);
+
+			document.write('<scr' + 'ipt language="JavaScript1.1" src="http://adserver.ig.com.br/RealMedia/ads/adstream_jx.ads/www.ultimosegundo.com.br/oferecimento/homepage/'+texto+'@x30!x30\"></scr'+'ipt>');
+		
+		</script>
+		
+
+	</span>
+	
+	<ul>
+			
+			
+			
+			<li class=" nobdl ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183950219 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183947721 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183947814 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  nobdr">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183947904 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+	</ul>
+</div>
+
+			
+			
+			
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="CF13412 " >
+	<ul><li class=" left nomgb">
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183947989 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183947989 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+			
+			
+			</li>
+ 			<li class="right nomgb">	
+		
+				
+					
+					<h4 class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183932311 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</h4>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183934190 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183947553 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+				</li>
+ 
+	</ul>
+</div> 
+			
+
+			
+				
+				
+			
+	
+		
+		
+	
+
+<div class="boxNews "  >
+
+		
+			
+			
+
+				<div class=" ">
+					
+						
+					
+
+				<div class="boxRight nomgr">
+	
+<!------------ INICIO DO COMPONENTE ------------>
+					<ul><!-- Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Getattributevalues in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: 0 errdetail1: Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Setasset in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: -500 errdetail1: Get() no object named pageAsset errdetail: 0 com.openmarket.basic.interfaces.AssetException: Invalid ID found in list:  errdetail: 0 java.lang.ClassCastException -->
+							
+						
+						
+							
+								<li>
+									<strong>12:42</strong>
+									<a href="http://ultimosegundo.ig.com.br/cultura/musica/mtv+homenageara+amy+winehouse+e+britney+spears+nos+premios+vma/n1597182032257.html">MTV homenageará Amy Winehouse e Britney Spears nos prêmios VMA</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>12:31</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/sobem+para+23+mortos+em+ataque+a+sede+da+onu+na+nigeria/n1597182357609.html">Sobem para 23 mortos em ataque à sede da ONU na Nigéria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:21</strong>
+									<a href="http://ultimosegundo.ig.com.br/revoltamundoarabe/secretariogeral+da+liga+arabe+visita+siria/n1597182184187.html">Secretário-geral da Liga Árabe visita Síria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:20</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/veja+imagens+da+passagem+do+irene+por+nova+york/n1597182261502.html">Veja imagens da passagem do Irene por Nova York</a>
+								</li>
+								<li class="allNews"><a href="http://ultimosegundo.ig.com.br/noticias/p1237569153288.html">Todas as notícias</a></li>
+							</ul>	
+	
+<!------------ FIM DO COMPONENTE ------------>	
+
+			</div>
+			 
+			 </div>
+		
+</div>
+
+
+			
+			
+		</div>
+			
+	
+		
+		<div class='componente1'>
+		
+			
+				
+				
+			
+	
+		
+		
+		
+	
+
+<div class="boxBar "  >
+
+<h3>MUNDO</h3>
+	
+		
+		
+	
+	<span class="PubOferecimento">
+		<script  type="text/javascript">
+			var texto = 'MUNDO';
+			
+			 //converte para minusculos
+			texto = texto.toLowerCase();
+			
+			//tira espaços em branco
+			texto  = texto.replace(/\s/, '');
+			
+			//tira o acento
+			texto  = tiraAcento(texto);
+
+			document.write('<scr' + 'ipt language="JavaScript1.1" src="http://adserver.ig.com.br/RealMedia/ads/adstream_jx.ads/www.ultimosegundo.com.br/oferecimento/homepage/'+texto+'@x30!x30\"></scr'+'ipt>');
+		
+		</script>
+		
+
+	</span>
+	
+	<ul>
+			
+			
+			
+			<li class=" nobdl ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183952428 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183952580 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183952675 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  nobdr">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183952766 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+	</ul>
+</div>
+
+			
+			
+			
+				
+			
+<div class="CF13412 " >
+	<ul><li class=" left nomgb">
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183952845 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183952845 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+			
+			
+			</li>
+ 			<li class="right nomgb">	
+		
+				
+					
+					<h4 class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183961085 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</h4>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183954036 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183956520 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+				</li>
+ 
+	</ul>
+</div> 
+			
+
+			
+				
+				
+			
+	
+		
+		
+	
+
+<div class="boxNews "  >
+
+		
+			
+			
+
+				<div class=" ">
+					
+						
+					
+
+				<div class="boxRight nomgr">
+	
+<!------------ INICIO DO COMPONENTE ------------>
+					<ul><!-- Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Getattributevalues in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: 0 errdetail1: Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Setasset in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: -500 errdetail1: Get() no object named pageAsset errdetail: 0 com.openmarket.basic.interfaces.AssetException: Invalid ID found in list:  errdetail: 0 java.lang.ClassCastException -->
+							
+						
+						
+							
+								<li>
+									<strong>12:42</strong>
+									<a href="http://ultimosegundo.ig.com.br/cultura/musica/mtv+homenageara+amy+winehouse+e+britney+spears+nos+premios+vma/n1597182032257.html">MTV homenageará Amy Winehouse e Britney Spears nos prêmios VMA</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>12:31</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/sobem+para+23+mortos+em+ataque+a+sede+da+onu+na+nigeria/n1597182357609.html">Sobem para 23 mortos em ataque à sede da ONU na Nigéria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:21</strong>
+									<a href="http://ultimosegundo.ig.com.br/revoltamundoarabe/secretariogeral+da+liga+arabe+visita+siria/n1597182184187.html">Secretário-geral da Liga Árabe visita Síria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:20</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/veja+imagens+da+passagem+do+irene+por+nova+york/n1597182261502.html">Veja imagens da passagem do Irene por Nova York</a>
+								</li>
+								<li class="allNews"><a href="http://ultimosegundo.ig.com.br/noticias/p1237569153288.html">Todas as notícias</a></li>
+							</ul>	
+	
+<!------------ FIM DO COMPONENTE ------------>	
+
+			</div>
+			 
+			 </div>
+		
+</div>
+
+
+			
+			
+		</div>
+			
+	
+		
+		<div class='componente1'>
+		
+			
+				
+				
+			
+	
+		
+		
+		
+	
+
+<div class="boxBar "  >
+
+<h3>EDUCAÇÃO</h3>
+	
+		
+		
+	
+	<span class="PubOferecimento">
+		<script  type="text/javascript">
+			var texto = 'EDUCAÇÃO';
+			
+			 //converte para minusculos
+			texto = texto.toLowerCase();
+			
+			//tira espaços em branco
+			texto  = texto.replace(/\s/, '');
+			
+			//tira o acento
+			texto  = tiraAcento(texto);
+
+			document.write('<scr' + 'ipt language="JavaScript1.1" src="http://adserver.ig.com.br/RealMedia/ads/adstream_jx.ads/www.ultimosegundo.com.br/oferecimento/homepage/'+texto+'@x30!x30\"></scr'+'ipt>');
+		
+		</script>
+		
+
+	</span>
+	
+	<ul>
+			
+			
+			
+			<li class=" nobdl ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183933431 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183958147 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183958246 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  nobdr">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183958351 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+	</ul>
+</div>
+
+			
+			
+			
+				
+			
+<div class="CF13412 " >
+	<ul><li class=" left nomgb">
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183958466 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183958466 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+			
+			
+			</li>
+ 			<li class="right nomgb">	
+		
+				
+					
+					<h4 class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183963039 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</h4>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183962274 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183931159 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+				</li>
+ 
+	</ul>
+</div> 
+			
+
+			
+				
+				
+			
+	
+		
+		
+	
+
+<div class="boxNews "  >
+
+		
+			
+			
+
+				<div class=" ">
+					
+						
+					
+
+				<div class="boxRight nomgr">
+	
+<!------------ INICIO DO COMPONENTE ------------>
+					<ul><!-- Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Getattributevalues in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: 0 errdetail1: Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Setasset in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: -500 errdetail1: Get() no object named pageAsset errdetail: 0 com.openmarket.basic.interfaces.AssetException: Invalid ID found in list:  errdetail: 0 java.lang.ClassCastException -->
+							
+						
+						
+							
+								<li>
+									<strong>12:42</strong>
+									<a href="http://ultimosegundo.ig.com.br/cultura/musica/mtv+homenageara+amy+winehouse+e+britney+spears+nos+premios+vma/n1597182032257.html">MTV homenageará Amy Winehouse e Britney Spears nos prêmios VMA</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>12:31</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/sobem+para+23+mortos+em+ataque+a+sede+da+onu+na+nigeria/n1597182357609.html">Sobem para 23 mortos em ataque à sede da ONU na Nigéria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:21</strong>
+									<a href="http://ultimosegundo.ig.com.br/revoltamundoarabe/secretariogeral+da+liga+arabe+visita+siria/n1597182184187.html">Secretário-geral da Liga Árabe visita Síria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:20</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/veja+imagens+da+passagem+do+irene+por+nova+york/n1597182261502.html">Veja imagens da passagem do Irene por Nova York</a>
+								</li>
+								<li class="allNews"><a href="http://ultimosegundo.ig.com.br/noticias/p1237569153288.html">Todas as notícias</a></li>
+							</ul>	
+	
+<!------------ FIM DO COMPONENTE ------------>	
+
+			</div>
+			 
+			 </div>
+		
+</div>
+
+
+			
+			
+		</div>
+			
+	
+		
+		<div class='componente1'>
+		
+			
+				
+				
+			
+	
+		
+		
+		
+	
+
+<div class="boxBar "  >
+
+<h3>CULTURA</h3>
+	
+		
+		
+	
+	<span class="PubOferecimento">
+		<script  type="text/javascript">
+			var texto = 'CULTURA';
+			
+			 //converte para minusculos
+			texto = texto.toLowerCase();
+			
+			//tira espaços em branco
+			texto  = texto.replace(/\s/, '');
+			
+			//tira o acento
+			texto  = tiraAcento(texto);
+
+			document.write('<scr' + 'ipt language="JavaScript1.1" src="http://adserver.ig.com.br/RealMedia/ads/adstream_jx.ads/www.ultimosegundo.com.br/oferecimento/homepage/'+texto+'@x30!x30\"></scr'+'ipt>');
+		
+		</script>
+		
+
+	</span>
+	
+	<ul>
+			
+			
+			
+			<li class=" nobdl ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183959967 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183963167 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183963237 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  nobdr">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183963312 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+	</ul>
+</div>
+
+			
+			
+			
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="CF13412 " >
+	<ul><li class=" left nomgb">
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183963410 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183963410 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+			
+			
+			</li>
+ 			<li class="right nomgb">	
+		
+				
+					
+					<h4 class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183964635 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</h4>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183965415 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183963974 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+				</li>
+ 
+	</ul>
+</div> 
+			
+
+			
+				
+				
+			
+	
+		
+		
+	
+
+<div class="boxNews "  >
+
+		
+			
+			
+
+				<div class=" ">
+					
+						
+					
+
+				<div class="boxRight nomgr">
+	
+<!------------ INICIO DO COMPONENTE ------------>
+					<ul><!-- Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Getattributevalues in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: 0 errdetail1: Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Setasset in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: -500 errdetail1: Get() no object named pageAsset errdetail: 0 com.openmarket.basic.interfaces.AssetException: Invalid ID found in list:  errdetail: 0 java.lang.ClassCastException -->
+							
+						
+						
+							
+								<li>
+									<strong>12:42</strong>
+									<a href="http://ultimosegundo.ig.com.br/cultura/musica/mtv+homenageara+amy+winehouse+e+britney+spears+nos+premios+vma/n1597182032257.html">MTV homenageará Amy Winehouse e Britney Spears nos prêmios VMA</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>12:31</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/sobem+para+23+mortos+em+ataque+a+sede+da+onu+na+nigeria/n1597182357609.html">Sobem para 23 mortos em ataque à sede da ONU na Nigéria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:21</strong>
+									<a href="http://ultimosegundo.ig.com.br/revoltamundoarabe/secretariogeral+da+liga+arabe+visita+siria/n1597182184187.html">Secretário-geral da Liga Árabe visita Síria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:20</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/veja+imagens+da+passagem+do+irene+por+nova+york/n1597182261502.html">Veja imagens da passagem do Irene por Nova York</a>
+								</li>
+								<li class="allNews"><a href="http://ultimosegundo.ig.com.br/noticias/p1237569153288.html">Todas as notícias</a></li>
+							</ul>	
+	
+<!------------ FIM DO COMPONENTE ------------>	
+
+			</div>
+			 
+			 </div>
+		
+</div>
+
+
+			
+			
+		</div>
+			
+	
+		
+		<div class='componente1'>
+		
+			
+				
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+	
+
+<div class="boxBar "  >
+
+<h3>CIÊNCIA</h3>
+	
+		
+		
+	
+	<span class="PubOferecimento">
+		<script  type="text/javascript">
+			var texto = 'CIÊNCIA';
+			
+			 //converte para minusculos
+			texto = texto.toLowerCase();
+			
+			//tira espaços em branco
+			texto  = texto.replace(/\s/, '');
+			
+			//tira o acento
+			texto  = tiraAcento(texto);
+
+			document.write('<scr' + 'ipt language="JavaScript1.1" src="http://adserver.ig.com.br/RealMedia/ads/adstream_jx.ads/www.ultimosegundo.com.br/oferecimento/homepage/'+texto+'@x30!x30\"></scr'+'ipt>');
+		
+		</script>
+		
+
+	</span>
+	
+	<ul>
+			
+			
+			
+			<li class=" nobdl ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183951275 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183965976 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  ">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183966046 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+			
+			
+			
+			<li class="  nobdr">
+				
+						
+
+
+
+	
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183966578 assettype: MiGChamada_C assetfield: Attribute_MiGChapeu assetfieldvalue: null -->
+	</a>
+	
+	
+			</li>
+	</ul>
+</div>
+
+			
+			
+			
+				
+			
+<div class="CF13412 " >
+	<ul><li class=" left nomgb">
+
+
+
+	<a href="#" target="_self">
+		<img src="" width="148" height="111" alt="" />
+	</a>
+	
+	<h4>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183966796 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+		</a>
+	</h4>
+	
+	<p>
+		<a href="#" target="_self">
+			<!-- InSite: missing arguments: assetid: 1238183966796 assettype: MiGChamada_C assetfield: Attribute_MiGOlho assetfieldvalue: null -->
+		</a>
+	</p>
+
+			
+			
+			</li>
+ 			<li class="right nomgb">	
+		
+				
+					
+					<h4 class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183944764 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</h4>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183968962 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+					
+					<p class=" ">
+				
+				
+						<!-- COMPONENTE CF13412c: TITULO  -->
+						
+						
+
+
+
+
+	<a href="#" target="_self">
+		<!-- InSite: missing arguments: assetid: 1238183942191 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null -->
+	</a>
+
+
+						</p>
+					
+					
+				
+				</li>
+ 
+	</ul>
+</div> 
+			
+
+			
+				
+				
+			
+	
+		
+		
+	
+
+<div class="boxNews "  >
+
+		
+			
+			
+
+				<div class=" ">
+					
+						
+					
+
+				<div class="boxRight nomgr">
+	
+<!------------ INICIO DO COMPONENTE ------------>
+					<ul><!-- Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Getattributevalues in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: 0 errdetail1: Exception in doEndTag() in tag com.openmarket.gator.jsp.assetset.Setasset in page 'null' in element 'MiG/Variaveis/ObterSiteVar' errno: -500 errdetail1: Get() no object named pageAsset errdetail: 0 com.openmarket.basic.interfaces.AssetException: Invalid ID found in list:  errdetail: 0 java.lang.ClassCastException -->
+							
+						
+						
+							
+								<li>
+									<strong>12:42</strong>
+									<a href="http://ultimosegundo.ig.com.br/cultura/musica/mtv+homenageara+amy+winehouse+e+britney+spears+nos+premios+vma/n1597182032257.html">MTV homenageará Amy Winehouse e Britney Spears nos prêmios VMA</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>12:31</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/sobem+para+23+mortos+em+ataque+a+sede+da+onu+na+nigeria/n1597182357609.html">Sobem para 23 mortos em ataque à sede da ONU na Nigéria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:21</strong>
+									<a href="http://ultimosegundo.ig.com.br/revoltamundoarabe/secretariogeral+da+liga+arabe+visita+siria/n1597182184187.html">Secretário-geral da Liga Árabe visita Síria</a>
+								</li>
+							
+						
+						
+							
+								<li>
+									<strong>11:20</strong>
+									<a href="http://ultimosegundo.ig.com.br/mundo/veja+imagens+da+passagem+do+irene+por+nova+york/n1597182261502.html">Veja imagens da passagem do Irene por Nova York</a>
+								</li>
+								<li class="allNews"><a href="http://ultimosegundo.ig.com.br/noticias/p1237569153288.html">Todas as notícias</a></li>
+							</ul>	
+	
+<!------------ FIM DO COMPONENTE ------------>	
+
+			</div>
+			 
+			 </div>
+		
+</div>
+
+
+			
+			
+		</div>
+			
+	
+	
+	<div class="componente1 nobdb">
+		
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="CF32312">
+
+			<h3>iG Produtos</h3>		
+			
+			
+			
+				
+				
+				
+				
+				
+				
+						
+				
+
+
+
+
+
+
+	
+			<div class="box_img">
+			<a href='http://omelhorparavoce.ig.com.br/educa_enem/?utm_source=ig&utm_medium=box+rodape+interno&utm_campaign=portal&utm_term=box+x1&utm_content=educa+enem&utm_nooverride=1'  title=""> 
+				<img src="" width="148" height="111" alt="" />
+			</a>
+			<strong> 
+				<a href='http://omelhorparavoce.ig.com.br/educa_enem/?utm_source=ig&utm_medium=box+rodape+interno&utm_campaign=portal&utm_term=box+x1&utm_content=educa+enem&utm_nooverride=1'  title=""> 
+					Ajuda no ENEM? 
+				</a>
+			</strong>
+			<p>
+				<a href='http://omelhorparavoce.ig.com.br/educa_enem/?utm_source=ig&utm_medium=box+rodape+interno&utm_campaign=portal&utm_term=box+x1&utm_content=educa+enem&utm_nooverride=1'  title=""> 
+					<p>iG Educa te d&aacute; todas as dicas para sair na frente</p> 
+				</a>
+			</p>
+		</div>
+	
+
+
+
+	
+
+
+
+	
+
+
+
+				
+				
+				
+				
+				
+				
+						
+				
+
+
+
+
+
+
+	
+			<div class="box_img">
+			<a href='http://fotos.ig.com.br/revelacao-de-fotos-digitais.asp?utm_source=ig&utm_medium=box+rodape+interno&utm_campaign=portal&utm_term=box+x2&utm_content=fotos&utm_nooverride=1'  title=""> 
+				<img src="" width="148" height="111" alt="" />
+			</a>
+			<strong> 
+				<a href='http://fotos.ig.com.br/revelacao-de-fotos-digitais.asp?utm_source=ig&utm_medium=box+rodape+interno&utm_campaign=portal&utm_term=box+x2&utm_content=fotos&utm_nooverride=1'  title=""> 
+					Revelação Digital 
+				</a>
+			</strong>
+			<p>
+				<a href='http://fotos.ig.com.br/revelacao-de-fotos-digitais.asp?utm_source=ig&utm_medium=box+rodape+interno&utm_campaign=portal&utm_term=box+x2&utm_content=fotos&utm_nooverride=1'  title=""> 
+					<p>A partir de R$0,38, revele e guarde seus momentos</p> 
+				</a>
+			</p>
+		</div>
+	
+
+
+
+	
+
+
+
+	
+
+
+
+				
+				
+				
+				
+				
+				
+						
+				
+
+
+
+
+
+
+	
+
+
+
+	
+		<ul>
+			<li><cite>	Problemas com hackers? </cite> <big><a href="http://marketing.ig.com.br/landings/antivirus-essencial/?utm_source=ig&utm_medium=box+rodape+interno&utm_campaign=portal&utm_term=box+x3&utm_content=av+essencial&utm_nooverride=1" 
+					title=""><p>Seu computador longe das amea&ccedil;as da internet</p> </a></big> 
+			</li>
+		</ul>
+	
+
+
+
+	
+
+
+
+				
+				
+				
+				
+				
+				
+						
+				
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+		<ul>
+			<li class="dirInf"><cite>	Sua empresa na internet </cite> <a href="http://hospedagem.ig.com.br/?utm_source=ig&utm_medium=box+rodape+interno&utm_campaign=portal&utm_term=box+x4&utm_content=hospedagem&utm_nooverride=1" 
+							title=""> <p>Escolha o melhor plano, hospede seu site e divulgue sua marca</p> </a> 
+			</li>
+		</ul>
+	
+
+
+
+	</div>
+
+
+	</div>
+
+	<!-- PUBLICIDADE HORIZONTAL -->
+	
+	
+
+
+<!-- publicidade horizontal (Usando por hora no Economia) -->
+	<div class="componente1 pubHorizontal nobdb">
+		<h3>iG SHOPPING</h3>
+		<div id="pub-shop-horizontal"><!-- //--></div>
+	</div>
+	
+</div>	
+	<!-- FIM CONTEÚDO -->
+
+
+
+    
+
+
+	<!-- INICIO BARRA LATERAL -->
+	
+	
+	<div id="barra-lateral">
+		<div id="pub-island"><!-- //--></div>
+		<div class="hrEco"><hr /></div>
+	
+		
+		<div id="barraLateral" class="multimidia">
+<script type="text/javascript">
+
+	
+		var E13706cidadeprevisao = null;
+		var cidadesRetornadas = null;
+
+		$(document).ready(function() {
+		    $("input#txt_cidadeprevisao").autocomplete({
+		    	source: function(request, response) {	
+					if (cidadesRetornadas == null) {
+						cidadesRetornadas = function(data){
+							if (data && data.hits) {
+								response($.map(data.hits.hits, function(item){
+								
+								var estado = ('' + item._source.cidade.estado).toUpperCase();
+					
+								return {
+									label: item._source.cidade.nome + '-' + estado,
+									value: item._source.cidade.nome,
+									codigo: item._source.cidade.codigo
+								}
+								}))
+					
+							} 
+							else {
+								window.alert('Dados não retornados do servidor.');
+							}
+						};
+					}
+					
+					$.ajax({
+						type: "GET",
+						url: "http://ultimosegundo.ig.com.br/_servicos/ig/cidade/_search",
+						dataType: 'jsonp',
+						data: {
+							size : "10",
+							q : "nome:" + request.term + "*"
+	 					},						
+						jsonpCallback : 'cidadesRetornadas'
+					});		    	
+				},
+			    delay:100,
+			    minLength:1,
+			    dataType: 'json',
+			    select: function(event, ui) {
+					if (ui.item) {
+						$('#nome_cidade').text(ui.item.label);
+						E13706cidadeprevisao = ui.item.label + '-' + ui.item.codigo;
+  						setCookie('cidadeprevisao', ui.item.label + '-' + ui.item.codigo);
+						carregarPrevisaoCidade(ui.item.codigo);
+					} else {
+						$('#nome_cidade').text('');
+					}
+				}
+			});
+
+		    // Configura o ganho do foco do autocomplete:
+		    $("input#txt_cidadeprevisao").focus(function(event, ui) {
+			    if (this.value.length > 0) {
+				    this.value = ''
+			    }
+		    });
+
+		 	// Configura a perda do foco do autocomplete:
+		    $("input#txt_cidadeprevisao").blur(function(event, ui) {
+			    if (this.value.length == 0) {
+				    this.value = 'Digite o nome da cidade';
+			    }
+		    });
+
+			
+			var temCookie = carregarPrevisaoCidadeSalva();
+
+			if(!temCookie){
+		 	
+				if((!tempoEstado) || (!tempoCidade)){
+						var tempoEstado = "null";
+						var tempoCidade = "null";
+				};
+
+				var mapaEstadoCapitaisCodigo = {
+					"e_acre" : "6",
+					"e_sao_paulo" : "558",
+					"e_sergipe" : "384",
+					"e_minas_gerais" : "107",
+					"e_distrito_federal" : "61",
+					"e_mato_grosso_do_sul" : "212",
+					"e_mato_grasso" : "218",
+					"e_parana" : "271",
+					"e_santa_catarina" : "377",
+					"e_ceara" : "60",
+					"e_goiais" : "88",
+					"e_paraiba" : "256",
+					"e_amapa" : "39",
+					"e_alagoas" : "8",
+					"e_amazonas" : "25",
+					"e_rio_grande_do_norte" : "334",
+					"e_tocantins" : "593",
+					"e_rio_grande_do_sul" : "363",
+					"e_rondonia" : "343",
+					"e_pernambuco" : "259",
+					"e_rio_de_janeiro" :"321",
+					"e_bahia" : "56",
+					"e_maranhao" : "94",
+					"e_piaui" : "264",
+					"e_espirito_santo" : "84"};
+
+				var mapaCapitaisCodigo = {
+					"rio_branco" : "6",
+					"sao_paulo" : "558",
+					"aracaju" : "384",
+					"belo_horizonte" : "107",
+					"brasilia" : "61",
+					"campo_grande" : "212",
+					"cuiaba" : "218",
+					"curitiba" : "271",
+					"florianopolis" : "377",
+					"fortaleza" : "60",
+					"goiania" : "88",
+					"joao_pessoa" : "256",
+					"macapa" : "39",
+					"maceio" : "8",
+					"manaus" : "25",
+					"natal" : "334",
+					"palmas" : "593",
+					"porto_alegre" : "363",
+					"porto_velho" : "343",
+					"recife" : "259",
+					"rio_de_janeiro" : "321",
+					"salvador" : "56",
+					"sao_luis" : "94",
+					"teresina" : "264",
+					"vitoria" : "84"};
+					
+					
+				var mapaCapitaisCodigoNome = {
+					"6" : "Rio Branco-AC",
+					"558" : "São Paulo-SP",
+					"384" : "Aracaju-SE",
+					"107" : "Belo Horizonte-MG",
+					"61" : "Brasília-DF",
+					"212" : "Campo Grande-MS",
+					"218" : "Cuiabá-MT",
+					"271" : "Curitiba-PR",
+					"377" : "Florianópolis-SC",
+					"60" : "Fortaleza-CE",
+					"88" : "Goiânia-GO",
+					"256" : "João Pessoa-PB",
+					"39" : "Macapá-AP",
+					"8" : "Maceió-AL",
+					"25" : "Manaus-AM",
+					"334" : "Natal-RN",
+					"593" : "Palmas-TO",
+					"363" : "Porto Alegre-RS",
+					"343" : "Porto Velho-RO",
+					"259" : "Recife-PE",
+					"321" : "Rio de Janeiro-RJ",
+					"56" : "Salvador-BA",
+					"94" : "Sao Luis-MA",
+					"264" : "Teresina-PI",
+					"84" : "Vitoria-ES"};
+			
+				if( (tempoEstado!="null") && (tempoCidade == "null")){
+				   var  cidade = mapaEstadoCapitaisCodigo[tempoEstado];
+				};  
+
+				if ( (tempoEstado!="null") && (tempoCidade != "null") ){
+				   var cidade = mapaEstadoCapitaisCodigo[tempoEstado];
+				};   
+				
+				if ( (tempoEstado=="null") && (tempoCidade != "null") ){
+				   var cidade = mapaCapitaisCodigo[tempoCidade];
+				};
+			
+				if(cidade){
+					$('#nome_cidade').text(mapaCapitaisCodigoNome[cidade]);
+					E13706cidadeprevisao = mapaCapitaisCodigoNome[cidade];
+					setCookie('cidadeprevisao', mapaCapitaisCodigoNome[cidade]+'-' + cidade);
+					carregarPrevisaoCidade(cidade);
+					
+				}else{
+					$('#nome_cidade').text("São Paulo-SP");
+					E13706cidadeprevisao = "São Paulo-SP";
+					setCookie('cidadeprevisao', 'São Paulo-SP-558');
+					carregarPrevisaoCidade("558");
+				};   
+			}
+			
+		  });
+
+
+		function E13706_removerDiacriticos(s) {
+			var diacritics = [
+					[/[\300-\306]/g, 'A'],
+					[/[\340-\346]/g, 'a'],
+					[/[\310-\313]/g, 'E'],
+					[/[\350-\353]/g, 'e'],
+					[/[\314-\317]/g, 'I'],
+					[/[\354-\357]/g, 'i'],
+					[/[\322-\330]/g, 'O'],
+					[/[\362-\370]/g, 'o'],
+					[/[\331-\334]/g, 'U'],
+					[/[\371-\374]/g, 'u'],
+					[/[\321]/g, 'N'],
+					[/[\361]/g, 'n'],
+					[/[\307]/g, 'C'],
+					[/[\347]/g, 'c']
+		    ];
+
+			for (var i = 0; i < diacritics.length; i++) {
+				s = s.replace(diacritics[i][0], diacritics[i][1]);
+			}
+			
+			return s;
+		}
+
+		/**
+		 * Carrega a previsão da cidade salva em cookie, se existir.
+		 */
+		function carregarPrevisaoCidadeSalva() {
+			var cookie = getCookie('cidadeprevisao');
+
+			if (cookie != null) {
+				var nome = cookie.split('-')[0]  + '-'+ cookie.split('-')[1];
+				var codigo = cookie.split('-')[2];
+
+				E13706cidadeprevisao = cookie;
+
+				$('#nome_cidade').text(nome);
+				carregarPrevisaoCidade(codigo);
+				
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+
+		function setCookie(key, value) {  
+			var expires = new Date();  
+
+			expires.setTime(expires.getTime() + 31536000000); //1 year
+
+			document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();  
+		}
+		function getCookie(key) {  
+	
+		    var keyValue = document.cookie.match('(^|;) ?' + key + '=([^;]*)(;|$)');
+
+			return keyValue ? keyValue[2] : null;
+			  
+		}
+
+		/**
+		 * Função que carrega a previsão da cidade cujo código foi informado.
+		 */
+		function carregarPrevisaoCidade(codigo) {
+			$.ajax({
+				type: "GET",
+				url: "http://ultimosegundo.ig.com.br/_servicos/ig/previsao_cidade/"+ codigo , 
+				dataType: 'jsonp',
+				jsonpCallback : 'previsaoCidadeRetornada'
+			});
+		}
+
+		/**
+		 * Função a ser executada quando a previsão da cidade é retornada.
+		 */
+		function previsaoCidadeRetornada(data) {
+
+			if (data && data._source.previsao_cidade.previsao) {
+				$.each(data._source.previsao_cidade.previsao, function(indice, previsao) {
+
+					// Devemos usar apenas as três primeiras previsões para esse boxe.
+					if (indice <= 2) {
+						$('#E13706>ul li:nth-child('+ (indice + 1) +')').css('visibility', 'hidden');
+
+						// Atualização dos valores da máxima e da mínima:
+						$('#E13706>ul li:nth-child('+ (indice + 1) +')>ul>li:eq(0)>cite').text(previsao.minima);
+						$('#E13706>ul li:nth-child('+ (indice + 1) +')>ul>li:eq(1)>cite').text(previsao.maxima);
+
+						// Atualização da imagem da span:
+						spanUsada = $('#img'+ (indice + 1));
+						spanUsada.removeClass();
+						spanUsada.addClass('sprite')
+						spanUsada.addClass(recuperarImagem(previsao))
+
+						// Visibilidade do link:
+						$('#E13706>h4>a').css('visibility', 'visible');
+
+						$('#E13706>ul li:nth-child('+ (indice + 1) +')').css('visibility', 'visible');
+					} 
+ 				});
+			} else {
+				window.alert('Não há previsão disponível para a cidade.');
+			}
+		}
+
+		// Mapa contendo a relação das imagens com as informações provenientesdo ClimaTempo:
+		var mapa = new Array();
+
+		mapa['1'] = 'img1' // Sol.		
+		mapa['1n'] = 'img2' // Noite sem nuvens.		
+		mapa['2'] = 'img4' // Sol com algumas nuvens.
+		mapa['2r'] = 'img7' // Sol com muitas nuvens.
+		mapa['2n'] = 'img3' // Noite com algumas nuvens.
+		mapa['2rn'] = 'img6' // Noite com muitas nuvens.
+		mapa['3'] = 'img5' // nublado.
+		mapa['3n'] = 'img8' // nublado.
+		mapa['4'] = 'img13' // Sol  e chuva.
+		mapa['4r'] = 'img10' // Sol com muitas nuvens e chuva.
+		mapa['4n'] = 'img12' // Noite chuvosa.
+		mapa['4rn'] = 'img9' // Noite nublada e chuvosa.
+		mapa['5'] = 'img14' // Chuvoso.
+		mapa['5n'] = 'img11' // Chuvoso.
+		mapa['6'] = 'img15' // Chuva e trovoadas.
+		mapa['6n'] = 'img15' // Chuva e trovoadas.
+		mapa['7'] = 'img19' // Geada. 
+		mapa['7n'] = 'img19' // Geada. 
+		mapa['8'] = 'img18' // Neve. 
+		mapa['8n'] = 'img18' // Neve. 
+		mapa['9'] = 'img16' // Nevoeiro 
+		mapa['9n'] = 'img17' // Névoa 
+
+		function recuperarImagem(previsao){
+			return mapa[previsao.ico_manha];
+		}
+		
+		function previsaoCidadeCompletaSolicitada() {
+			var cidadeURL = E13706_removerDiacriticos(E13706cidadeprevisao.split('-')[0].toLowerCase().replace(/\s/g, '+'));
+
+			
+			var url = '/brasil/tempo/cidade/p1237569155689.html?cidadeprevisao=';
+            url = url.replace("/\/cs\/Satellite\/ultimosegundo\//", "");
+			document.location = url.replace(/\/cidade/g, '/' + cidadeURL) + E13706cidadeprevisao;
+		}
+
+		</script>	
+	
+		<div id="E13706" class="E13706">
+				<h3>Previsão do Tempo</h3>
+				<img alt="CLIMATEMPO" src="http://i0.ig.com/css/images/climatempo.gif" />
+				<h4>
+					<cite id="nome_cidade"></cite>
+					<a href="javascript:previsaoCidadeCompletaSolicitada();" style="visibility: hidden;">Previsão Completa</a>
+				</h4>
+				<ul>
+					<li style="visibility: hidden;" >
+						<h5>Hoje</h5>
+						<span class="sprite img1" id="img1"><!-- --></span>
+						<ul class="prev">
+							<li class="esc">
+								<span id="spr_minima_hoje" class="sprite queda"><!-- --></span>
+								<cite></cite>
+							</li>
+							<li class="dir nobdr">
+								<span id="spr_maxima_hoje" class="sprite alta"><!-- --></span>
+								<cite></cite>
+							</li>
+						</ul>
+					</li>
+					<li style="visibility: hidden;" >
+						<h5>Amanhã</h5>
+						<span class="sprite img2" id="img2"><!-- --></span>
+						<ul class="prev">
+							<li class="esc">
+								<span id="spr_minima_amanha" class="sprite queda"><!-- --></span>
+								<cite></cite>
+							</li>
+							<li class="dir nobdr">
+								<span id="spr_maxima_amanha" class="sprite alta"><!-- --></span>
+								<cite></cite>
+							</li>
+						</ul>
+					</li>
+					<li class="nobdr" style="visibility: hidden;">
+						<h5>Depois</h5>
+						<span class="sprite img3" id="img3"><!-- --></span>
+						<ul class="prev">
+							<li class="esc">
+								<span class="sprite queda"><!-- --></span>
+								<cite></cite>
+							</li>
+							<li class="dir nobdr">
+								<span class="sprite alta"><!-- --></span>
+								<cite></cite>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div>
+					<form name="form" action="" method="post" onsubmit="return false">					
+						<input class="text" type="text" id="txt_cidadeprevisao" name="cidade" value="Digite o nome da cidade" />
+					</form>
+				</div>				
+			</div>
+	
+	
+</div>			
+
+		<!--/Espaço para será que vai chover/-->
+		
+		
+		
+		
+
+		
+	
+		
+
+				
+
+		<div id="barraLateral" class="indicadores">
+
+
+
+
+
+
+
+
+	<script type="text/javascript" language="Javascript">
+			$(document).ready(function() {
+				E13806_carregarInformacoesTransitoAgora();
+ 			});
+
+
+			function E13806_carregarInformacoesTransitoAgora() {
+			
+ 				//$.getJSON('//ics.GetVar("urlJson")%>ig/transito/_search?q=_id:321%20%20OR%20_id:558%20OR%20_id:107&callback=?',
+
+
+
+ 				
+ 				
+				$.ajax({
+					type: "GET",
+
+					
+
+					url: "http://ultimosegundo.ig.com.br/_servicos/ig/transito/_search?q=_id:321%20%20OR%20_id:558%20OR%20_id:107",
+
+
+					dataType: 'jsonp',
+					jsonpCallback : 'transitoRetornado'
+				})
+ 				 			
+
+			};
+
+			transitoRetornado = function(data){
+					$.each(data.hits.hits, function(indice, hit) {
+						var ordem = (hit._id == 558) ? 0 : (hit._id == 321) ? 1 : 2; 
+	
+						$('#E13806>ul>li:eq(' + ordem + ')>a>span').removeClass();
+						$('#E13806>ul>li:eq(' + ordem + ')>a>span').addClass('sprite');
+						
+						$('#E13806>ul>li:eq(' + ordem + ')>a>span').css("display", "block");
+					
+						$('#E13806>ul>li:eq(' + ordem + ')>a>big').html(hit._source.transito.km + ' <small>km</small>');
+						$('#E13806>ul>li:eq(' + ordem + ')>a>big').addClass((hit._source.transito.situation == 'Bom')? 'pos' : 'neg' );
+						$('#E13806>ul>li:eq(' + ordem + ')>a>span').addClass((hit._source.transito.situation == 'Bom')? 'pos' : 'neg' );
+					});
+					    
+					    
+			         if($id("E13806")){
+                        e = $id("E13806");
+                        spanSet = e.getElementsByTagName('span');
+                        if(spanSet.length>0){
+                            for(var a = 0; a< spanSet.length; a++){
+                                spanSet[a].style.display ="block";
+        
+                            }
+                        }
+                    }
+			};
+
+		</script>
+
+		<div class="E13806" id="E13806" >
+				<h3>Trânsito Agora</h3>
+				<ul>
+					<li>
+						<h4>São Paulo</h4>
+						<a href="/p1237569155693.html?cod_cidade=558">
+							<span class="sprite" id="spriteTransitoAgora"><!-- --></span>
+							<big></big>
+							<strong>Ver detalhes</strong>
+						</a>
+					</li>
+					<li>
+						<h4>Rio de Janeiro</h4>
+						<a href="/p1237569155693.html?cod_cidade=321">
+							<span class="sprite"><!-- --></span>
+							<big></big>
+							<strong>Ver detalhes</strong>
+						</a>
+					</li>
+					<li class="nomgr">
+						<h4>Belo Horizonte</h4>
+						<a href="/p1237569155693.html?cod_cidade=107">
+							<span class="sprite"><!-- --></span>
+							<big></big>
+							<strong>Ver detalhes</strong>
+						</a>
+					</li>
+				</ul>
+			</div>
+	
+	
+</div>		
+
+        
+	
+				
+		
+			
+		
+			
+			
+							
+		
+		
+		<div id="barraLateral" class="indicadores">    
+	
+	<!-- componente LA08706 -->
+	<div class="LA08706 nomgr nomgt">
+		<h3>INDICADORES ECON&Ocirc;MICOS</h3>
+			<h4>C&acirc;mbio</h4>
+			       
+			<script type="text/javascript">   
+				function adicionarCotacao(nomeMoeda, variacao, valorVenda, valorCompra, flag, indice) {
+					var classe  = "";
+					var class1  = "";
+					var class2  = "";
+
+					if(indice == 0){
+						 class1 = ' class="nobdb"';
+						 class2 = ' nobdb';
+					} else {
+						class1 = '';
+						class2 = '';
+					}	
+
+					valorCompra = parseFloat(valorCompra);
+					valorCompra = valorCompra.toFixed(4).replace(".", ",");
+					valorVenda = parseFloat(valorVenda);
+					valorVenda = valorVenda.toFixed(4).replace(".", ",");
+                                        variacao = parseFloat(variacao);
+                                        variacao = variacao.toFixed(2).replace(".", ",");
+
+
+					if((flag == 0) || (variacao == "0,00") ){
+						classe = '<span class="neutro">neutro</span></td><td class="neutro'+class2+'">';
+					} else  if(flag == 1){				
+						classe = '<span class="sobe">sobe</span></td><td class="sobe'+class2+'">';
+					} else {
+						classe = '<span class="desce">desce</span></td><td class="desce'+class2+'">';
+					}
+
+					var LA08706_conteudo = '<tr><th'+class1+'>'+ nomeMoeda +'</th><td'+class1+'>' 
+							+ valorCompra+'</td><td'+class1+'>'+valorVenda+'</td><td'+class1+'>'
+							+classe+variacao+'%</td></tr>'
+
+					$('#cambio_LA08706').prepend(LA08706_conteudo);
+				}
+				
+				function carregarCotacao(data) {
+
+					var DOLAR  = "BRL=",
+						LIBRA  = "GBP=",
+						EURO   = "EUR=",
+						moedas = [], 
+						moeda,	_nm, _cpr, _vnd, _var, _cd;
+						
+					if (data && data.hits && data.hits.hits 
+							&& data.hits.hits.length >= 3) {
+						
+						data = data.hits.hits;
+						
+						/* Filtrando moedas para exibição */
+						for (var i = 0, j = data.length; i < j; i++){
+							
+							moeda = data[i]._source;
+							_cd   = moeda.cd;
+							
+							if (_cd === DOLAR) {
+								moedas[0] = moeda;
+								moedas[0].nm = "DOLAR";
+							} else if (_cd === LIBRA) {
+								moedas[1] = moeda;
+								moedas[1].nm = "LIBRA";
+							} else if (_cd === EURO) {
+								moedas[2] = moeda;
+								moedas[2].nm = "EURO";
+							}
+						}
+
+						moedas.reverse();
+						
+						if (moedas.length === 3) {
+							for (var i = 0, j = moedas.length; i < j; i++) {
+							
+								moeda = moedas[i];
+								_nm   = moeda.nm.toUpperCase();
+								_var  = moeda["vr"];
+								_flg  = moeda["flg"];
+								
+								if (i != 2) {
+									_vnd = (moedas[2].vnd / moeda.vnd) * 1;
+									_cpr = (moedas[2].cpr / moeda.cpr) * 1;
+								} else {
+									_vnd = moedas[2].vnd;
+									_cpr = moedas[2].cpr;
+								}
+								
+								adicionarCotacao(_nm, _var, _vnd, _cpr, _flg, i);
+							}
+						}
+					}
+				}
+			
+				$(document).ready(function() { 
+					
+					$.ajax({
+						type: "GET",
+						url: 'http://ultimosegundo.ig.com.br/_servicos/economia_cotacao/moeda/_search',
+						dataType: 'jsonp',
+						data: {
+							q : "cd:BRL= OR EUR= OR GBP="
+						},
+						jsonpCallback: 'carregarCotacao'
+					});
+				 });
+			</script>
+			<table id="cambio_LA08706" summary="cambio">
+				<thead>
+					<tr>
+						<th width="90">moeda</th>
+						<th width="75">compra</th>
+						<th width="53">venda</th>
+						<th width="36"></th>
+						<th width="66">var. %</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+	</div>
+	<!-- componente LA08706 -->
+
+ 
+
+
+
+
+
+
+
+
+
+
+	<div class="LA08706 nomgr nomgt nopdb">
+		
+			
+		
+
+		
+			
+				<h4>Bolsa de Valores</h4>
+			
+		
+
+		<script language="javascript">   
+		
+			function adicionarIndice(nomeAtivo, dataAtivo, valAtivo, varAtivo, flag, indice) {
+				
+				if(indice == 2){
+					var class1 = ' class="nobdb"';
+				 	var class2 = ' nobdb';
+				} else {
+					var class1 = '';
+					var class2 = '';
+				}
+				
+				valAtivo = parseFloat(valAtivo).toFixed(2).replace(".", ",");
+                                varAtivo = parseFloat(varAtivo).toFixed(2).replace(".", ",");
+				
+                if((flag == 0) || (varAtivo == "0,00")){	
+                    var conteudo = '<tr><th'+class1+'>'+nomeAtivo+'</th><td'+class1+'>'+dataAtivo+'</td><td'+class1+'>'+valAtivo+'</td><td'+class1+'><span class="neutro">neutro</span></td><td class="neutro'+class2+'">'+varAtivo+'%&nbsp;</td></tr>';
+                } else if(flag == 1) {
+                    var conteudo = '<tr><th'+class1+'>'+nomeAtivo+'</th><td'+class1+'>'+dataAtivo+'</td><td'+class1+'>'+valAtivo+'</td><td'+class1+'><span class="sobe">sobe</span></td><td class="sobe'+class2+'">'+varAtivo+'%&nbsp;</td></tr>';
+                } else {
+                    var conteudo = '<tr><th'+class1+'>'+nomeAtivo+'</th><td'+class1+'>'+dataAtivo+'</td><td'+class1+'>'+valAtivo+'</td><td'+class1+'><span class="desce">desce</span></td><td class="desce'+class2+'">'+varAtivo+'%&nbsp;</td></tr>';
+                }
+				
+                $('#ativos_LA08706').append(conteudo);		
+			}
+		
+			function carregarIndices(data) {
+				
+				var BOVESPA    = ".BVSP",
+					DOW_JONES  = ".DJI",
+					NASDAQ     = ".IXIC",
+					REGEX_DATA = /^(\d{4})(\d{2})(\d{2})\d+$/,
+					indices    = [], 
+					indice, _nm, _dt, _prc, _var, _cd;
+					
+				if (data && data.hits && data.hits.hits) {
+					
+					data = data.hits.hits;
+					
+					for (var i = 0, j = data.length; i < j; i++) {
+						
+						indice = data[i]._source;
+						_cd    = indice.cd;
+						
+						if (_cd === BOVESPA) {
+							indices[0] = indice;
+							
+						} else if (_cd === DOW_JONES) {
+							indices[1] = indice;
+							
+						} else if (_cd === NASDAQ) {
+							indices[2] = indice;
+						}
+					}
+					
+					for (var i = 0, j = indices.length; i < j; i++) {
+					
+						indice = indices[i];
+						_nm    = indice.nm.toUpperCase();
+						_dt    = indice.dt.replace(REGEX_DATA, "$3/$2/$1");
+						_prc   = indice.prc;
+						_var   = indice["vr"];
+						_flg   = indice.flg;
+						
+						adicionarIndice(_nm, _dt, _prc, _var, _flg, i);
+					}
+				}
+			}
+		
+        	$(document).ready(function() { 
+			
+				$.ajax({
+					type: "GET",
+					url: 'http://ultimosegundo.ig.com.br/_servicos/economia_cotacao/cotacao_bolsa/_search',
+					dataType: 'jsonp',
+					data: {
+						q : "cd:*"
+ 					},
+					jsonpCallback: 'carregarIndices'
+				});
+			});
+        </script>
+
+		<table cellspacing="0" cellpadding="0" id="ativos_LA08706" summary="cambio">
+			<thead>
+				<tr>
+					<th width="85">indice</th>
+					<th width="85">data</th>
+					<th width="58">ultimo</th>
+					<th width="36"></th>
+					<th width="56">var. %</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<div class="avisoFonte">
+			<ul>
+				<li>Fonte: Thomson Reuters</li>
+			</ul>
+		</div>
+	</div>
+
+</div> 		
+		
+		
+		<div id="barraLateral" class="indicadores">
+
+
+
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+			
+	
+
+	<div class="LM13906 futebol">
+		<h3>Seu Time</h3>
+		<ul class="times">
+			<li><a href="/futebol/times/america-mg/p1237870137531.html" class="clube_230" title="América-MG">América-MG</a></li><li><a href="/futebol/times/atletico-go/p1237870214354.html" class="clube_76" title="Atlético-GO">Atlético-GO</a></li><li><a href="/futebol/times/atletico-mg/p1237870239965.html" class="clube_1" title="Atlético-MG">Atlético-MG</a></li><li><a href="/futebol/times/atletico-pr/p1237870266734.html" class="clube_21" title="Atlético-PR">Atlético-PR</a></li><li class="nopdr"><a href="/futebol/times/avai/p1237870293606.html" class="clube_24" title="Avaí">Avaí</a></li><li><a href="/futebol/times/bahia/p1237870319496.html" class="clube_25" title="Bahia">Bahia</a></li><li><a href="/futebol/times/botafogo/p1237870368706.html" class="clube_2" title="Botafogo">Botafogo</a></li><li><a href="/futebol/times/ceara/p1237870477595.html" class="clube_29" title="Ceará">Ceará</a></li><li><a href="/futebol/times/corinthians/p1237870501204.html" class="clube_20" title="Corinthians">Corinthians</a></li><li class="nopdr"><a href="/futebol/times/coritiba/p1237870528251.html" class="clube_3" title="Coritiba">Coritiba</a></li><li><a href="/futebol/times/cruzeiro/p1237870555225.html" class="clube_4" title="Cruzeiro">Cruzeiro</a></li><li><a href="/futebol/times/figueirense/p1237870609535.html" class="clube_5" title="Figueirense">Figueirense</a></li><li><a href="/futebol/times/flamengo/p1237870635049.html" class="clube_6" title="Flamengo">Flamengo</a></li><li><a href="/futebol/times/fluminense/p1237870660491.html" class="clube_7" title="Fluminense">Fluminense</a></li><li class="nopdr"><a href="/futebol/times/gremio/p1237870685658.html" class="clube_10" title="Grêmio">Grêmio</a></li><li class="nopdb"><a href="/futebol/times/internacional/p1237870787468.html" class="clube_11" title="Internacional">Internacional</a></li><li class="nopdb"><a href="/futebol/times/palmeiras/p1237870989245.html" class="clube_9" title="Palmeiras">Palmeiras</a></li><li class="nopdb"><a href="/futebol/times/santos/p1237871209073.html" class="clube_15" title="Santos">Santos</a></li><li class="nopdb"><a href="/futebol/times/saopaulo/p1237871262354.html" class="clube_16" title="São Paulo">São Paulo</a></li><li class="nopdb nopdr"><a href="/futebol/times/vasco/p1237871344083.html" class="clube_18" title="Vasco">Vasco</a></li>
+		</ul>
+	</div>
+	   
+</div>		
+
+            
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="barraLateral" class="servicos">
+<div class="LM14006 nomgr nomgt" >
+	<ul>
+			<li class=" ">
+			
+			
+<a href="#" target="_self">
+		<img src="" width="40" height="39" alt="" />
+	</a>
+	<cite>
+		<a href="#"  target="_self"><!-- InSite: missing arguments: assetid: 1238183673811 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null --></a>
+	</cite>
+			
+			
+			</li>
+			<li class=" nomgr">
+			
+			
+<a href="#" target="_self">
+		<img src="" width="40" height="39" alt="" />
+	</a>
+	<cite>
+		<a href="#"  target="_self"><!-- InSite: missing arguments: assetid: 1238183674838 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null --></a>
+	</cite>
+			
+			
+			</li>
+			<li class=" ">
+			
+			
+<a href="#" target="_self">
+		<img src="" width="40" height="39" alt="" />
+	</a>
+	<cite>
+		<a href="#"  target="_self"><!-- InSite: missing arguments: assetid: 1238183675783 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null --></a>
+	</cite>
+			
+			
+			</li>
+			<li class=" nomgr">
+			
+			
+<a href="#" target="_self">
+		<img src="" width="40" height="39" alt="" />
+	</a>
+	<cite>
+		<a href="#"  target="_self"><!-- InSite: missing arguments: assetid: 1238183677068 assettype: MiGChamada_C assetfield: Attribute_MiGTitulo assetfieldvalue: null --></a>
+	</cite>
+			
+			
+			</li>
+		
+		
+	</ul>
+</div><!-- VAR INICIO: 1 --></div>
+		
+		
+		
+		<!-- INICIO PUBLICIDADE DE UMA FOTO GRANDE -->
+		
+       
+       
+       
+        
+       		
+
+
+<style>
+
+	#pubRight{display:none;position:absolute;width:296px;padding:10px;left:669px}
+	
+	#pub-Right{background:#F8F8F8;clear:both;float:left;width:296px;padding:10px;height:600px}
+	
+</style>
+	
+	<div id="barraLateral" class="indicadores">
+		<div id="pub-Right"></div>
+	</div>
+       	
+       	<!-- FINAL PUBLICIDADE DE UMA FOTO GRANDE -->
+	
+		
+		
+
+	</div>
+	<!-- FIM BARRA LATERAL -->
+
+
+	 
+			
+				 
+				
+				
+								
+			
+	<!-- INICIO RODAPÉ -->
+	    <div id="rodape">
+	    
+	    	 
+	    
+	            <div class="barra-superior">
+	                <ul>
+			<li><a href="http://www.ig.com.br/indice/" target='_self' title="Sites iG" class="nopdl" >Sites iG</a></li>
+			<li><a href="http://www.ig.com.br/expediente/" target='_self' title="Expediente" class="" >Expediente</a></li><li><a href='/faleconosco/p1237569155662.html' title="Fale Conosco">Fale Conosco</a></li>
+	                    	<li><a href='/indiqueosite/p1237569155656.html' title="Indique o Site">Indique o Site</a></li>
+	                    	<li><a href='http://servicos.ig.com.br/?utm_source=ig&utm_medium=menu&utm_content=servicos%20topo&utm_campaign=home%20ig' title="Serviços" class="nobd">Serviços</a></li></ul>
+							<a href='/p1237569153183.xml' title="RSS" class="rss">RSS</a>
+							
+					
+	    				
+					
+	                
+	                
+<a href='ultimosegundo' title="Twitter" class="twitter">Twitter</a>
+	                
+	                </div>
+			
+			<div class="barra-center"><ul>
+			<li><a href="http://marketing.ig.com.br/landings/acesso" target='_self' title="Assine" class="nopdl" >Assine</a></li>
+			<li><a href="http://www.ig.com.br/acelerador/" target='_self' title="Acelerador">Acelerador</a></li>
+			<li><a href="http://antivirus.ig.com.br/app" target='_self' title="Antivírus">Antivírus</a></li>
+			<li><a href="http://servicos.ig.com.br" target='_self' title="Todos os Serviços">Todos os Serviços</a></li>
+			<li><a href="https://cadastro.ig.com.br/atendimento/index.jsp" target='_self' title="Central do Cliente" class="nobd" >Central do Cliente</a></li></ul></div><div class="barra-inferior"><ul>
+			<li><a href="http://www.ig.com.br/indice/" target='_self' title="Sites iG" class="nopdl" >Sites iG</a></li>
+			<li><a href="http://www.centraldoanunciante.com.br/" target='_self' title="Anuncie">Anuncie</a></li>
+			<li><a href="http://denuncia.ig.com.br/" target='_self' title="Crimes Virtuais">Crimes Virtuais</a></li>
+			<li><a href="https://www.vagas.com.br/PagEmpr.asp?e=ig&#38;t=2032" target='_self' title="Trabalhe no iG">Trabalhe no iG</a></li>
+			<li><a href="http://images.ig.com.br/politica_privacidade/index.html" target='_self' title="Política de Privacidade" class="nobd" >Política de Privacidade</a></li></ul><p>&copy; Copyright 2000-2011, Internet Group - Portais: <a href="http://www.ig.com.br/" title="iG">iG</a>, <a href="http://www.ibest.com.br/" title="iBest">iBest</a> e <a href="http://www.brturbo.com.br/" title="BrTurbo">BrTurbo</a></p><a href="#geral" title="Topo" class="topo">Topo</a></div>
+        </div>
+        <!-- FIM RODAPÉ -->
+
+				
+				
+
+
+
+	
+
+
+
+
+            <script type="text/javascript" src="http://capture.pclicks.com/js?pcid=PC-000016-A"></script>
+            <script>
+                var pc = new predicta.PClick()
+                pc.start()
+            </script>       
+        
+            <script type="text/javascript" src='/MiG/js/LayoutHome/e123420499671220110112193411849.js?site=ultimosegundo&sitepfx=USG'></script>
+		<script type="text/javascript">
+			OAS_VARS('/homepage', 'x15,Top2,x07,x30,Frame1,Position1,Position2,Position3,Right,x33,Middle1,Bottom');
+			OAS_START();
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    //<![CDATA[ 
+    
+    var innerSelo;
+    var _interNum = 0;
+    var _interEstica;
+    var _interTempo;
+    var _interAbreTempo;
+    var _interTopo;
+    var _interEsquerda;
+    var _interFechaAuto;
+    var _arrPosOfer = new Array();
+    var _arrPosBan = new Array();
+    var _arrBan = new Array();
+    var _arrOfer = new Array();
+    var TagSelo = new Array();
+    var _getA;
+    var _getSpan;
+    var _oferFormat;
+    
+    
+    function oferFormat(oferText) {
+        oferText = oferText.replace(new RegExp('[áàãââ]', 'gi'), 'a');
+        oferText = oferText.replace(new RegExp('[éê]', 'gi'), 'e');
+        oferText = oferText.replace(new RegExp('[í]', 'gi'), 'i');
+        oferText = oferText.replace(new RegExp('[óõô]', 'gi'), 'o');
+        oferText = oferText.replace(new RegExp('[úü]', 'gi'), 'u');
+        oferText = oferText.replace(new RegExp('[ç]', 'gi'), 'c');
+        oferText = oferText.replace(new RegExp('[ ]', 'gi'), "_");
+        oferText = oferText.toLowerCase();
+        return oferText;
+    };
+    
+    
+    function pubAbre() {
+        _interTempo = _interTempo * 1000;
+        if (_interNum == 0) {
+            _interNum = 0;
+            _interEstica = setInterval("pubEstica()", 75);
+            _interFechaAuto = setTimeout("pubFecha()", _interTempo);
+            $id("interFecha").style.marginTop = _interTopo + "px";
+            $id("interFecha").style.marginLeft = _interEsquerda + "px";
+        }
+    };
+
+    function pubAbreN() {
+        pubAbre();
+        var _interTempo;
+    };
+
+    function pubFecha() {
+        if (_interNum == 260) {
+            clearTimeout(_interFechaAuto);
+            _interEstica = setInterval("pubDesestica()", 75);
+        }
+    };
+
+    function _pubMove(move) {
+
+        $id("pubIntervencao").style.height = move + "px";
+        for (var i = 0; i < _arrPosBan.length; i++) {
+            if ($id(_arrBan.banDiv[i])) {
+                $id(_arrBan.banContainer[i]).style.top = _arrPosBan[i] + move + "px";
+            };
+        };
+    };
+
+    function pubEstica() {
+        $id("denovo").style.display = "none";
+        
+        if (_interNum <= 75) {
+            _interNum += 8;
+        };
+        if (_interNum <= 155) {
+            _interNum += 7;
+        };
+        if (_interNum <= 185) {
+            _interNum += 6;
+        };
+        if (_interNum <= 210) {
+            _interNum += 5;
+        };
+        if (_interNum <= 230) {
+            _interNum += 4;
+        };
+        if (_interNum <= 245) {
+            _interNum += 3;
+        };
+        if (_interNum <= 255) {
+            _interNum += 2;
+        };
+        if (_interNum < 260) {
+            _interNum += 1;
+        };
+        if (_interNum == 260) {
+            _interNum += 0;
+            
+            pubPosSet("pubIntervencao", "carregaIntervencao");
+            
+            $id("pubCarregaIntervencao").style.display = "block";
+            
+            clearInterval(_interEstica);
+        };
+        _pubMove(_interNum);
+    };
+
+    function pubDesestica() {
+        if (_interNum >= 185) {
+            _interNum -= 8;
+            $id("pubCarregaIntervencao").style.display = "none";
+        };
+        if (_interNum >= 105) {
+            _interNum -= 7;
+        };
+        if (_interNum >= 75) {
+           _interNum -= 6;
+        };
+        if (_interNum >= 50) {
+            _interNum -= 5;
+        };
+        if (_interNum >= 30) {
+            _interNum -= 4;
+        };
+        if (_interNum >= 15) {
+            _interNum -= 3;
+        };
+        if (_interNum >= 5) {
+            _interNum -= 2;
+        };
+        if (_interNum > 0) {
+            _interNum -= 1;
+        };
+        if (_interNum == 0) {
+            _interNum -= 0;
+            clearInterval(_interEstica);
+            $id("denovo").style.display = "block";
+        };
+            
+        _pubMove(_interNum);
+    };
+    //]]>
+</script>
+
+        <div id="carregaIntervencao">
+            <div id="pubCarregaIntervencao">
+                <div id="interFecha" onclick="pubFecha();"><!--//--></div>
+                    <script type="text/javascript">OAS_AD('x15');</script>
+             </div>
+             <span id="denovo" onclick="pubAbreN();">
+                 <img src="http://images.ig.com.br/publicador/novahomeig/ver_de_novo_loop.gif" width="7" height="11" /> Ver de novo
+             </span>
+                 
+        </div>
+    
+    
+        <div id="pub-superbanner">
+            <script type="text/javascript">OAS_AD('Top2');</script>
+        </div>  
+    
+    
+    <div id="publicidadeIsland"><script type="text/javascript"> OAS_AD('x07'); </script></div>
+    <div id="pubMicroBar"><script type="text/javascript"> OAS_AD('x30'); </script></div>
+    <div id="publicidade300x100"><script type="text/javascript"> OAS_AD('Middle'); </script></div>
+    
+    
+    <script>!window.jQuery && document.write(unescape('%3Cscript src="http://js.ig.com/jquery-1.4.4.min.js"%3E%3C/script%3E'));</script>
+                <script src="http://js.ig.com/shopping/coluna/slayer.v3.min.js"></script>
+              
+                
+                 
+                  <script type="text/javascript">
+                    $(shoppingLayer('http://i1.ig.com/igshopping/json/ig_useg_1.json','Compre da China','http://i1.ig.com/igshopping/json/branded_useg_compredachina_1.json'));
+                  </script>
+                
+            
+    
+    
+    <div id="pubShopHorizontal"><script type="text/javascript"> OAS_AD('Frame1'); </script></div>
+    <div id="pubRight"><script type="text/javascript"> OAS_AD('Right'); </script></div>
+    <div id="pubPosition1"><script type="text/javascript"> OAS_AD('Position1'); </script></div>
+    <div id="pubPosition2"><script type="text/javascript"> OAS_AD('Position2'); </script></div>
+    <div id="pubPosition3"><script type="text/javascript"> OAS_AD('Position3'); </script></div>
+    <div id="pub-AdGallery"><script type="text/javascript"> OAS_AD('x59'); </script></div>
+    <div id="esp-Pat-Geral"><script type="text/javascript"> OAS_AD('Bottom');</script></div>
+    <div id="pubTVComp3"><script type="text/javascript"> OAS_AD('Left');</script></div>
+    <div id="pubTicker"><script type="text/javascript"> OAS_AD('x33');</script></div>
+	<div id="pubBranded"><script type="text/javascript"> OAS_AD('x31');</script></div>
+	<div id="pubMiddle1"><script type="text/javascript"> OAS_AD('Middle1');</script></div>
+	<div id="pubIslandNoticia"><script type="text/javascript"> OAS_AD('x06');</script></div>
+    
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    function getPosElem(id){
+        var offsetTrail = $id(id);
+        var offsetLeft = 0;
+        var offsetTop = 0;
+        while (offsetTrail) {
+            offsetLeft += offsetTrail.offsetLeft;
+            offsetTop += offsetTrail.offsetTop;
+            offsetTrail = offsetTrail.offsetParent;
+        }
+        if (navigator.userAgent.indexOf("Mac") != -1 && 
+            typeof document.body.leftMargin != "undefined") {
+            offsetLeft += document.body.leftMargin;
+            offsetTop += document.body.topMargin;
+        }
+        return {
+            left:offsetLeft, 
+            top:offsetTop
+        };
+    };
+    
+    
+    function pubPosSet(container,pubDiv){
+        
+        if($id(container)){
+            
+            var posicao = getPosElem(container).top;
+           
+            $id(pubDiv).style.top=(posicao)+"px";
+            
+            if( pubDiv == "pubMicroBar" ){
+                posLeft = document.getElementById('pub-microbar').offsetLeft; 
+                document.getElementById(pubDiv).style.left = posLeft +  "px";
+            }
+            
+            $id(pubDiv).style.display = "block";
+            
+            return posicao;         
+        }else{
+            $id(pubDiv).style.display = "none";
+        }
+        
+        return -1;
+        
+    }
+    
+    PosSetOferecimento = function(){
+        if(controlaOferecimento == 1){
+            pubPosSet("pub-microbar","pubMicroBar");
+            document.getElementById('selo_oferecimento').innerHTML = 'oferecimento';
+        } else {
+            setTimeout(PosSetOferecimento, 500);
+        }
+        
+    }       
+
+    
+    
+    _arrBan = {
+    banDiv: ["pub-retangulo", "pub-shopping-01", "pub-shop-horizontal", "pub-island", "pub-Right", "pub-Position1", "pub-Position2", "pub-Position3",
+             "espPatGeral", "3", "pubAdGallery", "pub-ticker","pub-Branded", "pub-Middle1","pub-IslandNoticia"],
+    banContainer: ["publicidade300x100", "publicidadeShopping", "pubShopHorizontal", "publicidadeIsland", "pubRight", "pubPosition1", "pubPosition2", "pubPosition3",
+                   "esp-Pat-Geral", "pubTVComp3", "pub-AdGallery", "pubTicker","pubBranded", "pubMiddle1","pubIslandNoticia"],
+    banTipoPub: [   1, //pub-retangulo
+                    1, //pub-shopping-01
+                    1, //pub-shop-horizontal
+                    1, //pub-island
+                    1, //pub-Right
+                    2, //pub-Position1
+                    2, //pub-Position2
+                    2, //pub-Position3
+                    2, //espPatGeral
+                    2, //pubTVComp3
+                    2, //pub-AdGallery
+                    2, //pubTicker
+                    2, //pubBranded
+                    2,  //pubMiddle1
+                    2 //pubIslandNoticia
+                    ]
+    
+    //Tipos de Publicidade (banTipoPub)
+    //   1 - Publicidade convencional, por posicionamento do div
+    //   2 - Publicidade por insercao (innerHTML)
+    
+    };
+
+    function pubPos() {
+        var num = 0;
+        var oferNum = 0;
+        
+        for (var i = 0; i < _arrBan.banDiv.length; i++) {
+            var posicao = -1;
+            if($id(_arrBan.banDiv[i]) && _arrBan.banTipoPub[i] == 1 ){
+                posicao = pubPosSet(_arrBan.banDiv[i], _arrBan.banContainer[i]);
+            }
+            if ($id("pubIntervencao") && posicao != -1) {
+                _arrPosBan[i] = posicao;
+            }
+        };
+    };
+    
+    function isNull(obj) {
+        return     (obj == null)
+            || (obj == "")
+            || (obj.toString().toLowerCase() == "undefined")
+                || (obj.toString().match(new RegExp("^\\s*<script\\s*(type=\"?(\\w*/)?javascript\"?)?>\\s*OAS_AD\\s*\\(\\s*'\\w*'\\s*\\)\\s*;\\s*<\/script>\\s*$", "i"))!=null );
+    }
+
+    function isEmptyGif(elemento){
+        return isNull(elemento) || (!isNull(elemento.toString().toLowerCase().match("<img.*src=\"http.*empty\.gif\".*>")));
+    }
+    
+    function is6EmptyGif(elemento){
+        return isNull(elemento) || elemento.toString().toLowerCase().split(new RegExp("<img.*?src=\"http.*?empty\.gif\".*?>")).length > 6;
+    }
+
+    function pubInnerSet(div, container){
+        
+        var objDiv = document.getElementById(div);
+        var objConteiner = document.getElementById(container);
+        
+        if(!isNull(objDiv) && !isNull(objConteiner)){
+            var empty = true;
+            if(container == "pub-AdGallery"){
+                empty = is6EmptyGif(objConteiner.innerHTML);
+            }else{
+                empty = isEmptyGif(objConteiner.innerHTML);
+            }
+            if(!empty){
+                if(container != "pubTVComp3"){ //aplicado somente nesta caso, pois e utilizado no componente de slide de fotos de 5 tempos
+                                                  //se setar display = block, ocorre erros no IE.
+                    objDiv.style.display = "block";
+                }
+                objConteiner.style.display = "none";
+                if(container != "pub-AdGallery"){
+                    document.getElementById(div).innerHTML = objConteiner.innerHTML;
+                } else { 
+                    document.getElementById(div).innerHTML = objConteiner.innerHTML;
+                    //Adiciona título do Ad Gallery                  
+                    var elem = document.getElementsByTagName('div');
+                    for(var i=0; i<elem.length; i++){
+                        if(elem[i].className == "P22318"){
+                            elem[i].innerHTML = "<h3>Ad Gallery</h3>" + elem[i].innerHTML;
+                        }
+                    }
+                    //Retira linha vertical qdo ha menos de 6 selos
+                    var nroAdgallery = 7 - document.getElementById(div).innerHTML.toString().toLowerCase().split(new RegExp("<img.*?src=\"http.*?empty\.gif\".*?>")).length;
+                    var gallery = 0;
+                    var elemLi = document.getElementsByTagName('li');
+                    for(var j=0; j<elemLi.length; j++){
+                        if(elemLi[j].className == "gallery"){
+                            gallery++;
+                            if(gallery==nroAdgallery){
+                                elemLi[j].className = "gallery nobdr";
+                            }
+                        }
+                    }
+                }
+                objConteiner.innerHTML = "";
+            }
+        }
+    }
+
+    function pubInner(){
+        
+        for (var i = 0; i < _arrBan.banTipoPub.length; i++) {
+            if(_arrBan.banTipoPub[i] == 2){
+                pubInnerSet(_arrBan.banDiv[i], _arrBan.banContainer[i]);
+            }
+        }
+    }
+
+    $(document).ready(function() {
+        
+        pubInner();
+        
+        pubPos();
+            
+        if ($id("pubIntervencao")) {
+            if (_interAbreTempo > 0) {
+                setTimeout("pubAbre();", _interAbreTempo * 1000);
+            }
+        };
+
+        var verificaEmpty = document.getElementById('pubMicroBar').innerHTML;
+
+        if(!isEmptyGif(verificaEmpty)){
+            setTimeout(PosSetOferecimento, 500);
+        }
+        
+        }
+    );
+
+
+    //]]>   
+    </script>
+    
+        
+<script type="text/javascript">
+    //<![CDATA[
+    function shoppcomp(form) {
+        if(form.palavra.value != ''){ 
+                        window.open("http://igshopping.ig.com.br/searchFilter?campaignName=buscaRegua&campaignKeyWord=igshopping&q=" + form.palavra.value,"_blank"); 
+        }
+    }
+    //]]>
+    </script>
+    
+
+
+<script type="text/javascript">
+
+
+if(typeof(_gas)==="undefined"){
+    
+    //ga Tag
+    var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-3531175-1']);
+	_gaq.push(['_setDomainName','ig.com.br']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	
+	// comScore Tag
+	var _comscore = _comscore || [];
+	_comscore.push({c1:'2',c2:6987205});
+	
+	(function() {
+		var s=document.createElement('script'),el=document.getElementsByTagName('script')[0];
+		s.type='text/javascript';s.async=true;
+		s.src=(document.location.protocol==='https:'?'https://sb':'http://b')+'.scorecardresearch.com/beacon.js';
+		el.parentNode.insertBefore(s,el);
+	})();
+
+}
+</script>
+
+
+    <script type="text/javascript" src='/MiG/js/swfobject.js/e1234225125317201003261808450.js?site=ultimosegundo&sitepfx=USG'></script>
+    <script type="text/javascript">
+        var so = new SWFObject('/cs/Satellite?blobcol=urlimagem&blobkey=id&blobtable=MiGSprite&blobwhere=1234225125391&ssbinary=true', "mymovie", "200", "40", "8", "#FFFFFF");
+        so.addVariable("titulo", 'Último Segundo');
+        so.addVariable("linha", '6982a0');
+        so.addVariable("texto", '6982a0');
+        so.addParam("wmode", "transparent");
+        so.addParam("quality", "high"); 
+        so.addParam("salign", "LT"); 
+        so.addParam("scale", "noscale"); 
+        so.write("flashcontent");
+        
+        function resizeFlash(w) {
+            w = w * 105/100;
+            if(w>350){w=350;}
+            var elem = document.getElementById("flashcontent");
+            elem.style.width=w+"px";
+            elem.childNodes[0].style.width=w+"px";
+            elem.style.height="40px";
+            elem.childNodes[0].style.height="40px";
+            controlaOferecimento = 1;
+        }
+        
+        
+        
+$(document).ready(function(){
+
+    $('.mais_menos').click(function(){
+                                     
+        if($(this).html() == "menos"){
+            $(this).html('mais');
+            
+        }else{
+            $(this).html('menos');
+        }
+    
+    })
+
+    
+    function showExtendedSearch(){
+        $("#searchOn,#searchOnBottom").show();
+    }
+    
+    function hideExtendedSearch(){
+        $("#searchOn,,#searchOnBottom").hide();
+    }
+        
+    $("#buscaGoogle #searchOn a").hover(function(){
+        $(this).addClass("active");                             
+    },function(){
+        $(this).removeClass("active");                              
+    })
+
+    //Ao clicar fazer o submit para a busca no escopo google ou iG
+    $("#buscaGoogle #searchOn a").click(function(){               
+        
+        $("#searchScope").val($(this).attr("rel"));
+        $("#searchCanal").val("all");
+        $("#searchTipo").val("all");
+        $("#searchData").val("all");
+        $("#searchPagina").val("1");
+        
+        hideExtendedSearch();
+        $("#searchOn a span").html("");
+        
+        $("form#buscaGoogle").submit();
+                        
+    })
+    
+    $("body").click(function(){
+        hideExtendedSearch();
+    })
+    
+    //desabilita o autocomplete do navegador do campo busca
+    $("#buscar").attr("autocomplete","off")
+
+    
+    activeScope = -1;
+    $("#buscar").keyup(function(e){
+        
+        //somente se tiver mais de dois caracteres mostrar as opÃƒÂ§ÃƒÂµes de busca no iG e google 
+        if($(this).val().length < 2){
+            hideExtendedSearch()
+        }else{
+            showExtendedSearch();
+        }
+        
+        //caso a string seja maior que 10 concatena ...
+        if($(this).val().length > 10){
+            qs = $(this).val().substring(0,10) + "...";
+        }else{
+            qs = $(this).val();
+        }
+        $("#searchOn a strong").html(qs);
+        
+        //navegaÃƒÂ§ÃƒÂ£o atravÃƒÂ©s das setas
+        var keyCode = (e.keyCode ? e.keyCode : e.which);
+                        
+        //seta para baixo
+        if(keyCode == 40){
+            
+            activeScope++;
+            if(activeScope > 2){
+                activeScope = 0;
+            }
+            
+             
+            $("#searchOn a.active").removeClass("active");
+            $("#searchOn a").eq(activeScope).addClass("active");
+            
+            
+        }else if(keyCode == 38){ //seta para cima
+            
+            activeScope--;
+            if(activeScope < 0){
+                activeScope = 2;
+            }
+             
+            $("#searchOn a.active").removeClass("active");
+            $("#searchOn a").eq(activeScope).addClass("active");
+            
+        }else if(keyCode == 13){ //caso enter
+            $(this).blur();
+            $("#searchOn a.active").trigger("click");
+            
+            return false;
+        }
+        
+    })
+})              
+        
+        
+    </script>
+    
+    </div></div><!-- FIM GERAL -->   
+</body>
+</html>
