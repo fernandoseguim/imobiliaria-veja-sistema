@@ -6,7 +6,7 @@
 
 
 <%
-'Criando conexão com o banco de dados! 
+'Criando conexï¿½o com o banco de dados! 
 Set Conexao3 = Server.CreateObject("ADODB.Connection")
 Conexao3.Open dsn
 
@@ -16,11 +16,11 @@ Sql3 = "SELECT * FROM combo1 ORDER BY nome_combo1 ASC"
 Set rs3 = Server.CreateObject("ADODB.RecordSet")
 
 	rs3.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rs3.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
 
 rs3.ActiveConnection = Conexao3
 	
@@ -61,11 +61,11 @@ dim rs4,strSQL4,Conexao
 	
 	
 	rs4.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rs4.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
 
 rs4.ActiveConnection = Conexao
 	
@@ -81,11 +81,11 @@ Set rs55 = Server.CreateObject("ADODB.RecordSet")
 
 
 rs55.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rs55.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
 
 rs55.ActiveConnection = Conexao
 
@@ -107,11 +107,11 @@ Sql333 = "SELECT * FROM combo2 ORDER BY id_combo2"
 Set rs33 = Server.CreateObject("ADODB.RecordSet")
 
 	rs33.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rs33.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
 
 rs33.ActiveConnection = Conexao3
 	
@@ -129,11 +129,11 @@ Set rsFrontPage = Server.CreateObject("ADODB.RecordSet")
 SQLFrontPage = "SELECT * FROM imoveis where presenca_primeira like '"&"incluido"&"' ORDER BY cod_imovel DESC"
 
 rsFrontPage.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rsFrontPage.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
 
 rsFrontPage.ActiveConnection = Conexao
 
@@ -148,7 +148,7 @@ intRecordCount = rsFrontPage.RecordCount
 
 
 
-'------------------------------selecionar os tipos de imóvel para o formulário-------------------
+'------------------------------selecionar os tipos de imï¿½vel para o formulï¿½rio-------------------
 
 
  dim rs444Tipo22,strSQL444Tipo22
@@ -158,11 +158,11 @@ intRecordCount = rsFrontPage.RecordCount
 	
 	
 	rs444Tipo22.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rs444Tipo22.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
 
 rs444Tipo22.ActiveConnection = Conexao
 	
@@ -203,84 +203,23 @@ rs444Tipo22.ActiveConnection = Conexao
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>Página inicial</title>
+<title>Pï¿½gina inicial</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 
 
 <script>
 
-// Verifica se somente números foram digitados no campo
+// Verifica se somente nï¿½meros foram digitados no campo
 function isValidDigitNumber (doublecombo) 
-
-
-
 {
-
-
-
-
-{
-
-
-if (doublecombo.txt_nome.value == "Seu nome:") {
-		alert("Por favor,deixe seu nome na busca , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.txt_nome.focus();
-		
-		return false;
-}
-
-if (doublecombo.txt_nome.value == "") {
-		alert("Por favor,deixe seu nome na busca , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.txt_nome.focus();
-		
-		return false;
-}
-
-
-
-
 
 if (doublecombo.example2.value == "nqualquer") {
-		alert("Por favor, escolha a negociação desejada.");
+		alert("Por favor, escolha a negociaï¿½ï¿½o desejada.");
 		doublecombo.example2.focus();
 		
 		return false;
 }
-
-
-
-if (doublecombo.txt_telefone.value == "Seu telefone:") {
-		alert("Por favor, coloque seu telefone , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.txt_telefone.focus();
-		
-		return false;
-}
-
-if (doublecombo.txt_telefone.value == "") {
-		alert("Por favor, coloque seu telefone , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.txt_telefone.focus();
-		
-		return false;
-}
-
-if (doublecombo.txt_email.value == "Seu email:") {
-		alert("Por favor, coloque seu email , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.txt_email.focus();
-		
-		return false;
-}
-
-if (doublecombo.txt_email.value == "") {
-		alert("Por favor, coloque seu email , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.txt_email.focus();
-		
-		return false;
-}
-
-
-
-
 
 var strValidNumber1_4="1234567890";
 for (nCount=0; nCount < doublecombo.txt_telefone.value.length; nCount++) 
@@ -288,16 +227,12 @@ for (nCount=0; nCount < doublecombo.txt_telefone.value.length; nCount++)
 strTempChar1_4=doublecombo.txt_telefone.value.substring(nCount,nCount+1);
 if (strValidNumber1_4.indexOf(strTempChar1_4,0)==-1) 
 {
-alert("Ao colocar seu telefone, digite apenas números!");
+alert("Ao colocar seu telefone, digite apenas nï¿½meros!");
 doublecombo.txt_telefone.focus();
 doublecombo.txt_telefone.select();
 return false;
 }
 }
-
-
-
-
 
 
 var strValidNumber1_5="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x,z,w,y,1,2,3,4,5,6,7,8,9,0,@,.,_,-";
@@ -306,7 +241,7 @@ for (nCount=0; nCount < doublecombo.txt_email.value.length; nCount++)
 strTempChar1_5=doublecombo.txt_email.value.substring(nCount,nCount+1);
 if (strValidNumber1_5.indexOf(strTempChar1_5,0)==-1) 
 {
-alert("Ao colocar seu email,use somente minúsculas!");
+alert("Ao colocar seu email,use somente minï¿½sculas!");
 doublecombo.txt_email.focus();
 doublecombo.txt_email.select();
 return false;
@@ -314,11 +249,8 @@ return false;
 }
 
 
-
-
-
 if (doublecombo.combo1.value == "cqualquer") {
-		alert("Você precisa escolher uma cidade.");
+		alert("Vocï¿½ precisa escolher uma cidade.");
 		doublecombo.combo1.focus();
 		
 		return false;
@@ -326,25 +258,13 @@ if (doublecombo.combo1.value == "cqualquer") {
 
 
 if (doublecombo.stage22.value == "vqualquer") {
-		alert("Você precisa escolher um valor.");
+		alert("Vocï¿½ precisa escolher um valor.");
 		doublecombo.stage22.focus();
 		
 		return false;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-}
 }
 
 
@@ -352,7 +272,7 @@ if (doublecombo.stage22.value == "vqualquer") {
 
 <script>
 
-// Verifica se somente números foram digitados no campo
+// Verifica se somente nï¿½meros foram digitados no campo
 function isValidDigitNumber2 (doublecombo2) 
 
 
@@ -365,8 +285,8 @@ function isValidDigitNumber2 (doublecombo2)
 {
 
 
-if (doublecombo2.ref.value == "Busca por referência:") {
-		alert("Por favor,digite um número de referência , pois assim , você terá um atendimento preferencial e exclusivo.");
+if (doublecombo2.ref.value == "Busca por referï¿½ncia:") {
+		alert("Por favor,digite um nï¿½mero de referï¿½ncia , pois assim , vocï¿½ terï¿½ um atendimento preferencial e exclusivo.");
 		doublecombo2.ref.focus();
 		
 		return false;
@@ -384,7 +304,7 @@ for (nCount=0; nCount < doublecombo2.ref.value.length; nCount++)
 strTempChar1_4=doublecombo2.ref.value.substring(nCount,nCount+1);
 if (strValidNumber1_4.indexOf(strTempChar1_4,0)==-1) 
 {
-alert("Ao colocar sua referência, digite apenas números!");
+alert("Ao colocar sua referï¿½ncia, digite apenas nï¿½meros!");
 doublecombo2.ref.focus();
 doublecombo2.ref.select();
 return false;
@@ -475,7 +395,7 @@ function newWindow2(abrejanela) {
                                                 </tr>
                                                 <tr> 
                                                   <td height="20"><select name="combo2" id="combo2"   size="1"  class="inputBox" style="HEIGHT: 18px;   WIDTH: 202px ;background: #b2802c; color:#FFFFFF;  font-size:12px">
-                                                      <option value="bqualquer" selected>Bairro/Região</option>
+                                                      <option value="bqualquer" selected>Bairro/Regiï¿½o</option>
 				  <% if not rs4.eof then%>
                   <% While NOT Rs4.EoF %>
                   <option value="<% = Rs4("id_combo2") %>"> 
@@ -548,7 +468,7 @@ function newWindow2(abrejanela) {
                                                 </tr>
                                                 <tr> 
                                                   <td height="20"><select name="example2" id="example2" onChange="redirect2(this.options.selectedIndex)" size="1"  class="inputBox" style="HEIGHT: 18px;   WIDTH: 202px ;background: #b2802c; color:#FFFFFF;  font-size:12px">
-                                                        <option value="nqualquer" selected>Negociação 
+                                                        <option value="nqualquer" selected>Negociaï¿½ï¿½o 
                                                         </option>
                                                         <option value="nqualquer" >Qualquer 
                                                         um </option>
@@ -563,34 +483,34 @@ function newWindow2(abrejanela) {
                                                         <option value="vqualquer" selected>Valor</option>
                                                         <option value="vqualquer">Qualquer 
                                                         um</option>
-                                                        <option value="0000000000 0000020000">Até 
+                                                        <option value="0000000000 0000020000">Atï¿½ 
                                                         20.000,00</option>
                                                         <option value="0000020001 0000050000">20.001,00 
-                                                        até 50.000,00</option>
+                                                        atï¿½ 50.000,00</option>
                                                         <option value="0000050001 0000080000">50.001,00 
-                                                        até 80.000,00</option>
+                                                        atï¿½ 80.000,00</option>
                                                         <option value="0000080001 0000110000">80.001,00 
-                                                        até 110.000,00</option>
+                                                        atï¿½ 110.000,00</option>
                                                         <option value="0000110001 0000150000">110.001,00 
-                                                        até 150.000,00</option>
+                                                        atï¿½ 150.000,00</option>
                                                         <option value="0000150001 0000200000">150.001,00 
-                                                        até 200.000,00</option>
+                                                        atï¿½ 200.000,00</option>
                                                         <option value="0000200001 0000250000">200.001,00 
-                                                        até 250.000,00</option>
+                                                        atï¿½ 250.000,00</option>
                                                         <option value="0000250001 0000300000">250.001,00 
-                                                        até 300.000,00</option>
+                                                        atï¿½ 300.000,00</option>
                                                         <option value="0000300001 0000350000">300.001,00 
-                                                        até 350.000,00</option>
+                                                        atï¿½ 350.000,00</option>
                                                         <option value="0000350001 0000400000">350.001,00 
-                                                        até 400.000,00</option>
+                                                        atï¿½ 400.000,00</option>
 														
 														<option value="0000400001 0000600000">400.001,00 
-                                                        até 600.000,00</option>
+                                                        atï¿½ 600.000,00</option>
 														<option value="0000600001 0000800000">600.001,00 
-                                                        até 800.000,00</option>
+                                                        atï¿½ 800.000,00</option>
 														
 														<option value="0000800001 0001000000">800.001,00 
-                                                        até 1000.000,00</option>
+                                                        atï¿½ 1000.000,00</option>
 														
                                                         <option value="0001000001 1000000000">Acima 
                                                         de 1000.000,00</option>
@@ -674,7 +594,7 @@ function newWindow2(abrejanela) {
                                 <tr>
                                   <td><table width="165" height="165" border="0" cellpadding="0" cellspacing="0">
                                       <tr>
-                                          <td width="165" height="97" style="border:2px solid #FFFFFF;"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="167" height="97" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto não disponível</strong></a></font></div><%end if%></td>
+                                          <td width="165" height="97" style="border:2px solid #FFFFFF;"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="167" height="97" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto nï¿½o disponï¿½vel</strong></a></font></div><%end if%></td>
                                       </tr>
 									  <tr><td height="5"></td></tr>
                                       <tr>
@@ -702,7 +622,7 @@ function newWindow2(abrejanela) {
                                 <tr>
                                   <td><table width="165" height="165" border="0" cellpadding="0" cellspacing="0">
                                       <tr>
-                                          <td width="165" height="102" style="border:2px solid #FFFFFF;"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="167" height="97" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto não disponível</strong></a></font></div><%end if%></td>
+                                          <td width="165" height="102" style="border:2px solid #FFFFFF;"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="167" height="97" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto nï¿½o disponï¿½vel</strong></a></font></div><%end if%></td>
                                       </tr>
 									  
 									  <tr><td height="5"></td></tr>
@@ -736,7 +656,7 @@ function newWindow2(abrejanela) {
                                       </table></td>
                                   <td width="210" height="170"><table width="210" border="0" cellspacing="0" cellpadding="0">
                                       <tr>
-                                        <td width="210" height="128" style="border:2px solid #FFFFFF;"><div align="center"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="206" height="124" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto não disponível</strong></a></font></div><%end if%></div></td>
+                                        <td width="210" height="128" style="border:2px solid #FFFFFF;"><div align="center"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="206" height="124" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto nï¿½o disponï¿½vel</strong></a></font></div><%end if%></div></td>
                                       </tr>
                                       <tr>
                                         <td width="210" height="42"><table width="210" height="42" border="0" cellpadding="0" cellspacing="0">
@@ -810,7 +730,7 @@ function newWindow2(abrejanela) {
                                 <tr>
                                   <td><table width="165" height="165" border="0" cellpadding="0" cellspacing="0">
                                       <tr>
-                                          <td width="165" height="97" style="border:2px solid #FFFFFF;"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="167" height="97" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto não disponível</strong></a></font></div><%end if%></td>
+                                          <td width="165" height="97" style="border:2px solid #FFFFFF;"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="167" height="97" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto nï¿½o disponï¿½vel</strong></a></font></div><%end if%></td>
                                       </tr>
 									  <tr><td height="5"></td></tr>
                                       <tr>
@@ -838,7 +758,7 @@ function newWindow2(abrejanela) {
                                 <tr>
                                   <td><table width="165" height="165" border="0" cellpadding="0" cellspacing="0">
                                       <tr>
-                                          <td width="165" height="102" style="border:2px solid #FFFFFF;"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="167" height="97" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto não disponível</strong></a></font></div><%end if%></td>
+                                          <td width="165" height="102" style="border:2px solid #FFFFFF;"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="167" height="97" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto nï¿½o disponï¿½vel</strong></a></font></div><%end if%></td>
                                       </tr>
 									  
 									  <tr><td height="5"></td></tr>
@@ -872,7 +792,7 @@ function newWindow2(abrejanela) {
                                       </table></td>
                                   <td width="210" height="170"><table width="210" border="0" cellspacing="0" cellpadding="0">
                                       <tr>
-                                        <td width="210" height="128" style="border:2px solid #FFFFFF;"><div align="center"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="206" height="124" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto não disponível</strong></a></font></div><%end if%></div></td>
+                                        <td width="210" height="128" style="border:2px solid #FFFFFF;"><div align="center"><% If objFSO.FileExists(Server.MapPath(rsFrontPage("foto_pequena"))) = True Then%><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')"><img src="<%=rsFrontPage("foto_pequena")%>" width="206" height="124" border="0"></img></a><%else%><div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif" color="#9d9249"><a href="javascript:newWindow2('mostrar_imovel2.asp?varCodimovel=<%=rsFrontPage("cod_imovel")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>')" style="text-decoration:none;color:#9d9249"><strong>Foto nï¿½o disponï¿½vel</strong></a></font></div><%end if%></div></td>
                                       </tr>
                                       <tr>
                                         <td width="210" height="42"><table width="210" height="42" border="0" cellpadding="0" cellspacing="0">
@@ -941,11 +861,11 @@ SqlFranquia = "SELECT franquia.id_franquia,franquia.nome_franquia,franquia.data_
 Set rsFranquia = Server.CreateObject("ADODB.RecordSet")
 
 	rsFranquia.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rsFranquia.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
 
 rsFranquia.ActiveConnection = Conexao3
 	
@@ -997,26 +917,26 @@ Over 200+ free JavaScripts here!
 */
 
 var groups2=document.doublecombo.example2.options.length
-/* Aqui é criada uma variável "groups" que receberá os valores 
+/* Aqui ï¿½ criada uma variï¿½vel "groups" que receberï¿½ os valores 
 do combo example. */
 
 
 
 var group2=new Array(groups2)
-/* aqui a variável group recebe os valores do "array(groups)" que contem os valores
+/* aqui a variï¿½vel group recebe os valores do "array(groups)" que contem os valores
 do combo example.*/
 
 for (i2=0; i2<groups2; i2++)
-/* aqui temos um contador de zero até o número de elementos do array "groups" */
+/* aqui temos um contador de zero atï¿½ o nï¿½mero de elementos do array "groups" */
 
 group2[i2]=new Array()
-/* aqui é criado o array "group" que receberá valores conforme o número de elementos
+/* aqui ï¿½ criado o array "group" que receberï¿½ valores conforme o nï¿½mero de elementos
 do array "groups". */
 
 group2[0][0]=new Option("Qualquer Valor","vqualquer")
 
 
-/* aqui temos um array bidimensional "group" que receberá valores de opções. */
+/* aqui temos um array bidimensional "group" que receberï¿½ valores de opï¿½ï¿½es. */
 
 
 group2[1][0]=new Option("Qualquer Valor","vqualquer")
@@ -1024,20 +944,20 @@ group2[1][0]=new Option("Qualquer Valor","vqualquer")
 
 
 
-/* aqui temos um array bidimensional "group" que receberá valores de opções. */
+/* aqui temos um array bidimensional "group" que receberï¿½ valores de opï¿½ï¿½es. */
 
 group2[2][0]=new Option("Valor","vqualquer")
 group2[2][1]=new Option("Qualquer Valor","vqualquer")
 group2[2][2]=new Option("Menos de 200,00","0000000000 0000000200")
-group2[2][3]=new Option("201,00 até 500,00","0000000201 0000000500")
-group2[2][4]=new Option("501,00 até 750,00","0000000501 0000000750")
-group2[2][5]=new Option("751,00 até 1000,00","0000000751 0000001000")
-group2[2][6]=new Option("1001,00 até 1500,00","0000001001 0000001500")
-group2[2][7]=new Option("1501,00 até 2000,00","0000001501 0000002000")
-group2[2][8]=new Option("2001,00 até 2500,00","0000002001 0000002500")
-group2[2][9]=new Option("2501,00 até 3000,00","0000002501 0000003000")
-group2[2][10]=new Option("3001,00 até 3500,00","0000003001 0000003500")
-group2[2][11]=new Option("3501,00 até 4000,00","0000003501 0000004000")
+group2[2][3]=new Option("201,00 atï¿½ 500,00","0000000201 0000000500")
+group2[2][4]=new Option("501,00 atï¿½ 750,00","0000000501 0000000750")
+group2[2][5]=new Option("751,00 atï¿½ 1000,00","0000000751 0000001000")
+group2[2][6]=new Option("1001,00 atï¿½ 1500,00","0000001001 0000001500")
+group2[2][7]=new Option("1501,00 atï¿½ 2000,00","0000001501 0000002000")
+group2[2][8]=new Option("2001,00 atï¿½ 2500,00","0000002001 0000002500")
+group2[2][9]=new Option("2501,00 atï¿½ 3000,00","0000002501 0000003000")
+group2[2][10]=new Option("3001,00 atï¿½ 3500,00","0000003001 0000003500")
+group2[2][11]=new Option("3501,00 atï¿½ 4000,00","0000003501 0000004000")
 group2[2][12]=new Option("Mais de 4000,00","0000004001 1000000000")
 
 
@@ -1048,19 +968,19 @@ group2[2][12]=new Option("Mais de 4000,00","0000004001 1000000000")
 
 group2[3][0]=new Option("Valor","vqualquer")
 group2[3][1]=new Option("Qualquer Valor","vqualquer")
-group2[3][2]=new Option("Até  20.000,00","0000000000 0000020000")
-group2[3][3]=new Option("20.001,00 até 50.000,00","0000020001 0000050000")
-group2[3][4]=new Option("50.001,00 até 80.000,00","0000050001 0000080000")
-group2[3][5]=new Option("80.001,00 até 110.000,00","0000080001 0000110000")
-group2[3][6]=new Option("110.001,00 até 150.000,00","0000110001 0000150000")
-group2[3][7]=new Option("150.001,00 até 200.000,00","0000150001 0000200000")
-group2[3][8]=new Option("200.001,00 até 250.000,00","0000200001 0000250000")
-group2[3][9]=new Option("250.001,00 até 300.000,00","0000250001 0000300000")
-group2[3][10]=new Option("300.001,00 até 350.000,00","0000300001 0000350000")
-group2[3][11]=new Option("350.001,00 até 400.000,00","0000350001 0000400000")
-group2[3][12]=new Option("400.001,00 até 600.000,00","0000400001 0000600000")
-group2[3][13]=new Option("600.001,00 até 800.000,00","0000600001 0000800000")
-group2[3][14]=new Option("800.001,00 até 1000.000,00","0000800001 0001000000")
+group2[3][2]=new Option("Atï¿½  20.000,00","0000000000 0000020000")
+group2[3][3]=new Option("20.001,00 atï¿½ 50.000,00","0000020001 0000050000")
+group2[3][4]=new Option("50.001,00 atï¿½ 80.000,00","0000050001 0000080000")
+group2[3][5]=new Option("80.001,00 atï¿½ 110.000,00","0000080001 0000110000")
+group2[3][6]=new Option("110.001,00 atï¿½ 150.000,00","0000110001 0000150000")
+group2[3][7]=new Option("150.001,00 atï¿½ 200.000,00","0000150001 0000200000")
+group2[3][8]=new Option("200.001,00 atï¿½ 250.000,00","0000200001 0000250000")
+group2[3][9]=new Option("250.001,00 atï¿½ 300.000,00","0000250001 0000300000")
+group2[3][10]=new Option("300.001,00 atï¿½ 350.000,00","0000300001 0000350000")
+group2[3][11]=new Option("350.001,00 atï¿½ 400.000,00","0000350001 0000400000")
+group2[3][12]=new Option("400.001,00 atï¿½ 600.000,00","0000400001 0000600000")
+group2[3][13]=new Option("600.001,00 atï¿½ 800.000,00","0000600001 0000800000")
+group2[3][14]=new Option("800.001,00 atï¿½ 1000.000,00","0000800001 0001000000")
 group2[3][15]=new Option("Acima de 1000.000,00","0001000001 1000000000")
 
 
@@ -1071,37 +991,37 @@ group2[3][15]=new Option("Acima de 1000.000,00","0001000001 1000000000")
 
 
 
-/* aqui temos um array bidimensional "group" que receberá valores de opções. */
+/* aqui temos um array bidimensional "group" que receberï¿½ valores de opï¿½ï¿½es. */
 
 
 var temp2=document.doublecombo.stage22
-/* aqui a variável "temp" recebe os valores do segundo combo o "stage2" */
+/* aqui a variï¿½vel "temp" recebe os valores do segundo combo o "stage2" */
 
 function redirect2(x2){
-/* aqui é criada a função "redirect" que comanda o carregamento do combo "stage2" */
+/* aqui ï¿½ criada a funï¿½ï¿½o "redirect" que comanda o carregamento do combo "stage2" */
 
 for (m2=temp2.options.length-1;m2>0;m2--)
 temp2.options[m2]=null
-/* aqui temos um contador "m" que dá um valor nulo para o combo "stage2" para que 
+/* aqui temos um contador "m" que dï¿½ um valor nulo para o combo "stage2" para que 
 posteriormente esse combo possa receber os valores determinados. */
 
 for (i2=0;i2<group2[x2].length;i2++){
 temp2.options[i2]=new Option(group2[x2][i2].text,group2[x2][i2].value)
-/* aqui o combo "stage2" recebe os valores do array "group" dependendo do que é escolhido no
+/* aqui o combo "stage2" recebe os valores do array "group" dependendo do que ï¿½ escolhido no
 primeiro combo "example".*/
 
 }
 temp2.options[0].selected=true
 }
-/* aqui o array "temp.options[0]" será o valor inicial selecionado ele corresponde ao array
+/* aqui o array "temp.options[0]" serï¿½ o valor inicial selecionado ele corresponde ao array
 "stage2".*/
 
 function go(){
 location2=temp2.options[temp2.selectedIndex].value
 }
 
-/* aqui  a variável "location" recebe os valores de "stage2" que corresponde ao endereço de
-link para o carregamento de página. */
+/* aqui  a variï¿½vel "location" recebe os valores de "stage2" que corresponde ao endereï¿½o de
+link para o carregamento de pï¿½gina. */
 
 
 //-->
@@ -1111,21 +1031,21 @@ link para o carregamento de página. */
 
 <%
 Function EscreveFuncaoJavaScript ( Conexao3 )
-'O parametro conexao receberá uma conexao aberta!
-'Em funcoes, geralmente não criamos objetos do tipo conexões!
-'Opte por sempre deixar sua função o mais compatível possível com qualquer projeto!
+'O parametro conexao receberï¿½ uma conexao aberta!
+'Em funcoes, geralmente nï¿½o criamos objetos do tipo conexï¿½es!
+'Opte por sempre deixar sua funï¿½ï¿½o o mais compatï¿½vel possï¿½vel com qualquer projeto!
 
 'Primeiro vamos escrever o cabecalho de qualquer script javascript!
 Response.Write "<script language=""JavaScript"">" & vbcrlf 
 Response.Write "function atualizacarros (doublecombo) {" & vbcrlf
 
-'Essa função JavaScript recebe o form em que estão os campos a serem atualizados!
-'Veja na chamada da função no método OnChange em que se passa o this.form!
+'Essa funï¿½ï¿½o JavaScript recebe o form em que estï¿½o os campos a serem atualizados!
+'Veja na chamada da funï¿½ï¿½o no mï¿½todo OnChange em que se passa o this.form!
 
-'Vamos criar um switch para ele verificar qual opção foi selecionada!! 
+'Vamos criar um switch para ele verificar qual opï¿½ï¿½o foi selecionada!! 
 Response.Write "switch (doublecombo.combo1.options[doublecombo.combo1.selectedIndex].value) {" & vbcrlf 
 
-'Agora entramos com o banco de dados! Temos que jogar aqui todas as opções de carro!
+'Agora entramos com o banco de dados! Temos que jogar aqui todas as opï¿½ï¿½es de carro!
 SqlMarcas3 = "SELECT * FROM combo1 ORDER BY nome_combo1" 
 
 
@@ -1133,11 +1053,11 @@ SqlMarcas3 = "SELECT * FROM combo1 ORDER BY nome_combo1"
 Set rsMarcas3 = Server.CreateObject("ADODB.RecordSet")
 
 	rsMarcas3.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rsMarcas3.CursorType = 3
-'indica o tipo de cursor utilizão
+'indica o tipo de cursor utilizï¿½o
 
 rsMarcas3.ActiveConnection = Conexao3
 
@@ -1159,20 +1079,20 @@ SqlCarros3 = "SELECT * FROM combo2 WHERE id_combo1 =" & rsMarcas3("id_combo1")&"
 Set rsCarros3 = Server.CreateObject("ADODB.RecordSet")
 
 	rsCarros3.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rsCarros3.CursorType = 3
-'indica o tipo de cursor utilizão
+'indica o tipo de cursor utilizï¿½o
 
 rsCarros3.ActiveConnection = Conexao3
 
 rsCarros3.Open SqlCarros3, Conexao3
 
 
-'Fazemos um loop por todos os carros, criando uma nova opção no SELECT! 
+'Fazemos um loop por todos os carros, criando uma nova opï¿½ï¿½o no SELECT! 
 i = 0 
-Response.Write "doublecombo.combo2.options[" & i  & "] = new Option('" & "Bairro/Região" & "','" & "bqualquer" & "');"& vbcrlf
+Response.Write "doublecombo.combo2.options[" & i  & "] = new Option('" & "Bairro/Regiï¿½o" & "','" & "bqualquer" & "');"& vbcrlf
 i = 1
 While NOT rsCarros3.EoF
 
@@ -1182,14 +1102,14 @@ i=i+1
 rsCarros3.MoveNext
 Wend
 Response.Write "doublecombo.combo2.options[" & i  & "] = new Option('" & "qualquer um" & "','" & "bqualquer" & "');" 
-'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma dúvida da sua utilização! 
+'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma dï¿½vida da sua utilizaï¿½ï¿½o! 
 Response.Write "break;" & vbcrlf
 
-'Próxima marca! 
+'Prï¿½xima marca! 
 rsMarcas3.MoveNext 
 Wend 
 
-'Fecha chaves do switch e da função! E fecha o script! 
+'Fecha chaves do switch e da funï¿½ï¿½o! E fecha o script! 
 Response.Write "}}" & vbcrlf & "</script>" & vbcrlf 
 
 
