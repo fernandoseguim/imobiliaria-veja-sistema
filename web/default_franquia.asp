@@ -37,11 +37,11 @@ SqlFranquia = "SELECT franquia.id_franquia,franquia.nome_franquia,franquia.data_
 Set rsFranquia = Server.CreateObject("ADODB.RecordSet")
 
 	rsFranquia.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor � criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ? criado
 'se no cliente ou no servidor.
 
 rsFranquia.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava��o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
 
 rsFranquia.ActiveConnection = Conexao3
 	
@@ -72,7 +72,7 @@ window.open('form_enviar_email.asp', 'popUP','width=605,height=530,resizable=yes
 
 
 
-<title>Imobili�ria Veja</title>
+<title>Imobili?ria Veja</title>
 
 </head>
 
