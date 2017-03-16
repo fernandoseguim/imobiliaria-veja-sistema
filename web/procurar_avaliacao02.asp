@@ -42,7 +42,7 @@ Set rsMarcas3 = Server.CreateObject("ADODB.RecordSet")
 'se no cliente ou no servidor.
 
 rsMarcas3.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
 
 rsMarcas3.ActiveConnection = Conexao3
 	
@@ -71,7 +71,7 @@ Set rsCarros3 = Server.CreateObject("ADODB.RecordSet")
 'se no cliente ou no servidor.
 
 rsCarros3.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
 
 rsCarros3.ActiveConnection = Conexao3
 	
@@ -92,7 +92,7 @@ i=i+1
 rsCarros3.MoveNext
 Wend
 Response.Write "doublecombo.combo2.options[" & i  & "] = new Option('" & "qualquer um" & "','" & "bqualquer" & "');" 
-'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma d?vida da sua utiliza??o! 
+'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma d?vida da sua utilização! 
 Response.Write "break;" & vbcrlf
 
 'Pr?xima marca! 
@@ -145,7 +145,7 @@ dim rs4,strSQL4,Conexao
 
 
 
-'------------------------------selecionar os tipos de im?vel para o formul?rio-------------------
+'------------------------------selecionar os tipos de imóvel para o formul?rio-------------------
 
 
  dim rs444Tipo22,strSQL444Tipo22
@@ -179,7 +179,7 @@ dim rs4,strSQL4,Conexao
 
 <!--#include file="style_imoveis02.asp"-->
 
-<title>Avalia??o</title>
+<title>Avaliação</title>
 
 <head>
 
@@ -236,7 +236,7 @@ if (doublecombo.combo1.value == "cqualquer") {
 
 
 if (doublecombo.example2.value == "nqualquer") {
-		alert("Por favor, escolha um tipo de negocia??o , pois assim , voc? ter? um atendimento preferencial e exclusivo.");
+		alert("Por favor, escolha um tipo de negociação , pois assim , voc? ter? um atendimento preferencial e exclusivo.");
 		doublecombo.example2.focus();
 		
 		return false;
@@ -269,9 +269,9 @@ if (doublecombo.example2.value == "nqualquer") {
 <table width="250" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td><div align="center"><font color="#9d9249" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Sendo 
-          o sr(a) realmente propriet&aacute;rio de um im&oacute;vel e tendo o 
-          interesse em avali&aacute;-lo, preencha os campos abaixo, n&atilde;o 
-          tendo o interesse, clique em n&atilde;o avaliar.<br>
+          o sr(a) realmente proprietário de um imóvel e tendo o 
+          interesse em avaliá-lo, preencha os campos abaixo, não 
+          tendo o interesse, clique em não avaliar.<br>
           <br><br>
           <font size="3">E depois fique a vontade para navegar no site.</font></strong></font> 
         </div></td>
@@ -342,7 +342,7 @@ if (doublecombo.example2.value == "nqualquer") {
 							
                             <tr>
                                   <td><select name="txt_tipo" size="1"  style="HEIGHT: 18px; WIDTH: 250px; font-size : 10px;  color:#9d9249;background:<%=claro%>; ">
-                  <option value="tqualquer" selected>Tipo do seu im?vel</option>
+                  <option value="tqualquer" selected>Tipo do seu imóvel</option>
 				   
                   	<% if not rs444Tipo22.eof then%>
 					<% While NOT rs444Tipo22.EoF %>
@@ -366,7 +366,7 @@ if (doublecombo.example2.value == "nqualquer") {
 							
 							<tr>
                                   <td><select name="txt_Quartos" size="1"   style="HEIGHT: 18px; WIDTH: 250px; font-size : 10px;  color:#9d9249;background:<%=claro%>; ">
-                  <option value="0" selected>N?mero de quartos do seu im?vel</option>
+                  <option value="0" selected>N?mero de quartos do seu imóvel</option>
 				   
                   <option value="01">01</option>
 				   <option value="02">02</option>
@@ -384,7 +384,7 @@ if (doublecombo.example2.value == "nqualquer") {
 							
 							<tr>
                                   <td><select name="txt_garagem" size="1"   style="HEIGHT: 18px; WIDTH: 250px; font-size : 10px;  color:#9d9249;background:<%=claro%>; ">
-                  <option value="0" selected>N?mero de vagas na garagem do seu im?vel</option>
+                  <option value="0" selected>N?mero de vagas na garagem do seu imóvel</option>
 				   
                   <option value="01">01</option>
 				   <option value="02">02</option>
@@ -403,7 +403,7 @@ if (doublecombo.example2.value == "nqualquer") {
 							 <tr>
                                   
               <td><div align="right"><font color="#9d9249" size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong>Metragem 
-                  do seu im&oacute;vel:</strong></font> 
+                  do seu imóvel:</strong></font> 
                   <input name="txt_area_total" type="text" class="inputBox" id="txt_area_total" style="border-color:#9d9249;HEIGHT: 18px; WIDTH: 80px;color:#9d9249;background:<%=claro%>;" value="00" size="12" maxlength="20">
                   <font color="#FFFFFF"> <font color="#000000" size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
                   m&sup2;</font> </font></div></td>

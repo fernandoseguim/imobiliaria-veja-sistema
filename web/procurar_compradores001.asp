@@ -637,7 +637,7 @@ function isValidDigitNumber2 (form)
 {
 
 if (form.combo3.value == "cqualquer") {
-		alert("Por favor, informe a cidade onde se localiza o seu im?vel.");
+		alert("Por favor, informe a cidade onde se localiza o seu imóvel.");
 		form.combo3.focus();
 		
 		return false;
@@ -645,7 +645,7 @@ if (form.combo3.value == "cqualquer") {
 
 
 if (form.combo4.value == "bqualquer") {
-		alert("Por favor, informe o bairro onde se localiza o seu im?vel.");
+		alert("Por favor, informe o bairro onde se localiza o seu imóvel.");
 		form.combo4.focus();
 		
 		return false;
@@ -653,7 +653,7 @@ if (form.combo4.value == "bqualquer") {
 
 
 if (form.txt_tipo.value == "tqualquer") {
-		alert("Por favor, informe o tipo do seu im?vel.");
+		alert("Por favor, informe o tipo do seu imóvel.");
 		form.txt_tipo.focus();
 		
 		return false;
@@ -661,7 +661,7 @@ if (form.txt_tipo.value == "tqualquer") {
 
 
 if (form.txt_quartos.value == "qqualquer") {
-		alert("Por favor, informe quantos quartos tem o seu im?vel.");
+		alert("Por favor, informe quantos quartos tem o seu imóvel.");
 		form.txt_quartos.focus();
 		
 		return false;
@@ -669,7 +669,7 @@ if (form.txt_quartos.value == "qqualquer") {
 
 
 if (form.txt_vagas.value == "vgqualquer") {
-		alert("Por favor, informe quantas vagas na garagem tem o seu im?vel.");
+		alert("Por favor, informe quantas vagas na garagem tem o seu imóvel.");
 		form.txt_vagas.focus();
 		
 		return false;
@@ -711,9 +711,9 @@ if (form.stage222.value == "vqualquer") {
   <tr>
       <td height="60" bgcolor="#e6dca9" > 
         <div align="center">
-          <div align="center"><font color="#e0a94e" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#FF0000" size="3">Est? 
-            ? a p?gina para voc? encontrar um comprador ou inquilino para o seu 
-            im?vel</font></strong></font><font color="#FF0000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <div align="center"><font color="#e0a94e" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#FF0000" size="3">Esta 
+            é a página para você encontrar um comprador ou inquilino para o seu 
+            imóvel</font></strong></font><font color="#FF0000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
             </strong></font><font color="#FFFFFF" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
             </strong></font></div>
           <font color="#9d9249" size="1" face="Verdana, Arial, Helvetica, sans-serif"></font></div></td> 
@@ -750,7 +750,7 @@ if (form.stage222.value == "vqualquer") {
                                   <td width="356" height="20"> 
                                     <div align="center">
                                       <select name="combo3" class="inputBox" id="combo3" style="HEIGHT: 18px; WIDTH: 350px; font-size : 12px;  background: #b2802c; color:#FFFFFF;" onChange="javascript:atualizacarros2(this.form);">
-                                        <option value="cqualquer" >Em qual cidade est? localizado seu im?vel?</option>
+                                        <option value="cqualquer" >Em qual cidade Esta localizado seu imóvel?</option>
           
 		    <% if not rs33.eof then %>
             <% While NOT Rs33.EoF %>
@@ -772,7 +772,7 @@ if (form.stage222.value == "vqualquer") {
                                   <td width="356" height="20"> 
                                     <div align="center">
                                       <select name="combo4"  class="inputBox" id="combo4" style="HEIGHT: 18px; WIDTH: 350px; font-size : 12px;  background: #b2802c; color:#FFFFFF;">
-                                       <option value="bqualquer" >Em qual bairro est? localizado seu im?vel?</option>
+                                       <option value="bqualquer" >Em qual bairro Esta localizado seu imóvel?</option>
             <% if not rs44.eof then%>
             <% While NOT Rs44.EoF %>
              <option value="<% = Rs44("id_combo2") %>" <% if session("vBairro2") <> "bqualquer" then if int(Rs44("id_combo2")) <> int(session("vBairro2"))  then response.write "" else response.write "selected" end if end if %>> 
@@ -795,7 +795,7 @@ if (form.stage222.value == "vqualquer") {
                                     <div align="center">
                                       <select name="txt_tipo" size="1"  class="inputBox" id="txt_tipo" style="HEIGHT: 18px; WIDTH: 350px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
                                       
-									  <option value="<%if session("vTipo") <> "tqualquer" and session("vTipo") <> "" then  response.write session("vTipo") else response.write "tqualquer" end if%>" selected><%if session("vTipo") <> "tqualquer" and session("vTipo") <> "" then  response.write session("vTipo") else response.write "Qual o tipo de im?vel que o sr(a) tem ?" end if%></option>
+									  <option value="<%if session("vTipo") <> "tqualquer" and session("vTipo") <> "" then  response.write session("vTipo") else response.write "tqualquer" end if%>" selected><%if session("vTipo") <> "tqualquer" and session("vTipo") <> "" then  response.write session("vTipo") else response.write "Qual o tipo de imóvel que o sr(a) tem ?" end if%></option>
 				 
 									   
                   <option value="tqualquer">Qualquer um</option>
@@ -817,7 +817,7 @@ if (form.stage222.value == "vqualquer") {
                                     <div align="center">
                                       <select name="txt_quartos" size="1"  class="inputBox" id="txt_quartos" style="HEIGHT: 18px; WIDTH: 350px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
                                         
-										 <option value="<% if session("vQuartos") <> "qqualquer" and session("vQuartos") <> "" then response.write session("vQuartos") else response.write "qqualquer" end if%>"><% if session("vQuartos") <> "qqualquer" and session("vQuartos") <> "" then response.write session("vQuartos") else response.write "Quantos quartos tem o seu im?vel?" end if%></option>
+										 <option value="<% if session("vQuartos") <> "qqualquer" and session("vQuartos") <> "" then response.write session("vQuartos") else response.write "qqualquer" end if%>"><% if session("vQuartos") <> "qqualquer" and session("vQuartos") <> "" then response.write session("vQuartos") else response.write "Quantos quartos tem o seu imóvel?" end if%></option>
 										 
                   <option value="qqualquer">Qualquer um</option>
                  <option value="00">00</option>
@@ -838,7 +838,7 @@ if (form.stage222.value == "vqualquer") {
                                     <div align="center">
                                       <select name="txt_vagas" size="1"  class="inputBox" id="txt_vagas"  style="HEIGHT: 18px; WIDTH: 350px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
                                        
-									   <option value="<% if session("vVagas") <> "vgqualquer" and session("vVagas") <> "" then response.write session("vVagas") else response.write "vgqualquer" end if%>"><% if session("vVagas") <> "vgqualquer" and session("vVagas") <> "" then response.write session("vVagas") else response.write "Quantas vagas na garagem tem o seu im?vel?" end if%></option>
+									   <option value="<% if session("vVagas") <> "vgqualquer" and session("vVagas") <> "" then response.write session("vVagas") else response.write "vgqualquer" end if%>"><% if session("vVagas") <> "vgqualquer" and session("vVagas") <> "" then response.write session("vVagas") else response.write "Quantas vagas na garagem tem o seu imóvel?" end if%></option>
 									   
 									    
                   <option value="vgqualquer">Qualquer um</option>
@@ -876,7 +876,7 @@ if (form.stage222.value == "vqualquer") {
 				
 				 else 
 				 
-				 response.write "O que o sr(a) quer fazer com seu im?vel?" end if%>
+				 response.write "O que o sr(a) quer fazer com seu imóvel?" end if%>
                                           </option>
                                           <option  value="nqualquer">Qualquer 
                                           um</option>
@@ -1420,10 +1420,10 @@ Next
             <tr>
               <td bgcolor="#e6dca9"><div align="center"><font color="red" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
                   <% if vCidade2 <> "" then %>
-                  N?o foi encontrado nenhum comprador/inquilino para o seu im?vel. 
+                  N?o foi encontrado nenhum comprador/inquilino para o seu imóvel. 
                   <%else%>
-                  Est? ? a p?gina para voc? encontrar um comprador/inquilino para 
-                  o seu im?vel. 
+                  Esta é a página para você encontrar um comprador/inquilino para 
+                  o seu imóvel. 
                   <%end if%>
                   </strong></font></div></td>
             </tr>
@@ -1593,7 +1593,7 @@ else
 vNegociacao002 = "aluguel"
 end if
 
-Conexao3.execute"Insert into imoveis(proprietario,endereco,telefone,email,foto_grande,foto_pequena,foto_grande1,foto_grande2,foto_grande3,foto_grande4,foto_grande5,foto_grande6,foto_grande7,foto_grande8,foto_grande9,foto_grande10,link_foto,cidade,bairro,tipo,area_total,area_construida,quartos,banheiros,vagas,negociacao,valor,data,obs_imovel,obs_proprietario,presenca_primeira,titulo_anuncio,texto_anuncio,standby,ocupacao,captacao,data_atualizacao,vila,placa,condominio,cod_permuta,cod_comprador,qualidade,indexador_indicacoes,origem_captacao,data_captacao,cliques_no_imovel,tarja02,data01_tarja02,data02_tarja02,imovel_em_negociacao,data_contato,origem_franquia) values( '"& session("nome") &"','"& "n?o informado" &"','"& session("telefone") &"','"& session("email") &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "icon_foto2.gif" &"','"& vCidade &"','"& vBairro &"','"& vTipo &"','"& "0" &"','"& "0" &"','"& session("vQuartos") &"','"& "n?o informado" &"','"& session("vVagas")&"','"& vNegociacao002 &"','"& int(session("vValorMedio")) &"','"& now() &"','"& "n?o informado" &"','"& "n?o informado" &"','"& "excluido" &"','"& "n?o informado" &"','"& "n?o informado" &"','"& "excluido" &"','"& "n?o informado" &"','"& "internet" &"','"& now() &"','"& "n?o informado" &"','"& "Sem Placa"&"','"& "0" &"','"& "0" &"','"& "0" &"','"& "neg?cio comum" &"','"&"0"&"','"&"Busca de compradores"&"','"& now()&"','"& "0"&"','"& "sim"&"','"& day(now())&"','"& day(DateAdd("d", 15, now()))&"','"& "Im?vel n?o contatado" &"','"& now() &"','"& session("vOrigem_Franquia") &"')"	 
+Conexao3.execute"Insert into imoveis(proprietario,endereco,telefone,email,foto_grande,foto_pequena,foto_grande1,foto_grande2,foto_grande3,foto_grande4,foto_grande5,foto_grande6,foto_grande7,foto_grande8,foto_grande9,foto_grande10,link_foto,cidade,bairro,tipo,area_total,area_construida,quartos,banheiros,vagas,negociacao,valor,data,obs_imovel,obs_proprietario,presenca_primeira,titulo_anuncio,texto_anuncio,standby,ocupacao,captacao,data_atualizacao,vila,placa,condominio,cod_permuta,cod_comprador,qualidade,indexador_indicacoes,origem_captacao,data_captacao,cliques_no_imovel,tarja02,data01_tarja02,data02_tarja02,imovel_em_negociacao,data_contato,origem_franquia) values( '"& session("nome") &"','"& "n?o informado" &"','"& session("telefone") &"','"& session("email") &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "icon_foto2.gif" &"','"& vCidade &"','"& vBairro &"','"& vTipo &"','"& "0" &"','"& "0" &"','"& session("vQuartos") &"','"& "n?o informado" &"','"& session("vVagas")&"','"& vNegociacao002 &"','"& int(session("vValorMedio")) &"','"& now() &"','"& "n?o informado" &"','"& "n?o informado" &"','"& "excluido" &"','"& "n?o informado" &"','"& "n?o informado" &"','"& "excluido" &"','"& "n?o informado" &"','"& "internet" &"','"& now() &"','"& "n?o informado" &"','"& "Sem Placa"&"','"& "0" &"','"& "0" &"','"& "0" &"','"& "neg?cio comum" &"','"&"0"&"','"&"Busca de compradores"&"','"& now()&"','"& "0"&"','"& "sim"&"','"& day(now())&"','"& day(DateAdd("d", 15, now()))&"','"& "imóvel n?o contatado" &"','"& now() &"','"& session("vOrigem_Franquia") &"')"	 
 	
 
 
@@ -1620,7 +1620,7 @@ Function EscreveFuncaoJavaScript2 ( Conexao3 )
 Response.Write "<script language=""JavaScript"">" & vbcrlf 
 Response.Write "function atualizacarros2 (form) {" & vbcrlf
 
-'Essa fun??o JavaScript recebe o form em que est?o os campos a serem atualizados!
+'Essa fun??o JavaScript recebe o form em que Estao os campos a serem atualizados!
 'Veja na chamada da fun??o no m?todo OnChange em que se passa o this.form!
 
 'Vamos criar um switch para ele verificar qual op??o foi selecionada!! 
@@ -1681,7 +1681,7 @@ rsCarros33.Open SqlCarros33, Conexao3
 
 'Fazemos um loop por todos os carros, criando uma nova op??o no SELECT! 
  i = 0 
-Response.Write "form.combo4.options[" & i  & "] = new Option('" & "Qual o bairro do seu im?vel?" & "','" & "bqualquer" & "');"& vbcrlf
+Response.Write "form.combo4.options[" & i  & "] = new Option('" & "Qual o bairro do seu imóvel?" & "','" & "bqualquer" & "');"& vbcrlf
 i = 1
 While NOT rsCarros33.EoF
 

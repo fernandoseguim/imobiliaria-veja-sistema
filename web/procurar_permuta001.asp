@@ -7,7 +7,7 @@
 
 
 if session("vOrigem_Franquia") = "" then
-session("vOrigem_Franquia") = "Sï¿½o Bernardo"
+session("vOrigem_Franquia") = "S?o Bernardo"
 end if
 
 
@@ -485,7 +485,7 @@ end if
 	 
 	 
 
- '-----------------------------Buscando os tipos de imï¿½veis---------------------
+ '-----------------------------Buscando os tipos de imóveis---------------------
  
  
  
@@ -520,7 +520,7 @@ end if
  
  
  
- '------------------------------Nï¿½meros de quartos--------------------------------
+ '------------------------------N?meros de quartos--------------------------------
 
  
  
@@ -550,7 +550,7 @@ end if
  
  
  
- '------------------------------Nï¿½meros de Vagas--------------------------------
+ '------------------------------N?meros de Vagas--------------------------------
 
  
  
@@ -591,8 +591,8 @@ end if
 
 stringIndex = " where cod_permuta<>"&"0"&"" 
 
-if  session("vCidade_vend") <> "cqualquer" and session("vCidade_vend") <> "qualquer um" and session("vCidade_vend") <> "nï¿½o informado" and session("vCidade_vend") <> "" then
-stringCidadeVend = " and (cidade_comp='"& session("vCidade_vend")&"' or cidade_comp='"& "nï¿½o informado" &"' or cidade_comp='"& "cqualquer" &"' or cidade_comp='"&"qualquer um"&"')"
+if  session("vCidade_vend") <> "cqualquer" and session("vCidade_vend") <> "qualquer um" and session("vCidade_vend") <> "n?o informado" and session("vCidade_vend") <> "" then
+stringCidadeVend = " and (cidade_comp='"& session("vCidade_vend")&"' or cidade_comp='"& "n?o informado" &"' or cidade_comp='"& "cqualquer" &"' or cidade_comp='"&"qualquer um"&"')"
 else
 stringCidadeVend = ""
 end if
@@ -608,8 +608,8 @@ end if
 
 dim stringBairroVend
 
- if   session("vBairro_vend") <> "bqualquer"  and session("vBairro_vend") <> "" and session("vBairro_vend") <> "nï¿½o informado" and session("vBairro_vend") <> "qualquer um" then
-	stringBairroVend = " and (Bairro_comp like '%"&session("vBairro_vend")&"%' or Bairro_comp like '%"&"nï¿½o informado"&"%' or Bairro_comp like'%"&"bqualquer"&"%' or Bairro_comp like'%"&"qualquer um"&"%')"
+ if   session("vBairro_vend") <> "bqualquer"  and session("vBairro_vend") <> "" and session("vBairro_vend") <> "n?o informado" and session("vBairro_vend") <> "qualquer um" then
+	stringBairroVend = " and (Bairro_comp like '%"&session("vBairro_vend")&"%' or Bairro_comp like '%"&"n?o informado"&"%' or Bairro_comp like'%"&"bqualquer"&"%' or Bairro_comp like'%"&"qualquer um"&"%')"
  else
 
 stringBairroVend = ""
@@ -622,7 +622,7 @@ end if
 
 
 
- '--------------------------Tipo do seu imï¿½vel------------------------
+ '--------------------------Tipo do seu imóvel------------------------
  
  
  dim stringTipoVend
@@ -639,7 +639,7 @@ stringTipoVend = ""
 
 
  
- '-----------------------Nï¿½mero de quartos do seu imï¿½vel-----------------
+ '-----------------------N?mero de quartos do seu imóvel-----------------
  
  
  
@@ -658,7 +658,7 @@ stringQuartosVend = ""
 
  
  
- '-----------------------Nï¿½mero de Vagas do seu imï¿½vel-----------------
+ '-----------------------N?mero de Vagas do seu imóvel-----------------
  
  
  
@@ -679,7 +679,7 @@ stringVagasVend = ""
  
  
  
- '-----------------------------Valor de venda do seu imï¿½vel----------------
+ '-----------------------------Valor de venda do seu imóvel----------------
  
  
  
@@ -719,7 +719,7 @@ stringVagasVend = ""
  
  
 	 dim stringCidadeComp
-  if session("vCidade_comp")<>"cqualquer" and session("vCidade_comp")<>"cqualquer" and session("vCidade_comp")<>"nï¿½o informado" and session("vCidade_comp")<>"qualquer um" and session("vCidade_comp")<>"" then
+  if session("vCidade_comp")<>"cqualquer" and session("vCidade_comp")<>"cqualquer" and session("vCidade_comp")<>"n?o informado" and session("vCidade_comp")<>"qualquer um" and session("vCidade_comp")<>"" then
 	stringCidadeComp = " and Cidade_vend ='"& session("vCidade_comp") &"'"
 	else
 	
@@ -733,7 +733,7 @@ stringVagasVend = ""
  
 	 dim stringBairroComp
 
-	if session("vBairro_comp") <> "bqualquer" and session("vBairro_comp") <> "bqualquer" and session("vBairro_comp") <> "nï¿½o informado" and session("vBairro_comp") <> "qualquer um" and session("vBairro_comp") <> "" then
+	if session("vBairro_comp") <> "bqualquer" and session("vBairro_comp") <> "bqualquer" and session("vBairro_comp") <> "n?o informado" and session("vBairro_comp") <> "qualquer um" and session("vBairro_comp") <> "" then
 	stringBairroComp = " and Bairro_vend ='"& session("vBairro_comp") &"'"
 	else
 	
@@ -859,11 +859,11 @@ stringVagasVend = ""
 	
 	
 	if vNome = "" then
-	vNome = "nï¿½o informado"
+	vNome = "n?o informado"
 	end if
 	
 	if vTelefone = "" then
-	vTelefone = "nï¿½o informado"
+	vTelefone = "n?o informado"
 	end if
 	
 	
@@ -883,11 +883,11 @@ dim rs444VerificaConta2,strSQL444VerificaConta2
 	strSQL444VerificaConta2 = "SELECT imoveis.cod_imovel,imoveis.foto_grande,imoveis.cidade,imoveis.bairro,imoveis.tipo,imoveis.area_total,imoveis.area_construida,imoveis.quartos,imoveis.banheiros,imoveis.vagas,imoveis.negociacao,imoveis.valor,imoveis.link_foto,imoveis.proprietario,imoveis.endereco,imoveis.data,imoveis.telefone,imoveis.email,imoveis.obs_imovel,imoveis.obs_proprietario,imoveis.foto_pequena,imoveis.presenca_primeira,imoveis.titulo_anuncio,imoveis.texto_anuncio,imoveis.foto_grande1,imoveis.foto_grande2,imoveis.foto_grande3,imoveis.foto_grande4,imoveis.foto_grande5,imoveis.StandBy,imoveis.foto_gigante,imoveis.ocupacao,imoveis.data_atualizacao,imoveis.captacao,imoveis.vila,imoveis.qualidade,imoveis.foto_grande6,imoveis.foto_grande7,imoveis.foto_grande8,imoveis.foto_grande9,imoveis.foto_grande10,imoveis.cod_permuta,imoveis.cod_comprador,imoveis.condominio,imoveis.placa,imoveis.dataLastEmail,imoveis.textoLastEmail,imoveis.data_futuro_contato,imoveis.assunto_futuro_contato,imoveis.telefone02,imoveis.telefone03,imoveis.suites,imoveis.chaves_do_imovel,imoveis.melhor_horario_visita,imoveis.imovel_em_negociacao,imoveis.metros_de_frente,imoveis.metros_de_fundo,imoveis.metros_lateral_esquerda,imoveis.metros_lateral_direita,imoveis.origem_captacao,imoveis.responsavel_cadastramento,imoveis.data_ultimo_acesso,imoveis.saldo_devedor,imoveis.ja_pago_devedor,imoveis.devendo_devedor,imoveis.quem_atualizou  FROM imoveis where telefone like '%"&session("telefone")&"%' or telefone02 like'%"&session("telefone")&"%' or telefone03 like'%"&session("telefone")&"%'" 
 	
 	rs444VerificaConta2.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ? criado
 'se no cliente ou no servidor.
 
 rs444VerificaConta2.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
 
 rs444VerificaConta2.ActiveConnection = Conexao3
 	
@@ -902,11 +902,11 @@ rs444VerificaConta2.ActiveConnection = Conexao3
 	
 	
 	 rs444VerificaConta3.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ? criado
 'se no cliente ou no servidor.
 
  rs444VerificaConta3.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
 
  rs444VerificaConta3.ActiveConnection = Conexao3
 	
@@ -970,7 +970,7 @@ rs444VerificaConta2.ActiveConnection = Conexao3
 	if vCidade_comp <> "cqualquer" then
 	vCidade_comp = vCidade_comp
 	else
-	vCidade_comp = "nï¿½o informado"
+	vCidade_comp = "n?o informado"
 	end if
 	
 	
@@ -978,18 +978,18 @@ rs444VerificaConta2.ActiveConnection = Conexao3
 	if vBairro_comp <> "bqualquer" then
 	vBairro_comp = vCidade_comp
 	else
-	vBairro_comp = "nï¿½o informado"
+	vBairro_comp = "n?o informado"
 	end if
 	
 	
 	
 	
 	
-	'Conexao3.execute"Insert into compradores(nome,telefone,email,cidade,bairro,tipo,quartos,negociacao,valor,data,descricao,atendimento,data_atualizacao,vila,vagas,ocupacao,standby,cod_imovel,cod_permuta,acessos,descricao_confi,origem) values( '"& session("nome") &"','"& session("telefone") &"','"& session("email") &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& vQuartos_comp &"','"& "compra" &"','"& int(varValorMedioComp) &"','"& now() &"','"& "nï¿½o informado" &"','"& "internet" &"','"& now() &"','"& "nï¿½o informado" &"','"& session("vVagas_comp") &"','"& "nï¿½o informado" &"','"& "excluido" &"','"& "0" &"','"& "0" &"','"& "0" &"','"& "Nï¿½o informado" &"','"& "internet" &"')"
+	'Conexao3.execute"Insert into compradores(nome,telefone,email,cidade,bairro,tipo,quartos,negociacao,valor,data,descricao,atendimento,data_atualizacao,vila,vagas,ocupacao,standby,cod_imovel,cod_permuta,acessos,descricao_confi,origem) values( '"& session("nome") &"','"& session("telefone") &"','"& session("email") &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& vQuartos_comp &"','"& "compra" &"','"& int(varValorMedioComp) &"','"& now() &"','"& "n?o informado" &"','"& "internet" &"','"& now() &"','"& "n?o informado" &"','"& session("vVagas_comp") &"','"& "n?o informado" &"','"& "excluido" &"','"& "0" &"','"& "0" &"','"& "0" &"','"& "N?o informado" &"','"& "internet" &"')"
 	
 	
 				
-'Conexao3.execute"Insert into imoveis(proprietario,endereco,telefone,email,foto_grande,foto_pequena,foto_grande1,foto_grande2,foto_grande3,foto_grande4,foto_grande5,foto_grande6,foto_grande7,foto_grande8,foto_grande9,foto_grande10,link_foto,cidade,bairro,tipo,area_total,area_construida,quartos,banheiros,vagas,negociacao,valor,data,obs_imovel,obs_proprietario,presenca_primeira,titulo_anuncio,texto_anuncio,standby,ocupacao,captacao,data_atualizacao,vila,placa,condominio,cod_permuta,cod_comprador,qualidade,indexador_indicacoes) values( '"& session("nome") &"','"& "nï¿½o informado" &"','"& session("telefone") &"','"& session("email") &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "icon_foto2.gif" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "0" &"','"& "0" &"','"& vQuartos_vend &"','"& "nï¿½o informado" &"','"& vVagas_vend&"','"& "venda" &"','"& int(varValorMedioVend) &"','"& now() &"','"& "nï¿½o informado" &"','"& "nï¿½o informado" &"','"& "excluido" &"','"& "nï¿½o informado" &"','"& "nï¿½o informado" &"','"& "excluido" &"','"& "nï¿½o informado" &"','"& "internet" &"','"& now() &"','"& "nï¿½o informado" &"','"& "Sem Placa"&"','"& "0" &"','"& "0" &"','"& "0" &"','"& "negï¿½cio comum" &"','"&"0"&"')"	 
+'Conexao3.execute"Insert into imoveis(proprietario,endereco,telefone,email,foto_grande,foto_pequena,foto_grande1,foto_grande2,foto_grande3,foto_grande4,foto_grande5,foto_grande6,foto_grande7,foto_grande8,foto_grande9,foto_grande10,link_foto,cidade,bairro,tipo,area_total,area_construida,quartos,banheiros,vagas,negociacao,valor,data,obs_imovel,obs_proprietario,presenca_primeira,titulo_anuncio,texto_anuncio,standby,ocupacao,captacao,data_atualizacao,vila,placa,condominio,cod_permuta,cod_comprador,qualidade,indexador_indicacoes) values( '"& session("nome") &"','"& "n?o informado" &"','"& session("telefone") &"','"& session("email") &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "icon_foto2.gif" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "0" &"','"& "0" &"','"& vQuartos_vend &"','"& "n?o informado" &"','"& vVagas_vend&"','"& "venda" &"','"& int(varValorMedioVend) &"','"& now() &"','"& "n?o informado" &"','"& "n?o informado" &"','"& "excluido" &"','"& "n?o informado" &"','"& "n?o informado" &"','"& "excluido" &"','"& "n?o informado" &"','"& "internet" &"','"& now() &"','"& "n?o informado" &"','"& "Sem Placa"&"','"& "0" &"','"& "0" &"','"& "0" &"','"& "neg?cio comum" &"','"&"0"&"')"	 
 
 	
 	
@@ -1014,11 +1014,11 @@ rs444VerificaConta2.ActiveConnection = Conexao3
 	
 
 	rs444VerificaConta02.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ? criado
 'se no cliente ou no servidor.
 
 rs444VerificaConta02.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
 
 rs444VerificaConta02.ActiveConnection = Conexao3
 	
@@ -1146,7 +1146,7 @@ rs666.ActiveConnection = Conexao3
 
 <script>
 
-// Verifica se somente nï¿½meros foram digitados no campo
+// Verifica se somentenúmeros foram digitados no campo
 function isValidDigitNumber2 (doublecombo2) 
 {
 
@@ -1154,7 +1154,7 @@ function isValidDigitNumber2 (doublecombo2)
 {
 
 if (doublecombo2.txt_valor_vend.value == "vqualquer") {
-		alert("Por favor, coloque o valor do seu imï¿½vel.");
+		alert("Por favor, coloque o valor do seu imóvel.");
 		doublecombo2.txt_valor_vend.focus();
 		
 		return false;
@@ -1162,7 +1162,7 @@ if (doublecombo2.txt_valor_vend.value == "vqualquer") {
 
 
 if (doublecombo2.txt_valor_comp.value == "vqualquer") {
-		alert("Por favor, coloque o valor do imï¿½vel que pretende adquirir.");
+		alert("Por favor, coloque o valor do imóvel que pretende adquirir.");
 		doublecombo2.txt_valor_comp.focus();
 		
 		return false;
@@ -1197,9 +1197,9 @@ function newWindow2(abrejanela) {
     <td width="794" height="106"><img src="top01.jpg" width="794" height="106"></td>
   </tr>
   <tr>
-      <td height="60" bgcolor="#e0a94e"><div align="center"><font color="#e0a94e" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#FF0000" size="3">Estï¿½ 
-          ï¿½ a pï¿½gina para vocï¿½ encontrar uma pessoa para trocar o im&oacute;vel 
-          com voc&ecirc;</font></strong></font></div></td>
+      <td height="60" bgcolor="#e0a94e"><div align="center"><font color="#e0a94e" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#FF0000" size="3">Est? 
+          Esta é a página para você encontrar uma pessoa para trocar o imóvel 
+          com você</font></strong></font></div></td>
   </tr>
   <tr>
     <td height="260" bgcolor="#e0a94e"> 
@@ -1232,7 +1232,7 @@ function newWindow2(abrejanela) {
                                       <tr> 
                                         <td width="372" height="22"><div align="center">
                                             <select name="combo1"  id="combo1" class="inputBox" style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;" onChange="javascript:atualizacarros(this.form);">
-                                              <option value="cqualquer" selected>Qual a cidade do seu imï¿½vel ?</option>
+                                              <option value="cqualquer" selected>Qual a cidade do seu imóvel ?</option>
             <option value="cqualquer">Qualquer cidade</option>
            
 		   
@@ -1254,7 +1254,7 @@ function newWindow2(abrejanela) {
                                       <tr> 
                                         <td width="372" height="22"><div align="center">
                                             <select name="combo2" id="combo2"  class="inputBox"  style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
-                                             <option value="bqualquer" selected>Qual o bairro do seu imï¿½vel ?</option>
+                                             <option value="bqualquer" selected>Qual o bairro do seu imóvel ?</option>
               <option value="bqualquer">Qualquer bairro</option>
              
 			 
@@ -1279,7 +1279,7 @@ function newWindow2(abrejanela) {
                                       <tr> 
                                         <td width="372" height="22"><div align="center">
                                             <select name="txt_tipo_vend" size="1" id="txt_tipo_vend" style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
-                                              <option value="<%=session("vTipo_vend")%>" selected><%if session("vTipo_vend") <> "tqualquer" and session("vTipo_vend") <> "" then  response.write session("vTipo_vend") else response.write "Qual o tipo do seu imï¿½vel?" end if%></option>
+                                              <option value="<%=session("vTipo_vend")%>" selected><%if session("vTipo_vend") <> "tqualquer" and session("vTipo_vend") <> "" then  response.write session("vTipo_vend") else response.write "Qual o tipo do seu imóvel?" end if%></option>
 				 
                   <option value="tqualquer">Qualquer um</option>
 				  	<% if not rs444Tipo23.eof then%>
@@ -1298,7 +1298,7 @@ function newWindow2(abrejanela) {
                                       <tr> 
                                         <td width="372" height="22"><div align="center">
                                             <select name="txt_quartos_vend" size="1" id="txt_quartos_vend" style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
-                                           <option value="<%=session("vQuartos_vend")%>"><% if session("vQuartos_vend") <> "qqualquer" and session("vQuartos_vend") <> "" then response.write session("vQuartos_vend") else response.write "Quantos quartos tem o seu imï¿½vel?" end if%></option>
+                                           <option value="<%=session("vQuartos_vend")%>"><% if session("vQuartos_vend") <> "qqualquer" and session("vQuartos_vend") <> "" then response.write session("vQuartos_vend") else response.write "Quantos quartos tem o seu imóvel?" end if%></option>
 										 
 			   <option value="qqualquer">Qualquer um</option>
 			 			 
@@ -1318,7 +1318,7 @@ function newWindow2(abrejanela) {
                                         <td width="372" height="22"><div align="center">
                                             <select name="txt_vagas_vend" size="1" id="txt_vagas_vend" class="inputBox" style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
                                              
-											  <option value="<%=session("vVagas_vend")%>"><% if session("vVagas_vend") <> "vgqualquer" and session("vVagas_vend") <> "" then response.write session("vVagas_vend") else response.write "Quantas vagas na garagem tem o seu imï¿½vel" end if%></option>
+											  <option value="<%=session("vVagas_vend")%>"><% if session("vVagas_vend") <> "vgqualquer" and session("vVagas_vend") <> "" then response.write session("vVagas_vend") else response.write "Quantas vagas na garagem tem o seu imóvel" end if%></option>
 									   
 			  
 			  <option value="vgqualquer">Qualquer um</option>
@@ -1342,19 +1342,19 @@ function newWindow2(abrejanela) {
 				  
            
 			 
-			   <option value="<%=session("vValor_vend")%>" selected><% if session("vValor_vend") <> "vqualquer" and session("vValor_vend") <> "" then response.write FormatNumber(session("vValor_vend1"),2)&" atï¿½ "&FormatNumber(session("vValor_vend2"),2) else response.write "Qual o valor do seu imï¿½vel?" end if%></option>
+			   <option value="<%=session("vValor_vend")%>" selected><% if session("vValor_vend") <> "vqualquer" and session("vValor_vend") <> "" then response.write FormatNumber(session("vValor_vend1"),2)&" Até "&FormatNumber(session("vValor_vend2"),2) else response.write "Qual o valor do seu imóvel?" end if%></option>
 			 
 			  <option value="vqualquer">Qualquer um</option>
-			   <option value="0000000000 0000020000">Atï¿½ 20.000,00</option>
-                  <option value="0000020001 0000050000">20.001,00 atï¿½ 50.000,00</option>
-                  <option value="0000050001 0000080000">50.001,00 atï¿½ 80.000,00</option>
-                  <option value="0000080001 0000110000">80.001,00 atï¿½ 110.000,00</option>
-                  <option value="0000110001 0000150000">110.001,00 atï¿½ 150.000,00</option>
-                  <option value="0000150001 0000200000">150.001,00 atï¿½ 200.000,00</option>
-                  <option value="0000200001 0000250000">200.001,00 atï¿½ 250.000,00</option>
-                  <option value="0000250001 0000300000">250.001,00 atï¿½ 300.000,00</option>
-                  <option value="0000300001 0000350000">300.001,00 atï¿½ 350.000,00</option>
-                  <option value="0000350001 0000400000">350.001,00 atï¿½ 400.000,00</option>
+			   <option value="0000000000 0000020000">Até 20.000,00</option>
+                  <option value="0000020001 0000050000">20.001,00 Até 50.000,00</option>
+                  <option value="0000050001 0000080000">50.001,00 Até 80.000,00</option>
+                  <option value="0000080001 0000110000">80.001,00 Até 110.000,00</option>
+                  <option value="0000110001 0000150000">110.001,00 Até 150.000,00</option>
+                  <option value="0000150001 0000200000">150.001,00 Até 200.000,00</option>
+                  <option value="0000200001 0000250000">200.001,00 Até 250.000,00</option>
+                  <option value="0000250001 0000300000">250.001,00 Até 300.000,00</option>
+                  <option value="0000300001 0000350000">300.001,00 Até 350.000,00</option>
+                  <option value="0000350001 0000400000">350.001,00 Até 400.000,00</option>
                   <option value="0000400001 1000000000">Acima de 400.000,00</option>
 			  
 			   
@@ -1370,7 +1370,7 @@ function newWindow2(abrejanela) {
                                       <tr> 
                                         <td width="372" height="22"><div align="center">
                                             <select name="combo3" class="inputBox" id="combo3" style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;" onChange="javascript:atualizacarros2(this.form);">
-                                              <option value="cqualquer" selected>Em qual cidade o sr(a) quer adquirir um imï¿½vel ?</option>
+                                              <option value="cqualquer" selected>Em qual cidade o sr(a) quer adquirir um imóvel ?</option>
               <option value="cqualquer" >Qualquer cidade</option>
              
 			 
@@ -1394,7 +1394,7 @@ function newWindow2(abrejanela) {
                                       <tr> 
                                         <td width="372" height="22"><div align="center">
                                             <select name="combo4" size="1"  class="inputBox" id="combo4" style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
-                                              <option value="bqualquer" >Em qual bairro o sr(a) quer adquirir um imï¿½vel ?</option>
+                                              <option value="bqualquer" >Em qual bairro o sr(a) quer adquirir um imóvel ?</option>
                <option value="bqualquer">Qualquer bairro</option>
               
 			  
@@ -1420,7 +1420,7 @@ function newWindow2(abrejanela) {
                                         <td width="372" height="22"><div align="center">
                                             <select name="txt_tipo_comp" size="1" id="txt_tipo_comp" class="inputBox" style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
                                              
-											   <option value="<%=session("vTipo_comp")%>" selected><%if session("vTipo_comp") <> "tqualquer" and session("vTipo_comp") <> "" then  response.write session("vTipo_comp") else response.write "Qual o tipo do  imï¿½vel que o sr(a) deseja?" end if%></option>
+											   <option value="<%=session("vTipo_comp")%>" selected><%if session("vTipo_comp") <> "tqualquer" and session("vTipo_comp") <> "" then  response.write session("vTipo_comp") else response.write "Qual o tipo do  imóvel que o sr(a) deseja?" end if%></option>
 				 
 											   <option value="tqualquer" >Qualquer tipo</option>
 			  	<% if not rs444Tipo24.eof then%>
@@ -1439,7 +1439,7 @@ function newWindow2(abrejanela) {
                                       <tr> 
                                         <td width="372" height="22"><div align="center">
                                             <select name="txt_quartos_comp" size="1" id="txt_quartos_comp" class="inputBox" style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
-                                             <option value="<%=session("vQuartos_comp")%>"><% if session("vQuartos_comp") <> "qqualquer" and session("vQuartos_comp") <> "" then response.write session("vQuartos_comp") else response.write "Quantos quartos tem o imï¿½vel que sr(a) deseja?" end if%></option>
+                                             <option value="<%=session("vQuartos_comp")%>"><% if session("vQuartos_comp") <> "qqualquer" and session("vQuartos_comp") <> "" then response.write session("vQuartos_comp") else response.write "Quantos quartos tem o imóvel que sr(a) deseja?" end if%></option>
 										 
 			  <option value="qqualquer">Qualquer um</option>			  
              
@@ -1458,7 +1458,7 @@ function newWindow2(abrejanela) {
                                       <tr> 
                                         <td width="372" height="22"><div align="center">
                                             <select name="txt_vagas_comp" size="1" id="txt_vagas_comp" class="inputBox"  style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
-                                              <option value="<%=session("vVagas_comp")%>"><% if session("vVagas_comp") <> "vgqualquer" and session("vVagas_comp") <> "" then response.write session("vVagas_comp") else response.write "Quantas vagas na garagem tem o  imï¿½vel que sr(a) deseja?" end if%></option>
+                                              <option value="<%=session("vVagas_comp")%>"><% if session("vVagas_comp") <> "vgqualquer" and session("vVagas_comp") <> "" then response.write session("vVagas_comp") else response.write "Quantas vagas na garagem tem o  imóvel que sr(a) deseja?" end if%></option>
 									   
 			  
 			  
@@ -1481,19 +1481,19 @@ function newWindow2(abrejanela) {
                                         <td width="372" height="22"><div align="center">
                                             <select name="txt_valor_comp" size="1" id="txt_valor_comp" class="inputBox"style="HEIGHT: 18px; WIDTH: 372px; ; font-size : 12px; background: #b2802c; color:#FFFFFF;">
                                               
-								 <option value="<%=session("vValor_comp")%>" selected><% if session("vValor_comp") <> "vqualquer" and session("vValor_comp") <> "" then response.write FormatNumber(session("vValor_comp1"),2)&" atï¿½ "&FormatNumber(session("vValor_comp2"),2) else response.write "Qual o valor do imï¿½vel que sr(a) deseja comprar ou alugar?" end if%></option>
+								 <option value="<%=session("vValor_comp")%>" selected><% if session("vValor_comp") <> "vqualquer" and session("vValor_comp") <> "" then response.write FormatNumber(session("vValor_comp1"),2)&" Até "&FormatNumber(session("vValor_comp2"),2) else response.write "Qual o valor do imóvel que sr(a) deseja comprar ou alugar?" end if%></option>
 			 			  
 											  
-                  <option value="0000000000 0000020000">Atï¿½ 20.000,00</option>
-                  <option value="0000020001 0000050000">20.001,00 atï¿½ 50.000,00</option>
-                  <option value="0000050001 0000080000">50.001,00 atï¿½ 80.000,00</option>
-                  <option value="0000080001 0000110000">80.001,00 atï¿½ 110.000,00</option>
-                  <option value="0000110001 0000150000">110.001,00 atï¿½ 150.000,00</option>
-                  <option value="0000150001 0000200000">150.001,00 atï¿½ 200.000,00</option>
-                  <option value="0000200001 0000250000">200.001,00 atï¿½ 250.000,00</option>
-                  <option value="0000250001 0000300000">250.001,00 atï¿½ 300.000,00</option>
-                  <option value="0000300001 0000350000">300.001,00 atï¿½ 350.000,00</option>
-                  <option value="0000350001 0000400000">350.001,00 atï¿½ 400.000,00</option>
+                  <option value="0000000000 0000020000">Até 20.000,00</option>
+                  <option value="0000020001 0000050000">20.001,00 Até 50.000,00</option>
+                  <option value="0000050001 0000080000">50.001,00 Até 80.000,00</option>
+                  <option value="0000080001 0000110000">80.001,00 Até 110.000,00</option>
+                  <option value="0000110001 0000150000">110.001,00 Até 150.000,00</option>
+                  <option value="0000150001 0000200000">150.001,00 Até 200.000,00</option>
+                  <option value="0000200001 0000250000">200.001,00 Até 250.000,00</option>
+                  <option value="0000250001 0000300000">250.001,00 Até 300.000,00</option>
+                  <option value="0000300001 0000350000">300.001,00 Até 350.000,00</option>
+                  <option value="0000350001 0000400000">350.001,00 Até 400.000,00</option>
                   <option value="0000400001 1000000000">Acima de 400.000,00</option>
                
             </select>
@@ -1536,10 +1536,10 @@ function newWindow2(abrejanela) {
 
 
 Set RS = Server.CreateObject("ADODB.Recordset")
-'um objeto recordset ï¿½ instï¿½nciado.
+'um objeto recordset ? inst?nciado.
 
 Dim LinkTemp
-'essa variï¿½vel vai ser usada como contador
+'essa variável vai ser usada como contador
 
 Dim colorchanger
 Dim color1
@@ -1547,7 +1547,7 @@ Dim color2
 colorchanger = 0
 color1 = "#537497"
 color2 = "#94ADC8"
-'as variï¿½veis acima sï¿½o usadas para trocar a cor das tabelas que conterï¿½o os valores
+'as vari?veis acima s?o usadas para trocar a cor das tabelas que conter?o os valores
 'dos recordsets.
 
 
@@ -1556,45 +1556,45 @@ color2 = "#94ADC8"
 
 
 dim intPage
-'essa variï¿½vel vai receber um valor inicial "1" que mostra que estamos na primeira pï¿½gina.
+'essa variável vai receber um valor inicial "1" que mostra que estamos na primeirapágina.
 
 dim intPageCount
-'Essa variï¿½vel vai receber o valor da quantidade de pï¿½ginas do recordset.
+'Essa variável vai receber o valor da quantidade depáginas do recordset.
 
 dim intRecordCount
-'Essa variï¿½vel vai receber o nï¿½mero de recordsets existentes.
+'Essa variável vai receber onúmero de recordsets existentes.
 
 If Request.QueryString("page") = "" Then
 	intPage = 1	
 Else
 	intPage = Request.QueryString("page")
 End If
-'aqui a variï¿½vel intPage recebe o valor "1" na primeira pï¿½gina.
+'aqui a variável intPage recebe o valor "1" na primeirapágina.
 	
 RS.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ? criado
 'se no cliente ou no servidor.
 
 RS.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
 
 RS.ActiveConnection = Conn
-'a propriedade ActiveConnection indica qual conexï¿½o o recordset utilizarï¿½.
+'a propriedade ActiveConnection indica qual conex?o o recordset utilizar?.
 	
 RS.Open strSQL, Conn, 1, 3
-'o recordset ï¿½ aberto
+'o recordset ? aberto
 	
 RS.PageSize = 10
-'Aqui configura-se o recordset para 20 registros por pï¿½gina.
+'Aqui configura-se o recordset para 20 registros porpágina.
 
 RS.CacheSize = RS.PageSize
-'o Cache tambï¿½m conterï¿½ 20 registros por pï¿½gina.
+'o Cache tamb?m conter? 20 registros porpágina.
 
 intPageCount = RS.PageCount
-'A variï¿½vel intPageCount recebe o valor do nï¿½mero de pï¿½gina do recordset retornado.
+'A variável intPageCount recebe o valor donúmero depágina do recordset retornado.
 
 intRecordCount = RS.RecordCount
-'A variï¿½vel intRecordCount recebe o valor do nï¿½mero de registros retornados no recordset.
+'A variável intRecordCount recebe o valor donúmero de registros retornados no recordset.
 
 If NOT (RS.BOF AND RS.EOF) Then
 'verifica se existem registros retornados.
@@ -1606,41 +1606,41 @@ If NOT (RS.BOF AND RS.EOF) Then
   
   <%	
 If CInt(intPage) > CInt(intPageCount) Then intPage = intPageCount end if
-'se intPage ï¿½ maior que o nï¿½mero de pï¿½ginas entï¿½o intPage ï¿½ igual ao nï¿½mero de pï¿½ginas.
+'se intPage ? maior que onúmero depáginas ent?o intPage ? igual aonúmero depáginas.
 
 	If CInt(intPage) <= 0 Then intPage = 1 end if
-	'se intPage ï¿½ menor ou igual a zero entï¿½o intPage igual a "1"
-	'a variï¿½vel intPage sempre vai ser forï¿½ada a receber o valor "1".
+	'se intPage ? menor ou igual a zero ent?o intPage igual a "1"
+	'a variável intPage sempre vai ser for?ada a receber o valor "1".
 	
 		If intRecordCount > 0 Then
-		'se existirem registros retornados entï¿½o.
+		'se existirem registros retornados ent?o.
 			 
 			 RS.AbsolutePage = intPage
-			'a propriedade AbsolutePage determina a pï¿½gina exata que o registro atual
+			'a propriedade AbsolutePage determina apágina exata que o registro atual
 			'reside
 			
 			intStart = RS.AbsolutePosition
-			'a variï¿½vel intStart recebe o valor da propriedade AbsolutePosition que
-			'corresponde a posiï¿½ï¿½o exata do primeiro registro da pï¿½gina correspondente.
+			'a variável intStart recebe o valor da propriedade AbsolutePosition que
+			'corresponde a posi??o exata do primeiro registro dapágina correspondente.
 			
 			
 			
 			If CInt(intPage) = CInt(intPageCount) Then
-			'se intPage ï¿½ igual ao nï¿½mero de pï¿½ginas no recordset , estamos na ï¿½ltima 
-			'pï¿½gina entï¿½o.
+			'se intPage é igual aonúmero depáginas no recordset , estamos na ?ltima 
+			'p?gina ent?o.
 				intFinish = intRecordCount
-				'a variï¿½vel intFinish recebe o valor do nï¿½mero do ï¿½ltimo recordset.
-				'intFinish corresponde ao valor do ï¿½ltimo registro da pï¿½gina correspondente.
+				'a variável intFinish recebe o valor donúmero do ?ltimo recordset.
+				'intFinish corresponde ao valor do ?ltimo registro dapágina correspondente.
 			Else
 				intFinish = intStart + (RS.PageSize - 1)
-				'a variï¿½vel intFinish recebe o valor de intStart + o valor
-				'do nï¿½mero de registros na pï¿½gina menos "1".
+				'a variável intFinish recebe o valor de intStart + o valor
+				'donúmero de registros napágina menos "1".
 			End if
 		End If
 	If intRecordCount > 0 Then
-	'se houver registros entï¿½o
+	'se houver registros ent?o
 		For intRecord = 1 to RS.PageSize
-		'um contador inRecord ï¿½ colocado atï¿½ o nï¿½mero de registros na pï¿½gina.
+		'um contador inRecord ? colocado Até onúmero de registros napágina.
 
 dim varCodPermuta
 
@@ -1660,13 +1660,13 @@ dim varCodPermuta
         <tr>
           <td style="border:1px solid #ddddc5;"><table width="774" height="170" border="0" align="center" cellpadding="0" cellspacing="0">
               <tr>
-                <td bgcolor="#e9dca8"><div align="center"><font face="Verdana, arial" size="2" color="FFFFFF"><a href="javascript:newWindow2('visualizar_permuta01.asp?varCodPermuta=<%=varCodPermuta%>')" style="color:#e0a94e;text-decoration:none;"><strong>Olï¿½, 
+                <td bgcolor="#e9dca8"><div align="center"><font face="Verdana, arial" size="2" color="FFFFFF"><a href="javascript:newWindow2('visualizar_permuta01.asp?varCodPermuta=<%=varCodPermuta%>')" style="color:#e0a94e;text-decoration:none;"><strong>Ol?, 
                       meu nome &eacute; <%=rs("nome")%> ,o sitema VEJA analizou 
-                      os dados do seu e do meu imï¿½vel e dectetou a possibilidade 
-                      de efetuarmos uma permuta entre nossos imï¿½veis. Lique jï¿½ 
+                      os dados do seu e do meu imóvel e dectetou a possibilidade 
+                      de efetuarmos uma permuta entre nossos imóveis. Lique já
                       para 4123-72-44 e fale com meu atendente sr(a) <%=rs("atendimento")%>. 
-                      para que cada um de nï¿½s visitemos os imï¿½veis de um e de 
-                      outro, para ver mais detalhes do meu imï¿½vel clique aqui, 
+                      para que cada um de n?s visitemos os imóveis de um e de 
+                      outro, para ver mais detalhes do meu imóvel clique aqui, 
                       muito obrigado.</strong></a> </font></div></td>
               </tr>
             </table></td>
@@ -1698,7 +1698,7 @@ if corfonte = "black" then
  
  corfonte = "white"
  end if
- 'acima ï¿½ feito a troca de cores das tabelas e do texto dos recordsets.
+ 'acima ? feito a troca de cores das tabelas e do texto dos recordsets.
 
 If RS.EOF Then Exit for
 Next	
@@ -1714,7 +1714,7 @@ Next
         <tr> 
           <td><div align="center"><font color="#000000" size="1" face="Verdana, arial"> 
               <%If cInt(intPage) > 1 Then%>
-			  <!-- se a pï¿½gina atual for maior que "1" entï¿½o o link anteriro ï¿½ colocado na 
+			  <!-- se apágina atual for maior que "1" ent?o o link anteriro ? colocado na 
 			  na tela .-->
                <a href="?page=<%=intPage - 1%>&vCidade_vend=<%=session("vCidade_vend")%>&vCidade_vend2=<%=session("vCidade_vend2")%>&vBairro_vend=<%=session("vBairro_vend")%>&vBairro_vend2=<%=session("vBairro_vend2")%>&vVila_vend=<%=session("vVila_vend")%>&vVila_vend2=<%=session("vVila_vend2")%>&vTipo_vend=<%=session("vTipo_vend")%>&vNegociacao_vend=<%=session("vNegociacao_vend")%>&vQuartos_vend=<%=session("vQuartos_vend")%>&vVagas_vend=<%=session("vVagas_vend")%>&vValor_vend=<%=session("vValor_vend")%>&vValor_vend1=<%=session("vValor_vend1")%>&vValor_vend2=<%=session("vValor_vend2")%>&vCidade_comp=<%=session("vCidade_comp")%>&vCidade_comp2=<%=session("vCidade_comp2")%>&vBairro_comp=<%=session("vBairro_comp")%>&vBairro_comp2=<%=session("vBairro_comp2")%>&vVila_comp=<%=session("vVila_comp")%>&vVila_comp2=<%=session("vVila_comp2")%>&vTipo_comp=<%=session("vTipo_comp")%>&vNegociacao_comp=<%=session("vNegociacao_comp")%>&vQuartos_comp=<%=session("vQuartos_comp")%>&vVagas_comp=<%=session("vVagas_comp")%>&vValor_comp1=<%=session("vValor_comp1")%>&vValor_comp2=<%=session("vValor_comp2")%>&vValor_comp=<%=session("vValor_comp")%>&SearchFor=<%=session("SearchFor")%>&SearchWhere=<%=session("SearchWhere")%>&varValor=<%=session("varValor")%>&varValor1=<%=session("varValor1")%>&varValor2=<%=session("varValor2")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>" style="color:#000000;text-decoration:none;">
               <b>Anterior</b></a> 
@@ -1722,13 +1722,13 @@ Next
               </font></div></td>
           <td>
               
-			  <!-- se pï¿½gina atual ï¿½ menor que o total de pï¿½ginas e intPage maior que um
-			  ou seja, se nï¿½o estiver na primeira pï¿½gina e nem na ï¿½ltima entï¿½o. -->
+			  <!-- sepágina atual ? menor que o total depáginas e intPage maior que um
+			  ou seja, se n?o estiver na primeirapágina e nem na ?ltima ent?o. -->
 			  <div align="center"><font face="Verdana, arial" color="#000000" size="1" > 
         <%If cInt(intPage) < cInt(intPageCount) and cInt(intPage) > 1 Then%>
-        <!-- se pï¿½gina atual ï¿½ menor que o total de pï¿½ginas e intPage maior que um
-			  ou seja, se nï¿½o estiver na primeira pï¿½gina e nem na ï¿½ltima entï¿½o. -->
-        Pï¿½gina <%=cInt(intPage)%> de 
+        <!-- sepágina atual ? menor que o total depáginas e intPage maior que um
+			  ou seja, se n?o estiver na primeirapágina e nem na ?ltima ent?o. -->
+       página <%=cInt(intPage)%> de 
         <%=cInt(intPageCount)%> </font> 
         <%End If%></font>
         </div>
@@ -1736,8 +1736,8 @@ Next
              </td>
           <td><div align="center"><font face="Verdana, arial" size="1" color="#000000" > 
               <%If cInt(intPage) < cInt(intPageCount)  Then%>
-			  <!-- se intPage ï¿½ menor que o nï¿½mero de pï¿½ginas entï¿½o colocar o botï¿½o prï¿½ximo -->
-                <a href="?page=<%=intPage + 1%>&vCidade_vend=<%=session("vCidade_vend")%>&vCidade_vend2=<%=session("vCidade_vend2")%>&vBairro_vend=<%=session("vBairro_vend")%>&vBairro_vend2=<%=session("vBairro_vend2")%>&vVila_vend=<%=session("vVila_vend")%>&vVila_vend2=<%=session("vVila_vend2")%>&vTipo_vend=<%=session("vTipo_vend")%>&vNegociacao_vend=<%=session("vNegociacao_vend")%>&vQuartos_vend=<%=session("vQuartos_vend")%>&vVagas_vend=<%=session("vVagas_vend")%>&vValor_vend=<%=session("vValor_vend")%>&vValor_vend1=<%=session("vValor_vend1")%>&vValor_vend2=<%=session("vValor_vend2")%>&vCidade_comp=<%=session("vCidade_comp")%>&vCidade_comp2=<%=session("vCidade_comp2")%>&vBairro_comp=<%=session("vBairro_comp")%>&vBairro_comp2=<%=session("vBairro_comp2")%>&vVila_comp=<%=session("vVila_comp")%>&vVila_comp2=<%=session("vVila_comp2")%>&vTipo_comp=<%=session("vTipo_comp")%>&vNegociacao_comp=<%=session("vNegociacao_comp")%>&vQuartos_comp=<%=session("vQuartos_comp")%>&vVagas_comp=<%=session("vVagas_comp")%>&vValor_comp1=<%=session("vValor_comp1")%>&vValor_comp2=<%=session("vValor_comp2")%>&vValor_comp=<%=session("vValor_comp")%>&SearchFor=<%=session("SearchFor")%>&SearchWhere=<%=session("SearchWhere")%>&varValor=<%=session("varValor")%>&varValor1=<%=session("varValor1")%>&varValor2=<%=session("varValor2")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>" style="color:#000000;text-decoration:none;"><b>Prï¿½ximo</b> 
+			  <!-- se intPage ? menor que onúmero depáginas ent?o colocar o bot?o pr?ximo -->
+                <a href="?page=<%=intPage + 1%>&vCidade_vend=<%=session("vCidade_vend")%>&vCidade_vend2=<%=session("vCidade_vend2")%>&vBairro_vend=<%=session("vBairro_vend")%>&vBairro_vend2=<%=session("vBairro_vend2")%>&vVila_vend=<%=session("vVila_vend")%>&vVila_vend2=<%=session("vVila_vend2")%>&vTipo_vend=<%=session("vTipo_vend")%>&vNegociacao_vend=<%=session("vNegociacao_vend")%>&vQuartos_vend=<%=session("vQuartos_vend")%>&vVagas_vend=<%=session("vVagas_vend")%>&vValor_vend=<%=session("vValor_vend")%>&vValor_vend1=<%=session("vValor_vend1")%>&vValor_vend2=<%=session("vValor_vend2")%>&vCidade_comp=<%=session("vCidade_comp")%>&vCidade_comp2=<%=session("vCidade_comp2")%>&vBairro_comp=<%=session("vBairro_comp")%>&vBairro_comp2=<%=session("vBairro_comp2")%>&vVila_comp=<%=session("vVila_comp")%>&vVila_comp2=<%=session("vVila_comp2")%>&vTipo_comp=<%=session("vTipo_comp")%>&vNegociacao_comp=<%=session("vNegociacao_comp")%>&vQuartos_comp=<%=session("vQuartos_comp")%>&vVagas_comp=<%=session("vVagas_comp")%>&vValor_comp1=<%=session("vValor_comp1")%>&vValor_comp2=<%=session("vValor_comp2")%>&vValor_comp=<%=session("vValor_comp")%>&SearchFor=<%=session("SearchFor")%>&SearchWhere=<%=session("SearchWhere")%>&varValor=<%=session("varValor")%>&varValor1=<%=session("varValor1")%>&varValor2=<%=session("varValor2")%>&nome=<%=session("nome")%>&telefone=<%=session("telefone")%>&email=<%=session("email")%>" style="color:#000000;text-decoration:none;"><b>Pr?ximo</b> 
               </a> 
               <%End If%>
               </font></div></td>
@@ -1769,9 +1769,9 @@ Next
               <td bgcolor="#e6dca9"><div align="center"><font color="red" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>
 			  
 			  <% if vCidade_vend <> "" then %>
-                  Nï¿½o foi encontrado nenhum permutante para vocï¿½. 
+                  N?o foi encontrado nenhum permutante para você. 
                   <%else%>
-                  Preencha os dados acima para encontrar alguï¿½m para permutar(Trocar) de imï¿½vel com vocï¿½. 
+                  Preencha os dados acima para encontrar alguém para permutar(Trocar) de imóvel com você. 
                   <%end if%>
 				  </strong></font>
 		   
@@ -1812,11 +1812,11 @@ dim rs444VerificaConta,strSQL444VerificaConta
 	
 	
 	rs444VerificaConta.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ? criado
 'se no cliente ou no servidor.
 
 rs444VerificaConta.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
 
 rs444VerificaConta.ActiveConnection = Conexao3
 	
@@ -1831,7 +1831,7 @@ rs444VerificaConta.ActiveConnection = Conexao3
 if  rs444VerificaConta.eof and vTipo_vend <> "" then
 
 
-Conexao3.execute"Insert into permuta(Foto_imovel,Nome,Email,Telefone,endereco_vend,cidade_vend,bairro_vend,tipo_vend,descricao_vend,cidade_comp,bairro_comp,tipo_comp,descricao_comp,cod_imovel,link_imovel,data,quartos_vend,quartos_comp,valor_vend,valor_comp,atendimento,data_atualizacao,vila_vend,vila_comp,vagas_vend,vagas_comp,standby,origem_franquia)values( '"& "imovel00000.jpg" &"','"& session("nome") &"','"& session("email") &"','"& session("telefone") &"','"& "nï¿½o informado" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "nï¿½o informado" &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& "nï¿½o informado" &"','"& "0" &"','"& "nï¿½o informado" &"','"& now() &"','"& vQuartos_vend &"','"& vQuartos_comp &"','"& int(vValorMedio_vend) &"','"& int(vValorMedio_comp) &"','"& "internet" &"','"& now() &"','"& vVila_vend &"','"&vVila_comp&"','"& vVagas_vend &"','"& vVagas_comp &"','"& "excluido" &"','"& session("vOrigem_Franquia") &"')" 
+Conexao3.execute"Insert into permuta(Foto_imovel,Nome,Email,Telefone,endereco_vend,cidade_vend,bairro_vend,tipo_vend,descricao_vend,cidade_comp,bairro_comp,tipo_comp,descricao_comp,cod_imovel,link_imovel,data,quartos_vend,quartos_comp,valor_vend,valor_comp,atendimento,data_atualizacao,vila_vend,vila_comp,vagas_vend,vagas_comp,standby,origem_franquia)values( '"& "imovel00000.jpg" &"','"& session("nome") &"','"& session("email") &"','"& session("telefone") &"','"& "n?o informado" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "n?o informado" &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& "n?o informado" &"','"& "0" &"','"& "n?o informado" &"','"& now() &"','"& vQuartos_vend &"','"& vQuartos_comp &"','"& int(vValorMedio_vend) &"','"& int(vValorMedio_comp) &"','"& "internet" &"','"& now() &"','"& vVila_vend &"','"&vVila_comp&"','"& vVagas_vend &"','"& vVagas_comp &"','"& "excluido" &"','"& session("vOrigem_Franquia") &"')" 
 	
 
 
@@ -1859,11 +1859,11 @@ dim rs444VerificaConta22,strSQL444VerificaConta22
 	
 	
 	rs444VerificaConta22.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ? criado
 'se no cliente ou no servidor.
 
 rs444VerificaConta22.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
 
 rs444VerificaConta22.ActiveConnection = Conexao3
 	
@@ -1878,10 +1878,10 @@ rs444VerificaConta22.ActiveConnection = Conexao3
 if  rs444VerificaConta22.eof and vTipo_vend <> "" then
 
 
-Conexao3.execute"Insert into compradores(nome,telefone,email,cidade,bairro,tipo,quartos,negociacao,valor,data,descricao,atendimento,data_atualizacao,vila,vagas,ocupacao,standby,cod_imovel,cod_permuta,acessos,descricao_confi,origem,area_total,area_construida,condominio,condicoes_pagamento,origem_franquia) values( '"& session("nome") &"','"& session("telefone") &"','"& session("email") &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& vQuartos_comp &"','"& "compra" &"','"& int(varValorMedioComp) &"','"& now() &"','"& "nï¿½o informado" &"','"& "internet" &"','"& now() &"','"& vVila_comp &"','"& vVagas_comp &"','"& "nï¿½o informado" &"','"& "comprador a contatar" &"','"& "0" &"','"& "0" &"','"& "0" &"','"& "Nï¿½o informado" &"','"& "internet" &"','"& "0" &"','"& "0" &"','"& "0" &"','"& "nï¿½o informado" &"','"& session("vOrigem_Franquia") &"')"
+Conexao3.execute"Insert into compradores(nome,telefone,email,cidade,bairro,tipo,quartos,negociacao,valor,data,descricao,atendimento,data_atualizacao,vila,vagas,ocupacao,standby,cod_imovel,cod_permuta,acessos,descricao_confi,origem,area_total,area_construida,condominio,condicoes_pagamento,origem_franquia) values( '"& session("nome") &"','"& session("telefone") &"','"& session("email") &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& vQuartos_comp &"','"& "compra" &"','"& int(varValorMedioComp) &"','"& now() &"','"& "n?o informado" &"','"& "internet" &"','"& now() &"','"& vVila_comp &"','"& vVagas_comp &"','"& "n?o informado" &"','"& "comprador a contatar" &"','"& "0" &"','"& "0" &"','"& "0" &"','"& "N?o informado" &"','"& "internet" &"','"& "0" &"','"& "0" &"','"& "0" &"','"& "n?o informado" &"','"& session("vOrigem_Franquia") &"')"
 
 
-'Conexao3.execute"Insert into permuta(Foto_imovel,Nome,Email,Telefone,endereco_vend,cidade_vend,bairro_vend,tipo_vend,descricao_vend,cidade_comp,bairro_comp,tipo_comp,descricao_comp,cod_imovel,link_imovel,data,quartos_vend,quartos_comp,valor_vend,valor_comp,atendimento,data_atualizacao,vila_vend,vila_comp,vagas_vend,vagas_comp,standby)values( '"& "imovel00000.jpg" &"','"& session("nome") &"','"& session("email") &"','"& session("telefone") &"','"& "nï¿½o informado" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "nï¿½o informado" &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& "nï¿½o informado" &"','"& "0" &"','"& "nï¿½o informado" &"','"& now() &"','"& vQuartosConta_vend &"','"& vQuartosConta_comp &"','"& vValorMedio_vend &"','"& vValorMedio_comp &"','"& "internet" &"','"& now() &"','"& vVila_vend &"','"&vVila_comp&"','"& vVagasConta_vend &"','"& vVagasConta_comp &"','"& "excluido" &"')" 
+'Conexao3.execute"Insert into permuta(Foto_imovel,Nome,Email,Telefone,endereco_vend,cidade_vend,bairro_vend,tipo_vend,descricao_vend,cidade_comp,bairro_comp,tipo_comp,descricao_comp,cod_imovel,link_imovel,data,quartos_vend,quartos_comp,valor_vend,valor_comp,atendimento,data_atualizacao,vila_vend,vila_comp,vagas_vend,vagas_comp,standby)values( '"& "imovel00000.jpg" &"','"& session("nome") &"','"& session("email") &"','"& session("telefone") &"','"& "n?o informado" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "n?o informado" &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& "n?o informado" &"','"& "0" &"','"& "n?o informado" &"','"& now() &"','"& vQuartosConta_vend &"','"& vQuartosConta_comp &"','"& vValorMedio_vend &"','"& vValorMedio_comp &"','"& "internet" &"','"& now() &"','"& vVila_vend &"','"&vVila_comp&"','"& vVagasConta_vend &"','"& vVagasConta_comp &"','"& "excluido" &"')" 
 		
 
  end if
@@ -1903,11 +1903,11 @@ dim rs444VerificaConta23,strSQL444VerificaConta23
 	
 	
 	rs444VerificaConta23.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ? criado
 'se no cliente ou no servidor.
 
 rs444VerificaConta23.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e grava??o.
 
 rs444VerificaConta23.ActiveConnection = Conexao3
 	
@@ -1921,10 +1921,10 @@ rs444VerificaConta23.ActiveConnection = Conexao3
 
 if  rs444VerificaConta23.eof and vTipo_vend <> "" then
 
-Conexao3.execute"Insert into imoveis(proprietario,endereco,telefone,email,foto_grande,foto_pequena,foto_grande1,foto_grande2,foto_grande3,foto_grande4,foto_grande5,foto_grande6,foto_grande7,foto_grande8,foto_grande9,foto_grande10,link_foto,cidade,bairro,tipo,area_total,area_construida,quartos,banheiros,vagas,negociacao,valor,data,obs_imovel,obs_proprietario,presenca_primeira,titulo_anuncio,texto_anuncio,standby,ocupacao,captacao,data_atualizacao,vila,placa,condominio,cod_permuta,cod_comprador,qualidade,indexador_indicacoes,origem_captacao,data_captacao,cliques_no_imovel,tarja02,data01_tarja02,data02_tarja02,imovel_em_negociacao,origem_franquia) values( '"& session("nome") &"','"& "nï¿½o informado" &"','"& session("telefone") &"','"& session("email") &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "icon_foto2.gif" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "0" &"','"& "0" &"','"& vQuartos_vend &"','"& "nï¿½o informado" &"','"& vVagas_vend&"','"& "venda" &"','"& int(varValorMedioVend) &"','"& now() &"','"& "nï¿½o informado" &"','"& "nï¿½o informado" &"','"& "excluido" &"','"& "nï¿½o informado" &"','"& "nï¿½o informado" &"','"& "excluido" &"','"& "nï¿½o informado" &"','"& "internet" &"','"& now() &"','"& "nï¿½o informado" &"','"& "Sem Placa"&"','"& "0" &"','"& "0" &"','"& "0" &"','"& "negï¿½cio comum" &"','"&"0"&"','"&"Busca de permutante"&"','"& now()&"','"& "0"&"','"& "sim"&"','"& day(now())&"','"& day(DateAdd("d", 15, now()))&"','"& "Imï¿½vel nï¿½o contatado" &"','"& session("vOrigem_Franquia") &"')"	 
+Conexao3.execute"Insert into imoveis(proprietario,endereco,telefone,email,foto_grande,foto_pequena,foto_grande1,foto_grande2,foto_grande3,foto_grande4,foto_grande5,foto_grande6,foto_grande7,foto_grande8,foto_grande9,foto_grande10,link_foto,cidade,bairro,tipo,area_total,area_construida,quartos,banheiros,vagas,negociacao,valor,data,obs_imovel,obs_proprietario,presenca_primeira,titulo_anuncio,texto_anuncio,standby,ocupacao,captacao,data_atualizacao,vila,placa,condominio,cod_permuta,cod_comprador,qualidade,indexador_indicacoes,origem_captacao,data_captacao,cliques_no_imovel,tarja02,data01_tarja02,data02_tarja02,imovel_em_negociacao,origem_franquia) values( '"& session("nome") &"','"& "n?o informado" &"','"& session("telefone") &"','"& session("email") &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "imovel00000.jpg" &"','"& "icon_foto2.gif" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "0" &"','"& "0" &"','"& vQuartos_vend &"','"& "n?o informado" &"','"& vVagas_vend&"','"& "venda" &"','"& int(varValorMedioVend) &"','"& now() &"','"& "n?o informado" &"','"& "n?o informado" &"','"& "excluido" &"','"& "n?o informado" &"','"& "n?o informado" &"','"& "excluido" &"','"& "n?o informado" &"','"& "internet" &"','"& now() &"','"& "n?o informado" &"','"& "Sem Placa"&"','"& "0" &"','"& "0" &"','"& "0" &"','"& "neg?cio comum" &"','"&"0"&"','"&"Busca de permutante"&"','"& now()&"','"& "0"&"','"& "sim"&"','"& day(now())&"','"& day(DateAdd("d", 15, now()))&"','"& "imóvel n?o contatado" &"','"& session("vOrigem_Franquia") &"')"	 
 	
 
-'Conexao3.execute"Insert into permuta(Foto_imovel,Nome,Email,Telefone,endereco_vend,cidade_vend,bairro_vend,tipo_vend,descricao_vend,cidade_comp,bairro_comp,tipo_comp,descricao_comp,cod_imovel,link_imovel,data,quartos_vend,quartos_comp,valor_vend,valor_comp,atendimento,data_atualizacao,vila_vend,vila_comp,vagas_vend,vagas_comp,standby)values( '"& "imovel00000.jpg" &"','"& session("nome") &"','"& session("email") &"','"& session("telefone") &"','"& "nï¿½o informado" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "nï¿½o informado" &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& "nï¿½o informado" &"','"& "0" &"','"& "nï¿½o informado" &"','"& now() &"','"& vQuartosConta_vend &"','"& vQuartosConta_comp &"','"& vValorMedio_vend &"','"& vValorMedio_comp &"','"& "internet" &"','"& now() &"','"& vVila_vend &"','"&vVila_comp&"','"& vVagasConta_vend &"','"& vVagasConta_comp &"','"& "excluido" &"')" 
+'Conexao3.execute"Insert into permuta(Foto_imovel,Nome,Email,Telefone,endereco_vend,cidade_vend,bairro_vend,tipo_vend,descricao_vend,cidade_comp,bairro_comp,tipo_comp,descricao_comp,cod_imovel,link_imovel,data,quartos_vend,quartos_comp,valor_vend,valor_comp,atendimento,data_atualizacao,vila_vend,vila_comp,vagas_vend,vagas_comp,standby)values( '"& "imovel00000.jpg" &"','"& session("nome") &"','"& session("email") &"','"& session("telefone") &"','"& "n?o informado" &"','"& vCidade_vend &"','"& vBairro_vend &"','"& vTipo_vend &"','"& "n?o informado" &"','"& vCidade_comp &"','"& vBairro_comp &"','"& vTipo_comp &"','"& "n?o informado" &"','"& "0" &"','"& "n?o informado" &"','"& now() &"','"& vQuartosConta_vend &"','"& vQuartosConta_comp &"','"& vValorMedio_vend &"','"& vValorMedio_comp &"','"& "internet" &"','"& now() &"','"& vVila_vend &"','"&vVila_comp&"','"& vVagasConta_vend &"','"& vVagasConta_comp &"','"& "excluido" &"')" 
 		
 
  end if
@@ -1938,21 +1938,21 @@ Conexao3.execute"Insert into imoveis(proprietario,endereco,telefone,email,foto_g
 
 <%
 Function EscreveFuncaoJavaScript ( Conexao3 )
-'O parametro conexao receberï¿½ uma conexao aberta!
-'Em funcoes, geralmente nï¿½o criamos objetos do tipo conexï¿½es!
-'Opte por sempre deixar sua funï¿½ï¿½o o mais compatï¿½vel possï¿½vel com qualquer projeto!
+'O parametro conexao receber? uma conexao aberta!
+'Em funcoes, geralmente n?o criamos objetos do tipo conex?es!
+'Opte por sempre deixar sua fun??o o mais compAtével poss?vel com qualquer projeto!
 
 'Primeiro vamos escrever o cabecalho de qualquer script javascript!
 Response.Write "<script language=""JavaScript"">" & vbcrlf 
 Response.Write "function atualizacarros (doublecombo2) {" & vbcrlf
 
-'Essa funï¿½ï¿½o JavaScript recebe o form em que estï¿½o os campos a serem atualizados!
-'Veja na chamada da funï¿½ï¿½o no mï¿½todo OnChange em que se passa o this.form!
+'Essa fun??o JavaScript recebe o form em que est?o os campos a serem atualizados!
+'Veja na chamada da fun??o no m?todo OnChange em que se passa o this.form!
 
-'Vamos criar um switch para ele verificar qual opï¿½ï¿½o foi selecionada!! 
+'Vamos criar um switch para ele verificar qual opção foi selecionada!! 
 Response.Write "switch (doublecombo2.combo1.options[doublecombo2.combo1.selectedIndex].value) {" & vbcrlf 
 
-'Agora entramos com o banco de dados! Temos que jogar aqui todas as opï¿½ï¿½es de carro!
+'Agora entramos com o banco de dados! Temos que jogar aqui todas as op??es de carro!
 SqlMarcas3 = "SELECT combo1.id_combo1,combo1.nome_combo1,combo1.data_combo1 FROM combo1 ORDER BY nome_combo1" 
 
 
@@ -1999,9 +1999,9 @@ rsCarros3.ActiveConnection = Conexao3
 
 
 
-'Fazemos um loop por todos os carros, criando uma nova opï¿½ï¿½o no SELECT! 
+'Fazemos um loop por todos os carros, criando uma nova opção no SELECT! 
 i = 0 
-Response.Write "doublecombo2.combo2.options[" & i  & "] = new Option('" & "Qual o bairro do seu imï¿½vel ?" & "','" & "bqualquer" & "');"
+Response.Write "doublecombo2.combo2.options[" & i  & "] = new Option('" & "Qual o bairro do seu imóvel ?" & "','" & "bqualquer" & "');"
 i = 1 
 While NOT rsCarros3.EoF
 
@@ -2011,14 +2011,14 @@ i=i+1
 rsCarros3.MoveNext
 Wend
 Response.Write "doublecombo2.combo2.options[" & i  & "] = new Option('" & "qualquer um" & "','" & "bqualquer" & "');" 
-'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma dï¿½vida da sua utilizaï¿½ï¿½o! 
+'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma dúvida da sua utilização! 
 Response.Write "break;" & vbcrlf
 
-'Prï¿½xima marca! 
+'Pr?xima marca! 
 rsMarcas3.MoveNext 
 Wend 
 
-'Fecha chaves do switch e da funï¿½ï¿½o! E fecha o script! 
+'Fecha chaves do switch e da fun??o! E fecha o script! 
 Response.Write "}}" & vbcrlf & "</script>" & vbcrlf 
 
 rsMarcas3.close
@@ -2036,21 +2036,21 @@ End Function
 
 <%
 Function EscreveFuncaoJavaScript222 ( Conexao3 )
-'O parametro conexao receberï¿½ uma conexao aberta!
-'Em funcoes, geralmente nï¿½o criamos objetos do tipo conexï¿½es!
-'Opte por sempre deixar sua funï¿½ï¿½o o mais compatï¿½vel possï¿½vel com qualquer projeto!
+'O parametro conexao receber? uma conexao aberta!
+'Em funcoes, geralmente n?o criamos objetos do tipo conex?es!
+'Opte por sempre deixar sua fun??o o mais compAtével poss?vel com qualquer projeto!
 
 'Primeiro vamos escrever o cabecalho de qualquer script javascript!
 Response.Write "<script language=""JavaScript"">" & vbcrlf 
 Response.Write "function atualizacarros2 (doublecombo2) {" & vbcrlf
 
-'Essa funï¿½ï¿½o JavaScript recebe o form em que estï¿½o os campos a serem atualizados!
-'Veja na chamada da funï¿½ï¿½o no mï¿½todo OnChange em que se passa o this.form!
+'Essa fun??o JavaScript recebe o form em que est?o os campos a serem atualizados!
+'Veja na chamada da fun??o no m?todo OnChange em que se passa o this.form!
 
-'Vamos criar um switch para ele verificar qual opï¿½ï¿½o foi selecionada!! 
+'Vamos criar um switch para ele verificar qual opção foi selecionada!! 
 Response.Write "switch (doublecombo2.combo3.options[doublecombo2.combo3.selectedIndex].value) {" & vbcrlf 
 
-'Agora entramos com o banco de dados! Temos que jogar aqui todas as opï¿½ï¿½es de carro!
+'Agora entramos com o banco de dados! Temos que jogar aqui todas as op??es de carro!
 SqlMarcas444 = "SELECT combo1.id_combo1,combo1.nome_combo1,combo1.data_combo1  FROM combo1 ORDER BY nome_combo1" 
 
 
@@ -2101,9 +2101,9 @@ rsCarros444.ActiveConnection = Conexao3
 
 
 
-'Fazemos um loop por todos os carros, criando uma nova opï¿½ï¿½o no SELECT! 
+'Fazemos um loop por todos os carros, criando uma nova opção no SELECT! 
  i = 0 
-Response.Write "doublecombo2.combo4.options[" & i & "] = new Option('" & "Em qual bairro o sr(a) quer adquirir um imï¿½vel ?" & "','" & "bqualquer" & "');" & vbcrlf
+Response.Write "doublecombo2.combo4.options[" & i & "] = new Option('" & "Em qual bairro o sr(a) quer adquirir um imóvel ?" & "','" & "bqualquer" & "');" & vbcrlf
 i = 1
 While NOT rsCarros444.EoF
 
@@ -2114,14 +2114,14 @@ i=i+1
 rsCarros444.MoveNext
 Wend
 Response.Write "doublecombo2.combo4.options[" & i & "] = new Option('" & "qualquer um" & "','" & "bqualquer" & "');" & vbcrlf
-'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma dï¿½vida da sua utilizaï¿½ï¿½o! 
+'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma dúvida da sua utilização! 
 Response.Write "break;" & vbcrlf
 
-'Prï¿½xima marca! 
+'Pr?xima marca! 
 rsMarcas444.MoveNext 
 Wend 
 
-'Fecha chaves do switch e da funï¿½ï¿½o! E fecha o script! 
+'Fecha chaves do switch e da fun??o! E fecha o script! 
 Response.Write "}}" & vbcrlf & "</script>" & vbcrlf 
 
 rsMarcas444.close

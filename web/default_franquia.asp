@@ -6,7 +6,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-
+<
 <%
 
 dim Conexao3
@@ -72,7 +72,7 @@ window.open('form_enviar_email.asp', 'popUP','width=605,height=530,resizable=yes
 
 
 
-<title>Imobili?ria Veja</title>
+<title>Imobiliária Veja</title>
 
 </head>
 
@@ -144,7 +144,7 @@ window.open('form_enviar_email.asp', 'popUP','width=605,height=530,resizable=yes
   
 	<tr>
             <td width="400"><div align="right"><font color="#996600" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Busca 
-                        por refer&ecirc;ncia:</strong> </font></div></td>   
+                        por referência:</strong> </font></div></td>   
             <td width="202"><input name="ref"   type="text" class="inputBox" id="ref"  style="border-top : 1px solid;border-bottom : 1px solid;border-left : 1px solid;border-right : 1px solid;border-color:#e9dca8;HEIGHT: 20px; WIDTH: 202px; ; font-size : 9px; background:#FFFFFF; color:#9d9249;" value=""></td>
     <td width="23"><input name="image2" type="image"  src="bt_lupa01.jpg" width="23" height="20" border="0"></td>
     
@@ -175,8 +175,8 @@ window.open('form_enviar_email.asp', 'popUP','width=605,height=530,resizable=yes
                           </tr>
                           <tr>
                             <td width="140" height="122"><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><a href="procurar_avaliacao02.asp" target="_blank" style="color:#000000;text-decoration:none;"><font color="#FF0000">Veja:</font>Aqui 
-                                voc&ecirc; pode fazer a avalia&ccedil;&atilde;o 
-                                do seu im&oacute;vel</a></strong></font></div></td>
+                                você pode fazer a avaliação 
+                                do seu imóvel</a></strong></font></div></td>
                           </tr>
                         </table></td>
                     </tr>
@@ -196,8 +196,8 @@ window.open('form_enviar_email.asp', 'popUP','width=605,height=530,resizable=yes
                           </tr>
                           <tr>
                             <td width="140" height="122"><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><a href="procurar_compradores001.asp" target="_blank" style="color:#000000;text-decoration:none;"><font color="#FF0000">Veja:</font> 
-                                Aqui voc&ecirc; encontra um comprador ou inquilino 
-                                para o seu im&oacute;vel</a></strong></font></div></td>
+                                Aqui você encontra um comprador ou inquilino 
+                                para o seu imóvel</a></strong></font></div></td>
                           </tr>
                         </table></td>
                     </tr>
@@ -217,8 +217,8 @@ window.open('form_enviar_email.asp', 'popUP','width=605,height=530,resizable=yes
                           </tr>
                           <tr>
                             <td width="140" height="122"><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><a href="procurar_permuta001.asp" target="_blank" style="color:#000000;text-decoration:none;"><font color="#FF0000">Veja:</font> 
-                                Aqui voc&ecirc; encontra quem pode trocar de im&oacute;vel 
-                                com voc&ecirc;</a></strong></font></div></td>
+                                Aqui você encontra quem pode trocar de imóvel 
+                                com você</a></strong></font></div></td>
                           </tr>
                         </table></td>
                     </tr>
@@ -238,8 +238,8 @@ window.open('form_enviar_email.asp', 'popUP','width=605,height=530,resizable=yes
                           </tr>
                           <tr>
                             <td width="140" height="122"><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><a href="contas.asp" target="_blank" style="color:#000000;text-decoration:none;"><font color="#FF0000">Veja:</font> 
-                                Se novos im&oacute;veis, compradores ou permutantes 
-                                est&atilde;o no sistema para negociar com voc&ecirc;</a></strong></font></div></td>
+                                Se novos imóveis, compradores ou permutantes 
+                                estão no sistema para negociar com você</a></strong></font></div></td>
                           </tr>
                         </table></td>
                     </tr>
@@ -259,8 +259,8 @@ window.open('form_enviar_email.asp', 'popUP','width=605,height=530,resizable=yes
                           </tr>
                           <tr>
                             <td width="140" height="122"><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><a href="default04.asp" target="_blank" style="color:#000000;text-decoration:none;"><font color="#FF0000">Veja:</font> 
-                                Nossos im&oacute;veis cadastrados para venda e 
-                                loca&ccedil;&atilde;o </a></strong></font></div></td>
+                                Nossos imóveis cadastrados para venda e 
+                                locação </a></strong></font></div></td>
                           </tr>
                         </table></td>
                     </tr>
