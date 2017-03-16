@@ -17,32 +17,32 @@
 
 <%
 Function EscreveFuncaoJavaScript ( Conexao3 )
-'O parametro conexao receberá uma conexao aberta!
-'Em funcoes, geralmente não criamos objetos do tipo conexões!
-'Opte por sempre deixar sua função o mais compatível possível com qualquer projeto!
+'O parametro conexao receberï¿½ uma conexao aberta!
+'Em funcoes, geralmente nï¿½o criamos objetos do tipo conexï¿½es!
+'Opte por sempre deixar sua funï¿½ï¿½o o mais compatï¿½vel possï¿½vel com qualquer projeto!
 
 'Primeiro vamos escrever o cabecalho de qualquer script javascript!
 Response.Write "<script language=""JavaScript"">" & vbcrlf 
 Response.Write "function atualizacarros (doublecombo) {" & vbcrlf
 
-'Essa função JavaScript recebe o form em que estão os campos a serem atualizados!
-'Veja na chamada da função no método OnChange em que se passa o this.form!
+'Essa funï¿½ï¿½o JavaScript recebe o form em que estï¿½o os campos a serem atualizados!
+'Veja na chamada da funï¿½ï¿½o no mï¿½todo OnChange em que se passa o this.form!
 
-'Vamos criar um switch para ele verificar qual opção foi selecionada!! 
+'Vamos criar um switch para ele verificar qual opï¿½ï¿½o foi selecionada!! 
 Response.Write "switch (doublecombo.combo1.options[doublecombo.combo1.selectedIndex].value) {" & vbcrlf 
 
-'Agora entramos com o banco de dados! Temos que jogar aqui todas as opções de carro!
+'Agora entramos com o banco de dados! Temos que jogar aqui todas as opï¿½ï¿½es de carro!
 SqlMarcas3 = "SELECT combo1.id_combo1,combo1.nome_combo1,combo1.data_combo1 FROM combo1 ORDER BY nome_combo1" 
 
 
 Set rsMarcas3 = Server.CreateObject("ADODB.RecordSet")
 
 	rsMarcas3.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rsMarcas3.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
 
 rsMarcas3.ActiveConnection = Conexao3
 	
@@ -67,11 +67,11 @@ SqlCarros3 = "SELECT combo2.id_combo2,combo2.id_combo1,combo2.nome_combo2,combo2
 Set rsCarros3 = Server.CreateObject("ADODB.RecordSet")
 
 	rsCarros3.CursorLocation = 3
-'a propriedade CursorLocation do objeto recordset indica onde o cursor é criado
+'a propriedade CursorLocation do objeto recordset indica onde o cursor ï¿½ criado
 'se no cliente ou no servidor.
 
 rsCarros3.CursorType = 3
-'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravação.
+'indica o tipo de cursor utilizado, se somente de leitura ou se de leitura e gravaï¿½ï¿½o.
 
 rsCarros3.ActiveConnection = Conexao3
 	
@@ -80,7 +80,7 @@ rsCarros3.ActiveConnection = Conexao3
 
 
 
-'Fazemos um loop por todos os carros, criando uma nova opção no SELECT! 
+'Fazemos um loop por todos os carros, criando uma nova opï¿½ï¿½o no SELECT! 
 i = 0 
 Response.Write "doublecombo.combo2.options[" & i  & "] = new Option('" & "Seu Bairro" & "','" & "bqualquer" & "');"& vbcrlf
 i = 1 
@@ -92,14 +92,14 @@ i=i+1
 rsCarros3.MoveNext
 Wend
 Response.Write "doublecombo.combo2.options[" & i  & "] = new Option('" & "qualquer um" & "','" & "bqualquer" & "');" 
-'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma dúvida da sua utilização! 
+'Imprimos um break! (Verifique tutoriais de JavaScript, se tiverem alguma dï¿½vida da sua utilizaï¿½ï¿½o! 
 Response.Write "break;" & vbcrlf
 
-'Próxima marca! 
+'Prï¿½xima marca! 
 rsMarcas3.MoveNext 
 Wend 
 
-'Fecha chaves do switch e da função! E fecha o script! 
+'Fecha chaves do switch e da funï¿½ï¿½o! E fecha o script! 
 Response.Write "}}" & vbcrlf & "</script>" & vbcrlf 
 
 
@@ -119,7 +119,7 @@ End Function
 
 
 <%
-'Criando conexão com o banco de dados! 
+'Criando conexï¿½o com o banco de dados! 
 Set Conexao3 = Server.CreateObject("ADODB.Connection")
 Conexao3.Open dsn
 
@@ -145,7 +145,7 @@ dim rs4,strSQL4,Conexao
 
 
 
-'------------------------------selecionar os tipos de imóvel para o formulário-------------------
+'------------------------------selecionar os tipos de imï¿½vel para o formulï¿½rio-------------------
 
 
  dim rs444Tipo22,strSQL444Tipo22
@@ -179,7 +179,7 @@ dim rs4,strSQL4,Conexao
 
 <!--#include file="style_imoveis02.asp"-->
 
-<title>Avaliação</title>
+<title>Avaliaï¿½ï¿½o</title>
 
 <head>
 
@@ -195,7 +195,7 @@ for (nCount=0; nCount < doublecombo2.ref.value.length; nCount++)
 strTempChar1_4=doublecombo2.ref.value.substring(nCount,nCount+1);
 if (strValidNumber1_4.indexOf(strTempChar1_4,0)==-1) 
 {
-alert("Este formulário só pode conter números!");
+alert("Este formulï¿½rio sï¿½ pode conter nï¿½meros!");
 doublecombo2.ref.focus();
 doublecombo2.ref.select();
 return false;
@@ -203,7 +203,7 @@ return false;
 }
 
 if (doublecombo2.ref.value == "") {
-        alert("Este formulário está vazio!");
+        alert("Este formulï¿½rio estï¿½ vazio!");
         doublecombo2.ref.focus();
 		doublecombo2.ref.select();
         return false;
@@ -215,7 +215,7 @@ if (doublecombo2.ref.value == "") {
 
 <script>
 
-// Verifica se somente números foram digitados no campo
+// Verifica se somente nï¿½meros foram digitados no campo
 function isValidDigitNumber (doublecombo) 
 
 
@@ -223,86 +223,11 @@ function isValidDigitNumber (doublecombo)
 {
 
 
-
-
 {
-
-
-if (doublecombo.nome.value == "Seu nome:") {
-		alert("Por favor,deixe seu nome na busca , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.nome.focus();
-		
-		return false;
-}
-
-if (doublecombo.nome.value == "") {
-		alert("Por favor,deixe seu nome na busca , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.nome.focus();
-		
-		return false;
-}
-
-
-
-
-
-
-
-
-
-if (doublecombo.telefone.value == "Seu telefone:") {
-		alert("Por favor, coloque seu telefone , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.telefone.focus();
-		
-		return false;
-}
-
-if (doublecombo.telefone.value == "") {
-		alert("Por favor, coloque seu telefone , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.telefone.focus();
-		
-		return false;
-}
-
-
-if (doublecombo.email.value == "Seu email:") {
-		alert("Por favor, coloque seu email , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.email.focus();
-		
-		return false;
-}
-
-if (doublecombo.email.value == "") {
-		alert("Por favor, coloque seu telefone , pois assim , você terá um atendimento preferencial e exclusivo.");
-		doublecombo.email.focus();
-		
-		return false;
-}
-
-
-
-
-
-
-
-
-var strValidNumber1_4="1234567890";
-for (nCount=0; nCount < doublecombo.telefone.value.length; nCount++) 
-		{
-strTempChar1_4=doublecombo.telefone.value.substring(nCount,nCount+1);
-if (strValidNumber1_4.indexOf(strTempChar1_4,0)==-1) 
-{
-alert("Ao colocar seu telefone, digite apenas números!");
-doublecombo.telefone.focus();
-doublecombo.telefone.select();
-return false;
-}
-}
-
 
 
 if (doublecombo.combo1.value == "cqualquer") {
-		alert("Você precisa escolher uma cidade.");
+		alert("Vocï¿½ precisa escolher uma cidade.");
 		doublecombo.combo1.focus();
 		
 		return false;
@@ -311,22 +236,11 @@ if (doublecombo.combo1.value == "cqualquer") {
 
 
 if (doublecombo.example2.value == "nqualquer") {
-		alert("Por favor, escolha um tipo de negociação , pois assim , você terá um atendimento preferencial e exclusivo.");
+		alert("Por favor, escolha um tipo de negociaï¿½ï¿½o , pois assim , vocï¿½ terï¿½ um atendimento preferencial e exclusivo.");
 		doublecombo.example2.focus();
 		
 		return false;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 }
 }
@@ -428,7 +342,7 @@ if (doublecombo.example2.value == "nqualquer") {
 							
                             <tr>
                                   <td><select name="txt_tipo" size="1"  style="HEIGHT: 18px; WIDTH: 250px; font-size : 10px;  color:#9d9249;background:<%=claro%>; ">
-                  <option value="tqualquer" selected>Tipo do seu imóvel</option>
+                  <option value="tqualquer" selected>Tipo do seu imï¿½vel</option>
 				   
                   	<% if not rs444Tipo22.eof then%>
 					<% While NOT rs444Tipo22.EoF %>
@@ -452,7 +366,7 @@ if (doublecombo.example2.value == "nqualquer") {
 							
 							<tr>
                                   <td><select name="txt_Quartos" size="1"   style="HEIGHT: 18px; WIDTH: 250px; font-size : 10px;  color:#9d9249;background:<%=claro%>; ">
-                  <option value="0" selected>Número de quartos do seu imóvel</option>
+                  <option value="0" selected>Nï¿½mero de quartos do seu imï¿½vel</option>
 				   
                   <option value="01">01</option>
 				   <option value="02">02</option>
@@ -470,7 +384,7 @@ if (doublecombo.example2.value == "nqualquer") {
 							
 							<tr>
                                   <td><select name="txt_garagem" size="1"   style="HEIGHT: 18px; WIDTH: 250px; font-size : 10px;  color:#9d9249;background:<%=claro%>; ">
-                  <option value="0" selected>Número de vagas na garagem do seu imóvel</option>
+                  <option value="0" selected>Nï¿½mero de vagas na garagem do seu imï¿½vel</option>
 				   
                   <option value="01">01</option>
 				   <option value="02">02</option>
@@ -533,26 +447,26 @@ Over 200+ free JavaScripts here!
 */
 
 var groups2=document.doublecombo.example2.options.length
-/* Aqui é criada uma variável "groups" que receberá os valores 
+/* Aqui ï¿½ criada uma variï¿½vel "groups" que receberï¿½ os valores 
 do combo example. */
 
 
 
 var group2=new Array(groups2)
-/* aqui a variável group recebe os valores do "array(groups)" que contem os valores
+/* aqui a variï¿½vel group recebe os valores do "array(groups)" que contem os valores
 do combo example.*/
 
 for (i2=0; i2<groups2; i2++)
-/* aqui temos um contador de zero até o número de elementos do array "groups" */
+/* aqui temos um contador de zero atï¿½ o nï¿½mero de elementos do array "groups" */
 
 group2[i2]=new Array()
-/* aqui é criado o array "group" que receberá valores conforme o número de elementos
+/* aqui ï¿½ criado o array "group" que receberï¿½ valores conforme o nï¿½mero de elementos
 do array "groups". */
 
 group2[0][0]=new Option("Qualquer Valor","vqualquer")
 
 
-/* aqui temos um array bidimensional "group" que receberá valores de opções. */
+/* aqui temos um array bidimensional "group" que receberï¿½ valores de opï¿½ï¿½es. */
 
 
 group2[1][0]=new Option("Qualquer Valor","vqualquer")
@@ -560,20 +474,20 @@ group2[1][0]=new Option("Qualquer Valor","vqualquer")
 
 
 
-/* aqui temos um array bidimensional "group" que receberá valores de opções. */
+/* aqui temos um array bidimensional "group" que receberï¿½ valores de opï¿½ï¿½es. */
 
 group2[2][0]=new Option("Valor","vqualquer")
 group2[2][1]=new Option("Qualquer Valor","vqualquer")
 group2[2][2]=new Option("Menos de 200,00","0000000000 0000000200")
-group2[2][3]=new Option("201,00 até 500,00","0000000201 0000000500")
-group2[2][4]=new Option("501,00 até 750,00","0000000501 0000000750")
-group2[2][5]=new Option("751,00 até 1000,00","0000000751 0000001000")
-group2[2][6]=new Option("1001,00 até 1500,00","0000001001 0000001500")
-group2[2][7]=new Option("1501,00 até 2000,00","0000001501 0000002000")
-group2[2][8]=new Option("2001,00 até 2500,00","0000002001 0000002500")
-group2[2][9]=new Option("2501,00 até 3000,00","0000002501 0000003000")
-group2[2][10]=new Option("3001,00 até 3500,00","0000003001 0000003500")
-group2[2][11]=new Option("3501,00 até 4000,00","0000003501 0000004000")
+group2[2][3]=new Option("201,00 atï¿½ 500,00","0000000201 0000000500")
+group2[2][4]=new Option("501,00 atï¿½ 750,00","0000000501 0000000750")
+group2[2][5]=new Option("751,00 atï¿½ 1000,00","0000000751 0000001000")
+group2[2][6]=new Option("1001,00 atï¿½ 1500,00","0000001001 0000001500")
+group2[2][7]=new Option("1501,00 atï¿½ 2000,00","0000001501 0000002000")
+group2[2][8]=new Option("2001,00 atï¿½ 2500,00","0000002001 0000002500")
+group2[2][9]=new Option("2501,00 atï¿½ 3000,00","0000002501 0000003000")
+group2[2][10]=new Option("3001,00 atï¿½ 3500,00","0000003001 0000003500")
+group2[2][11]=new Option("3501,00 atï¿½ 4000,00","0000003501 0000004000")
 group2[2][12]=new Option("Mais de 4000,00","0000004001 1000000000")
 
 
@@ -584,16 +498,16 @@ group2[2][12]=new Option("Mais de 4000,00","0000004001 1000000000")
 
 group2[3][0]=new Option("Valor","vqualquer")
 group2[3][1]=new Option("Qualquer Valor","vqualquer")
-group2[3][2]=new Option("Até  20.000,00","0000000000 0000020000")
-group2[3][3]=new Option("20.001,00 até 50.000,00","0000020001 0000050000")
-group2[3][4]=new Option("50.001,00 até 80.000,00","0000050001 0000080000")
-group2[3][5]=new Option("80.001,00 até 110.000,00","0000080001 0000110000")
-group2[3][6]=new Option("110.001,00 até 150.000,00","0000110001 0000150000")
-group2[3][7]=new Option("150.001,00 até 200.000,00","0000150001 0000200000")
-group2[3][8]=new Option("200.001,00 até 250.000,00","0000200001 0000250000")
-group2[3][9]=new Option("250.001,00 até 300.000,00","0000250001 0000300000")
-group2[3][10]=new Option("300.001,00 até 350.000,00","0000300001 0000350000")
-group2[3][11]=new Option("350.001,00 até 400.000,00","0000350001 0000400000")
+group2[3][2]=new Option("Atï¿½  20.000,00","0000000000 0000020000")
+group2[3][3]=new Option("20.001,00 atï¿½ 50.000,00","0000020001 0000050000")
+group2[3][4]=new Option("50.001,00 atï¿½ 80.000,00","0000050001 0000080000")
+group2[3][5]=new Option("80.001,00 atï¿½ 110.000,00","0000080001 0000110000")
+group2[3][6]=new Option("110.001,00 atï¿½ 150.000,00","0000110001 0000150000")
+group2[3][7]=new Option("150.001,00 atï¿½ 200.000,00","0000150001 0000200000")
+group2[3][8]=new Option("200.001,00 atï¿½ 250.000,00","0000200001 0000250000")
+group2[3][9]=new Option("250.001,00 atï¿½ 300.000,00","0000250001 0000300000")
+group2[3][10]=new Option("300.001,00 atï¿½ 350.000,00","0000300001 0000350000")
+group2[3][11]=new Option("350.001,00 atï¿½ 400.000,00","0000350001 0000400000")
 group2[3][12]=new Option("Acima de 400.000,00","0000400001 1000000000")
 
 
@@ -604,37 +518,37 @@ group2[3][12]=new Option("Acima de 400.000,00","0000400001 1000000000")
 
 
 
-/* aqui temos um array bidimensional "group" que receberá valores de opções. */
+/* aqui temos um array bidimensional "group" que receberï¿½ valores de opï¿½ï¿½es. */
 
 
 var temp2=document.doublecombo.stage22
-/* aqui a variável "temp" recebe os valores do segundo combo o "stage2" */
+/* aqui a variï¿½vel "temp" recebe os valores do segundo combo o "stage2" */
 
 function redirect2(x2){
-/* aqui é criada a função "redirect" que comanda o carregamento do combo "stage2" */
+/* aqui ï¿½ criada a funï¿½ï¿½o "redirect" que comanda o carregamento do combo "stage2" */
 
 for (m2=temp2.options.length-1;m2>0;m2--)
 temp2.options[m2]=null
-/* aqui temos um contador "m" que dá um valor nulo para o combo "stage2" para que 
+/* aqui temos um contador "m" que dï¿½ um valor nulo para o combo "stage2" para que 
 posteriormente esse combo possa receber os valores determinados. */
 
 for (i2=0;i2<group2[x2].length;i2++){
 temp2.options[i2]=new Option(group2[x2][i2].text,group2[x2][i2].value)
-/* aqui o combo "stage2" recebe os valores do array "group" dependendo do que é escolhido no
+/* aqui o combo "stage2" recebe os valores do array "group" dependendo do que ï¿½ escolhido no
 primeiro combo "example".*/
 
 }
 temp2.options[0].selected=true
 }
-/* aqui o array "temp.options[0]" será o valor inicial selecionado ele corresponde ao array
+/* aqui o array "temp.options[0]" serï¿½ o valor inicial selecionado ele corresponde ao array
 "stage2".*/
 
 function go(){
 location2=temp2.options[temp2.selectedIndex].value
 }
 
-/* aqui  a variável "location" recebe os valores de "stage2" que corresponde ao endereço de
-link para o carregamento de página. */
+/* aqui  a variï¿½vel "location" recebe os valores de "stage2" que corresponde ao endereï¿½o de
+link para o carregamento de pï¿½gina. */
 
 
 //-->
