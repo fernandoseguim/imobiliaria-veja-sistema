@@ -435,7 +435,9 @@ hr {
 .text-note .fa {
   margin-right: 5px;
 }
-
+.text-location{
+    margin: 8px 0 0 10px;
+}
 /* line 360, ../sass/theme-elements.scss */
 .nav-top {
   border-right: 1px solid #222;

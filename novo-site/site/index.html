@@ -41,12 +41,13 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
-<body>
+<body onload="getLocation()">
 	<div id="page">
 		<header>
 			<div id="top">
 				<div class="container">
 					<p class="pull-left text-note hidden-xs"><i class="fa fa-phone"></i> Entre em contato: (11) 4123-7244 | (11) 7713-1145 | ID 54*248088</p>
+					<p class="text-location pull-right hidden-xs" id="location-header"></p>
 					<ul class="nav nav-pills nav-top navbar-right">
 						<li class="login"><a href="javascript:void(0);"><i class="fa fa-user"></i></a></li>
 						<li><a href="#" title="" data-placement="bottom" data-toggle="tooltip" data-original-title="Email"><i class="fa fa-envelope-o"></i></a></li>
@@ -1290,6 +1291,9 @@
 	<!-- Theme Initializer -->
 	<script src="js/theme.plugins.js"></script>
 	<script src="js/theme.js"></script>
+
+	<!-- get location -->
+	<script src="js/utils.js"></script>
 	
 </body>
 </html>
